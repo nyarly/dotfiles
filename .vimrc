@@ -59,6 +59,8 @@ Bundle 'mxw/vim-jsx'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'rking/ag.vim'
 
+Bundle 'fatih/vim-go'
+
 runtime! ftdetect/UltiSnips.vim
 filetype plugin indent on
 set laststatus=2
