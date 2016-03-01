@@ -1,2 +1,2 @@
-set -g GOPATH ~/golang
-set -g PATH $PATH $GOPATH/bin
+set -x GOPATH ~/golang
+set -x PATH $PATH $GOPATH/bin

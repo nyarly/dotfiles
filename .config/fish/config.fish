@@ -21,6 +21,7 @@ end
 source ~/.config/fish/functions/autotmux.fish
 source ~/.config/fish/functions/_run_fasd.fish
 source ~/.config/fish/nix.fish
+source ~/.config/fish/go.fish
 
 set -x fish_color_search_match  'normal' '--background=878787'
 
