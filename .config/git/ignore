@@ -1,0 +1,7 @@
+.envrc
+.ctrlp-root
+.vim-role
+.sw?
+!.swf
+failed_specs
+rspec_status

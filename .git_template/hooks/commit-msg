@@ -1,0 +1,8 @@
+#!/bin/env bash
+
+if egrep -qv '^#|^(\s|\[[^]]*\])*$' $1; then
+  echo -n ""
+else
+  echo "Aborting commit due to empty commit message"
+  exit 1
+fi

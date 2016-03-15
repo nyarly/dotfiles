@@ -1,0 +1,42 @@
+#!/bin/env bash
+
+file=$1
+source=$2
+commit_sha=$3
+
+#exit if source == 'commit'
+if [ "${source}" == "commit" ]; then
+  exit 0
+fi
+
+path=$(git symbolic-ref HEAD)
+if [ ! $? ]; then
+  exit 0
+fi
+
+current=$(echo $path | sed 's#refs/heads/##')
+numbers=$(echo $current | sed 's#[^0-9]\+# #')
+
+if echo $numbers | egrep -q '[0-9]'; then
+  echo -n ""
+else
+  exit 0
+fi
+
+#if egrep "^[^#].*\[(\w+\s)?(#\d+\s)*#$number(\s#\d+)*(\s\w+)?\]" $file; then
+#  exit 0
+#fi
+
+keyword_re="\[(fix|fixes|fixed|complete|completes|completed|finish|finishes|finished|deliver|delivers|delivered)\]"
+
+keyword=$(egrep $keyword_re $file | sed "s#.*\($keyword_re\).*#\1#")
+
+pivotal_tag="["
+for number in $keyword $numbers; do
+  pivotal_tag+=" #$number"
+done
+pivotal_tag+=" ]"
+
+awk "/^#/ && !x {print \"$pivotal_tag\"; x=1} 1" $file > $file.tmp
+
+mv $file.tmp $file

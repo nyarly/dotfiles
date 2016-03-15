@@ -1,0 +1,8 @@
+*.js filter=trimwhite
+*.rb filter=trimwhite
+*.html filter=trimwhite
+*.css filter=trimwhite
+*.sass filter=trimwhite
+*.scss filter=trimwhite
+*.erl filter=trimwhite
+Gemfile.lock -merge
