@@ -1,0 +1,3 @@
+#!/bin/sh
+env
+exec /usr/bin/nm-applet 2&>1 || echo $?

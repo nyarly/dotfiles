@@ -1,0 +1,46 @@
+rxvt-unicode daemon listening on /home/judson/.urxvt/urxvtd-dijkstra.
+START /usr/bin/chromium-browser "https://gist.github.com/f0c7a25a113b820b5c70"
+[26840:26862:0128/145407:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "https://github.com/kiibohd/controller/wiki"
+[9714:9736:0131/235135:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "https://github.com/XingFramework/xing-framework/pull/20"
+[8640:8668:0209/154343:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "http://127.0.0.1:4000/"
+[9936:9958:0213/182809:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "http://jekyllrb.com/docs/upgrading/"
+[13434:13456:0213/205652:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "https://cache.nixos.org/nar/0hbz9qd852jqikcvmbsls32gnzw2d05na8hbrkdgs27csxl66iq6.nar.xz"
+[19733:19760:0217/163800:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "https://letsencrypt.readthedocs.org/en/latest/contributing.html#prerequisites"
+[6292:6314:0219/180004:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "http://www.internic.net"
+[24715:24737:0227/123804:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "http://www.ibiblio.org/pub/Linux/apps/serialcomm/dialout/"
+[2861:2883:0229/160112:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "http://wiki.ros.org/rosserial"
+[3028:3052:0229/160131:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "https://github.com/yudai/gotty"
+[4179:4201:0229/161820:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "http://avahi.org/wiki/AvahiAndUnicastDotLocal"
+[21965:21987:0229/175031:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "http://0pointer.de/lennart/projects/nss-mdns/"
+[22818:22840:0229/175526:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "http://opensource.nextthing.co/chip/debian/repo/"
+[21483:21506:0305/144521:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.
+START /usr/bin/chromium-browser "http://opensource.nextthing.co/chip/debian/repo/"
+[22014:22038:0305/145043:ERROR:nss_util.cc(853)] After loading Root Certs, loaded==false: NSS error code: -8018
+Created new window in existing browser session.

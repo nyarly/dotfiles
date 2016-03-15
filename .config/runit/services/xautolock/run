@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/xautolock -time 5 -corners 0+0- -notify 10 -notifier 'libnotify-notify-send "Locking screen..."' -detectsleep -locker 'alock -auth pam -bg shade:shade=30'

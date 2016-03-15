@@ -1,0 +1,95 @@
+[warn]: Unrecognized/invalid option: --private
+[warn]: Unrecognized/invalid option: --protected
+>> YARD 0.8.7.4 documentation server at http://0.0.0.0:8808
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8808, CTRL+C to stop
+[error]: The file `doc-src/api_docs_plugin.rb' could not be loaded:
+cannot load such file -- doc-src/api_docs_plugin.rb
+[warn]: Unrecognized/invalid option: --private
+[warn]: Unrecognized/invalid option: --protected
+>> YARD 0.8.7.4 documentation server at http://0.0.0.0:8808
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8808, CTRL+C to stop
+[error]: The file `doc-src/api_docs_plugin.rb' could not be loaded:
+cannot load such file -- doc-src/api_docs_plugin.rb
+[warn]: Unrecognized/invalid option: --private
+[warn]: Unrecognized/invalid option: --protected
+>> YARD 0.8.7.4 documentation server at http://0.0.0.0:8808
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8808, CTRL+C to stop
+[error]: The file `doc-src/api_docs_plugin.rb' could not be loaded:
+cannot load such file -- doc-src/api_docs_plugin.rb
+[warn]: Unrecognized/invalid option: --private
+[warn]: Unrecognized/invalid option: --protected
+>> YARD 0.8.7.4 documentation server at http://0.0.0.0:8808
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8808, CTRL+C to stop
+[error]: The file `doc-src/api_docs_plugin.rb' could not be loaded:
+cannot load such file -- doc-src/api_docs_plugin.rb
+[warn]: Unrecognized/invalid option: --private
+[warn]: Unrecognized/invalid option: --protected
+>> YARD 0.8.7.4 documentation server at http://0.0.0.0:8808
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8808, CTRL+C to stop
+[error]: The file `doc-src/api_docs_plugin.rb' could not be loaded:
+cannot load such file -- doc-src/api_docs_plugin.rb
+[warn]: Unrecognized/invalid option: --private
+[warn]: Unrecognized/invalid option: --protected
+>> YARD 0.8.7.4 documentation server at http://0.0.0.0:8808
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8808, CTRL+C to stop
+[warn]: In file `/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/minitest-5.5.1/README.txt':1: Cannot resolve link to unit,spec,mock,benchmark from text:
+[warn]: ...{unit,spec,mock,benchmark}...
+[error]: The file `doc-src/api_docs_plugin.rb' could not be loaded:
+cannot load such file -- doc-src/api_docs_plugin.rb
+[warn]: Unrecognized/invalid option: --private
+[warn]: Unrecognized/invalid option: --protected
+>> YARD 0.8.7.4 documentation server at http://0.0.0.0:8808
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8808, CTRL+C to stop
+[error]: The file `doc-src/api_docs_plugin.rb' could not be loaded:
+cannot load such file -- doc-src/api_docs_plugin.rb
+Unexpected error while processing request: exit
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/command.rb:72:in `exit'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/command.rb:72:in `rescue in load_script'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/command.rb:68:in `load_script'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/command.rb:27:in `block in common_options'
+	/usr/lib/ruby/2.0.0/optparse.rb:1395:in `call'
+	/usr/lib/ruby/2.0.0/optparse.rb:1395:in `block in parse_in_order'
+	/usr/lib/ruby/2.0.0/optparse.rb:1351:in `catch'
+	/usr/lib/ruby/2.0.0/optparse.rb:1351:in `parse_in_order'
+	/usr/lib/ruby/2.0.0/optparse.rb:1345:in `order!'
+	/usr/lib/ruby/2.0.0/optparse.rb:1437:in `permute!'
+	/usr/lib/ruby/2.0.0/optparse.rb:1459:in `parse!'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/command.rb:55:in `parse_options'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/yardoc.rb:502:in `optparse'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/yardopts_command.rb:96:in `parse_yardopts'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/yardopts_command.rb:40:in `parse_arguments'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/yardoc.rb:272:in `parse_arguments'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/yardoc.rb:237:in `run'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/command.rb:13:in `run'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/gems.rb:41:in `block in build_gems'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/gems.rb:29:in `each'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/gems.rb:29:in `build_gems'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/gems.rb:20:in `run'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/cli/command.rb:13:in `run'
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/server/library_version.rb:199:in `block in load_yardoc_from_gem'
+
+Unexpected error while processing request: stack level too deep
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/templates/template.rb:110
+
+Unexpected error while processing request: stack level too deep
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/templates/template.rb:110
+
+Unexpected error while processing request: stack level too deep
+	/home/judson/ruby/bundle-paths/rails3/lib/ruby/2.0.0/gems/yard-0.8.7.4/lib/yard/templates/template.rb:110
+
+[error]: The file `doc-src/api_docs_plugin.rb' could not be loaded:
+cannot load such file -- doc-src/api_docs_plugin.rb

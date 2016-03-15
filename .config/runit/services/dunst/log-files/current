@@ -1,0 +1,600 @@
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Error on line 3: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity - escape ampersand as &amp;
+Error parsing markup: Error on line 3: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity - escape ampersand as &amp;
+Error parsing markup: Error on line 3: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity - escape ampersand as &amp;
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Error on line 3 char 24: 'can't' is not a valid name: '''
+Error parsing markup: Error on line 3 char 24: 'can't' is not a valid name: '''
+Error parsing markup: Error on line 3 char 24: 'can't' is not a valid name: '''
+Error parsing markup: Error on line 3 char 24: 'can't' is not a valid name: '''
+Error parsing markup: Error on line 3 char 24: 'can't' is not a valid name: '''
+Error parsing markup: Error on line 3 char 24: 'can't' is not a valid name: '''
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Unknown tag 'SyntaxError:' on line 3 char 18
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Error on line 3 char 22: Odd character 'l', expected a '=' after attribute name 'cannot' of element 'LoadError:'
+Error parsing markup: Error on line 3 char 29: Odd character 'c', expected a '=' after attribute name 'uninitialized' of element 'NameError:'
+Error parsing markup: Error on line 3 char 29: Odd character 'c', expected a '=' after attribute name 'uninitialized' of element 'NameError:'
+Error parsing markup: Error on line 3 char 29: Odd character 'c', expected a '=' after attribute name 'uninitialized' of element 'NameError:'
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+Error parsing markup: Error on line 2 char 10: '3<' is not a valid name
+Error parsing markup: Error on line 2 char 10: '3<' is not a valid name
+Error parsing markup: Error on line 2 char 10: '3<' is not a valid name
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+Error parsing markup: Error on line 2 char 14: '3<' is not a valid name
+Error parsing markup: Error on line 2 char 14: '3<' is not a valid name
+Error parsing markup: Error on line 2 char 14: '3<' is not a valid name
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+Error parsing markup: Error on line 2 char 14: '3<' is not a valid name
+Error parsing markup: Error on line 2 char 14: '3<' is not a valid name
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+Error parsing markup: Error on line 3 char 64: ' ' is not a valid character following a '<' character; it may not begin an element name
+Error parsing markup: Error on line 3 char 64: ' ' is not a valid character following a '<' character; it may not begin an element name
+Error parsing markup: Error on line 3 char 64: ' ' is not a valid character following a '<' character; it may not begin an element name
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+Error parsing markup: Error on line 2: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity - escape ampersand as &amp;
+Error parsing markup: Error on line 2: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity - escape ampersand as &amp;
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:6168): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+**
+GLib:ERROR:/var/tmp/portage/dev-libs/glib-2.40.0-r1/work/glib-2.40.0/glib/gvarianttypeinfo.c:184:g_variant_type_info_check: assertion failed: (0 <= index && index < 24)
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+Error parsing markup: Error on line 2 char 10: '3<' is not a valid name
+Error parsing markup: Error on line 2 char 10: '3<' is not a valid name
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+
+(process:14001): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known
+Error parsing markup: Error on line 3: Entity name '1 |/usr/bin/less' is not known

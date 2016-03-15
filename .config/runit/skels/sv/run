@@ -1,0 +1,2 @@
+#!/bin/sh
+exec <%= executable %> 2>&1

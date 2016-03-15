@@ -1,0 +1,52 @@
+#!/bin/env ruby
+
+require 'find'
+require 'fileutils'
+require 'erb'
+$:.unshift File::dirname(__FILE__)
+
+require 'runit-settings'
+
+svc_name = ARGV[0]
+
+#TODO Guard changes to running service
+#TODO ensure that executable exists and is executable
+
+def render_file(path)
+  svc_name = ARGV[0]
+  executable = ARGV[1] || "/usr/bin/#{svc_name}"
+  source_path = File::join(RunitSettings::SvSkelDir, path)
+  source = File::read(source_path)
+  target_path = File::join(RunitSettings::AllServicesDir, svc_name, path)
+  template = ERB.new(source)
+  result = render(template, svc_name, executable)
+
+  File::open(target_path, "w") do |file|
+    file.write result
+  end
+  FileUtils::chmod("+x", target_path)
+end
+
+def render(template, svc_name, executable)
+  template.result(binding)
+end
+
+prefix_re = %r{^#{RunitSettings::SvSkelDir}/?}
+
+svc_dir = File::join(RunitSettings::AllServicesDir, svc_name)
+
+puts "Creating #{svc_dir}..."
+FileUtils::mkdir_p(svc_dir)
+Find.find(RunitSettings::SvSkelDir) do |full_path|
+  path = full_path.sub(prefix_re,'')
+  next if path.empty?
+  next if /^[.]/ =~ path
+  if File::directory?(full_path)
+    dir_path =File::join(RunitSettings::AllServicesDir, svc_name, path)
+    puts "Creating #{dir_path}..."
+    FileUtils::mkdir_p(dir_path)
+    next
+  end
+  puts "Rendering config #{path}"
+  render_file path
+end

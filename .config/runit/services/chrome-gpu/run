@@ -1,0 +1,13 @@
+#!/bin/sh
+exec 2>&1
+
+while /bin/true
+do
+  gpu_process=`pgrep -f gpu-process`
+
+  if [ `ps -p $gpu_process -o c -h` -gt 60 ]; then
+    echo Killing $gpu_process
+    kill $gpu_process
+  fi
+  sleep 5
+done

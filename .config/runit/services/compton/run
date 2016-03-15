@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/compton 2>&1
