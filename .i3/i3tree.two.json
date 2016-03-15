@@ -1,0 +1,2569 @@
+{
+  "id": 161072424,
+  "type": "root",
+  "orientation": "horizontal",
+  "scratchpad_state": "none",
+  "percent": 1,
+  "urgent": false,
+  "focused": false,
+  "layout": "splith",
+  "workspace_layout": "default",
+  "last_split_layout": "splith",
+  "border": "normal",
+  "current_border_width": -1,
+  "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 3286,
+    "height": 1080
+  },
+  "window_rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0
+  },
+  "geometry": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0
+  },
+  "name": "root",
+  "window": null,
+  "nodes": [
+    {
+      "id": 161112424,
+      "type": "output",
+      "orientation": "none",
+      "scratchpad_state": "none",
+      "percent": 0.3333333333333333,
+      "urgent": false,
+      "focused": false,
+      "layout": "output",
+      "workspace_layout": "default",
+      "last_split_layout": "splith",
+      "border": "normal",
+      "current_border_width": -1,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1311360,
+        "height": 34560
+      },
+      "window_rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "name": "__i3",
+      "window": null,
+      "nodes": [
+        {
+          "id": 161112720,
+          "type": "con",
+          "orientation": "horizontal",
+          "scratchpad_state": "none",
+          "percent": 1,
+          "urgent": false,
+          "focused": false,
+          "layout": "splith",
+          "workspace_layout": "default",
+          "last_split_layout": "splith",
+          "border": "normal",
+          "current_border_width": -1,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "window_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": "content",
+          "window": null,
+          "nodes": [
+            {
+              "id": 161113120,
+              "type": "workspace",
+              "orientation": "none",
+              "scratchpad_state": "none",
+              "percent": 1,
+              "urgent": false,
+              "focused": false,
+              "layout": "splith",
+              "workspace_layout": "default",
+              "last_split_layout": "splith",
+              "border": "normal",
+              "current_border_width": -1,
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "window_rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "name": "__i3_scratch",
+              "num": -1,
+              "window": null,
+              "nodes": [],
+              "floating_nodes": [],
+              "focus": [],
+              "fullscreen_mode": 1,
+              "floating": "auto_off",
+              "swallows": []
+            }
+          ],
+          "floating_nodes": [],
+          "focus": [
+            161113120
+          ],
+          "fullscreen_mode": 0,
+          "floating": "auto_off",
+          "swallows": []
+        }
+      ],
+      "floating_nodes": [],
+      "focus": [
+        161112720
+      ],
+      "fullscreen_mode": 0,
+      "floating": "auto_off",
+      "swallows": []
+    },
+    {
+      "id": 161115784,
+      "type": "output",
+      "orientation": "none",
+      "scratchpad_state": "none",
+      "percent": 0.3333333333333333,
+      "urgent": false,
+      "focused": false,
+      "layout": "output",
+      "workspace_layout": "default",
+      "last_split_layout": "splith",
+      "border": "normal",
+      "current_border_width": -1,
+      "rect": {
+        "x": 0,
+        "y": 312,
+        "width": 1366,
+        "height": 768
+      },
+      "window_rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "name": "LVDS1",
+      "window": null,
+      "nodes": [
+        {
+          "id": 161116048,
+          "type": "dockarea",
+          "orientation": "none",
+          "scratchpad_state": "none",
+          "percent": 0.3333333333333333,
+          "urgent": false,
+          "focused": false,
+          "layout": "dockarea",
+          "workspace_layout": "default",
+          "last_split_layout": "splith",
+          "border": "normal",
+          "current_border_width": -1,
+          "rect": {
+            "x": 0,
+            "y": 312,
+            "width": 1366,
+            "height": 0
+          },
+          "window_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": "topdock",
+          "window": null,
+          "nodes": [],
+          "floating_nodes": [],
+          "focus": [],
+          "fullscreen_mode": 0,
+          "floating": "auto_off",
+          "swallows": [
+            {
+              "dock": 2,
+              "insert_where": 2
+            }
+          ]
+        },
+        {
+          "id": 161116448,
+          "type": "con",
+          "orientation": "horizontal",
+          "scratchpad_state": "none",
+          "percent": 0.3333333333333333,
+          "urgent": false,
+          "focused": false,
+          "layout": "splith",
+          "workspace_layout": "default",
+          "last_split_layout": "splith",
+          "border": "normal",
+          "current_border_width": -1,
+          "rect": {
+            "x": 0,
+            "y": 312,
+            "width": 1366,
+            "height": 747
+          },
+          "window_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": "content",
+          "window": null,
+          "nodes": [
+            {
+              "id": 161116848,
+              "type": "workspace",
+              "orientation": "horizontal",
+              "scratchpad_state": "none",
+              "percent": 1,
+              "urgent": false,
+              "focused": false,
+              "layout": "splith",
+              "workspace_layout": "default",
+              "last_split_layout": "splith",
+              "border": "normal",
+              "current_border_width": -1,
+              "rect": {
+                "x": 0,
+                "y": 312,
+                "width": 1366,
+                "height": 747
+              },
+              "window_rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "name": "1",
+              "num": 1,
+              "window": null,
+              "nodes": [
+                {
+                  "id": 161117144,
+                  "type": "con",
+                  "orientation": "horizontal",
+                  "scratchpad_state": "none",
+                  "percent": 0.5797950219619326,
+                  "urgent": false,
+                  "focused": false,
+                  "layout": "tabbed",
+                  "workspace_layout": "default",
+                  "last_split_layout": "splith",
+                  "border": "normal",
+                  "current_border_width": -1,
+                  "rect": {
+                    "x": 0,
+                    "y": 312,
+                    "width": 792,
+                    "height": 747
+                  },
+                  "window_rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "name": "#aa00aa",
+                  "window": null,
+                  "nodes": [
+                    {
+                      "id": 161117440,
+                      "type": "con",
+                      "orientation": "none",
+                      "scratchpad_state": "none",
+                      "percent": 0.5,
+                      "urgent": false,
+                      "focused": false,
+                      "layout": "splith",
+                      "workspace_layout": "default",
+                      "last_split_layout": "splith",
+                      "border": "normal",
+                      "current_border_width": -1,
+                      "rect": {
+                        "x": 0,
+                        "y": 332,
+                        "width": 792,
+                        "height": 727
+                      },
+                      "window_rect": {
+                        "x": 2,
+                        "y": 0,
+                        "width": 788,
+                        "height": 725
+                      },
+                      "geometry": {
+                        "x": 2374,
+                        "y": 59,
+                        "width": 825,
+                        "height": 1037
+                      },
+                      "name": "Dashboard - Chromium",
+                      "window": 39846071,
+                      "window_properties": {
+                        "class": "Chromium-browser",
+                        "instance": "Chromium-browser",
+                        "window_role": "browser",
+                        "title": "Dashboard - Chromium"
+                      },
+                      "nodes": [],
+                      "floating_nodes": [],
+                      "focus": [],
+                      "fullscreen_mode": 0,
+                      "floating": "auto_off",
+                      "swallows": []
+                    },
+                    {
+                      "id": 161117888,
+                      "type": "con",
+                      "orientation": "none",
+                      "scratchpad_state": "none",
+                      "percent": 0.5,
+                      "urgent": false,
+                      "focused": false,
+                      "layout": "splith",
+                      "workspace_layout": "default",
+                      "last_split_layout": "splith",
+                      "border": "normal",
+                      "current_border_width": -1,
+                      "rect": {
+                        "x": 0,
+                        "y": 332,
+                        "width": 792,
+                        "height": 727
+                      },
+                      "window_rect": {
+                        "x": 2,
+                        "y": 0,
+                        "width": 788,
+                        "height": 725
+                      },
+                      "geometry": {
+                        "x": 2,
+                        "y": 332,
+                        "width": 760,
+                        "height": 725
+                      },
+                      "name": "Erlang -- mnesia - Chromium",
+                      "window": 39845951,
+                      "window_properties": {
+                        "class": "Chromium-browser",
+                        "instance": "Chromium-browser",
+                        "window_role": "browser",
+                        "title": "Erlang -- mnesia - Chromium"
+                      },
+                      "nodes": [],
+                      "floating_nodes": [],
+                      "focus": [],
+                      "fullscreen_mode": 0,
+                      "floating": "auto_off",
+                      "swallows": []
+                    }
+                  ],
+                  "floating_nodes": [],
+                  "focus": [
+                    161117888,
+                    161117440
+                  ],
+                  "fullscreen_mode": 0,
+                  "floating": "auto_off",
+                  "swallows": []
+                },
+                {
+                  "id": 161544960,
+                  "type": "con",
+                  "orientation": "horizontal",
+                  "scratchpad_state": "none",
+                  "percent": 0.42020497803806733,
+                  "urgent": false,
+                  "focused": false,
+                  "layout": "tabbed",
+                  "workspace_layout": "default",
+                  "last_split_layout": "splith",
+                  "border": "normal",
+                  "current_border_width": -1,
+                  "rect": {
+                    "x": 792,
+                    "y": 312,
+                    "width": 574,
+                    "height": 747
+                  },
+                  "window_rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "name": "#ff00ff",
+                  "window": null,
+                  "nodes": [
+                    {
+                      "id": 161545224,
+                      "type": "con",
+                      "orientation": "none",
+                      "scratchpad_state": "none",
+                      "percent": 0.5,
+                      "urgent": false,
+                      "focused": false,
+                      "layout": "splith",
+                      "workspace_layout": "default",
+                      "last_split_layout": "splith",
+                      "border": "normal",
+                      "current_border_width": -1,
+                      "rect": {
+                        "x": 792,
+                        "y": 332,
+                        "width": 574,
+                        "height": 727
+                      },
+                      "window_rect": {
+                        "x": 2,
+                        "y": 0,
+                        "width": 570,
+                        "height": 725
+                      },
+                      "geometry": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 1362,
+                        "height": 725
+                      },
+                      "name": "devchat",
+                      "window": 27263219,
+                      "window_properties": {
+                        "class": "Pidgin",
+                        "instance": "Pidgin",
+                        "window_role": "conversation",
+                        "title": "devchat"
+                      },
+                      "nodes": [],
+                      "floating_nodes": [],
+                      "focus": [],
+                      "fullscreen_mode": 0,
+                      "floating": "auto_off",
+                      "swallows": []
+                    },
+                    {
+                      "id": 161545624,
+                      "type": "con",
+                      "orientation": "none",
+                      "scratchpad_state": "none",
+                      "percent": 0.5,
+                      "urgent": false,
+                      "focused": false,
+                      "layout": "splith",
+                      "workspace_layout": "default",
+                      "last_split_layout": "splith",
+                      "border": "normal",
+                      "current_border_width": -1,
+                      "rect": {
+                        "x": 792,
+                        "y": 332,
+                        "width": 574,
+                        "height": 727
+                      },
+                      "window_rect": {
+                        "x": 2,
+                        "y": 0,
+                        "width": 570,
+                        "height": 725
+                      },
+                      "geometry": {
+                        "x": 0,
+                        "y": 332,
+                        "width": 1362,
+                        "height": 725
+                      },
+                      "name": "Buddy List",
+                      "window": 27263074,
+                      "window_properties": {
+                        "class": "Pidgin",
+                        "instance": "Pidgin",
+                        "window_role": "buddy_list",
+                        "title": "Buddy List"
+                      },
+                      "nodes": [],
+                      "floating_nodes": [],
+                      "focus": [],
+                      "fullscreen_mode": 0,
+                      "floating": "auto_off",
+                      "swallows": []
+                    }
+                  ],
+                  "floating_nodes": [],
+                  "focus": [
+                    161545224,
+                    161545624
+                  ],
+                  "fullscreen_mode": 0,
+                  "floating": "auto_off",
+                  "swallows": []
+                }
+              ],
+              "floating_nodes": [],
+              "focus": [
+                161544960,
+                161117144
+              ],
+              "fullscreen_mode": 1,
+              "floating": "auto_off",
+              "swallows": []
+            }
+          ],
+          "floating_nodes": [],
+          "focus": [
+            161116848
+          ],
+          "fullscreen_mode": 0,
+          "floating": "auto_off",
+          "swallows": []
+        },
+        {
+          "id": 161546392,
+          "type": "dockarea",
+          "orientation": "none",
+          "scratchpad_state": "none",
+          "percent": 0.3333333333333333,
+          "urgent": false,
+          "focused": false,
+          "layout": "dockarea",
+          "workspace_layout": "default",
+          "last_split_layout": "splith",
+          "border": "normal",
+          "current_border_width": -1,
+          "rect": {
+            "x": 0,
+            "y": 1059,
+            "width": 1366,
+            "height": 21
+          },
+          "window_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": "bottomdock",
+          "window": null,
+          "nodes": [
+            {
+              "id": 161196696,
+              "type": "con",
+              "orientation": "none",
+              "scratchpad_state": "none",
+              "percent": 1,
+              "urgent": false,
+              "focused": false,
+              "layout": "splith",
+              "workspace_layout": "default",
+              "last_split_layout": "splith",
+              "border": "normal",
+              "current_border_width": -1,
+              "rect": {
+                "x": 0,
+                "y": 1059,
+                "width": 1366,
+                "height": 21
+              },
+              "window_rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1366,
+                "height": 21
+              },
+              "geometry": {
+                "x": 0,
+                "y": 1059,
+                "width": 1366,
+                "height": 21
+              },
+              "name": "i3bar for output LVDS1",
+              "window": 35651595,
+              "window_properties": {
+                "class": "i3bar",
+                "instance": "i3bar",
+                "title": "i3bar for output LVDS1"
+              },
+              "nodes": [],
+              "floating_nodes": [],
+              "focus": [],
+              "fullscreen_mode": 0,
+              "floating": "auto_off",
+              "swallows": []
+            }
+          ],
+          "floating_nodes": [],
+          "focus": [
+            161196696
+          ],
+          "fullscreen_mode": 0,
+          "floating": "auto_off",
+          "swallows": [
+            {
+              "dock": 3,
+              "insert_where": 2
+            }
+          ]
+        }
+      ],
+      "floating_nodes": [],
+      "focus": [
+        161116448,
+        161116048,
+        161546392
+      ],
+      "fullscreen_mode": 0,
+      "floating": "auto_off",
+      "swallows": []
+    },
+    {
+      "id": 161546928,
+      "type": "output",
+      "orientation": "none",
+      "scratchpad_state": "none",
+      "percent": 0.3333333333333333,
+      "urgent": false,
+      "focused": false,
+      "layout": "output",
+      "workspace_layout": "default",
+      "last_split_layout": "splith",
+      "border": "normal",
+      "current_border_width": -1,
+      "rect": {
+        "x": 1366,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "window_rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "name": "VGA1",
+      "window": null,
+      "nodes": [
+        {
+          "id": 161547192,
+          "type": "dockarea",
+          "orientation": "none",
+          "scratchpad_state": "none",
+          "percent": 0.3333333333333333,
+          "urgent": false,
+          "focused": false,
+          "layout": "dockarea",
+          "workspace_layout": "default",
+          "last_split_layout": "splith",
+          "border": "normal",
+          "current_border_width": -1,
+          "rect": {
+            "x": 1366,
+            "y": 0,
+            "width": 1920,
+            "height": 0
+          },
+          "window_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": "topdock",
+          "window": null,
+          "nodes": [],
+          "floating_nodes": [],
+          "focus": [],
+          "fullscreen_mode": 0,
+          "floating": "auto_off",
+          "swallows": [
+            {
+              "dock": 2,
+              "insert_where": 2
+            }
+          ]
+        },
+        {
+          "id": 161547664,
+          "type": "con",
+          "orientation": "horizontal",
+          "scratchpad_state": "none",
+          "percent": 0.3333333333333333,
+          "urgent": false,
+          "focused": false,
+          "layout": "splith",
+          "workspace_layout": "default",
+          "last_split_layout": "splith",
+          "border": "normal",
+          "current_border_width": -1,
+          "rect": {
+            "x": 1366,
+            "y": 0,
+            "width": 1920,
+            "height": 1059
+          },
+          "window_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": "content",
+          "window": null,
+          "nodes": [
+            {
+              "id": 161548064,
+              "type": "workspace",
+              "orientation": "vertical",
+              "scratchpad_state": "none",
+              "percent": 0.5,
+              "urgent": false,
+              "focused": false,
+              "layout": "splitv",
+              "workspace_layout": "default",
+              "last_split_layout": "splitv",
+              "border": "normal",
+              "current_border_width": -1,
+              "rect": {
+                "x": 1366,
+                "y": 0,
+                "width": 1920,
+                "height": 1059
+              },
+              "window_rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "name": "2",
+              "num": 2,
+              "window": null,
+              "nodes": [
+                {
+                  "id": 161548360,
+                  "type": "con",
+                  "orientation": "horizontal",
+                  "scratchpad_state": "none",
+                  "percent": 1,
+                  "urgent": false,
+                  "focused": false,
+                  "layout": "splith",
+                  "workspace_layout": "default",
+                  "last_split_layout": "splith",
+                  "border": "normal",
+                  "current_border_width": -1,
+                  "rect": {
+                    "x": 1366,
+                    "y": 0,
+                    "width": 1920,
+                    "height": 1059
+                  },
+                  "window_rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "name": "#0000FF",
+                  "window": null,
+                  "nodes": [
+                    {
+                      "id": 161548656,
+                      "type": "con",
+                      "orientation": "horizontal",
+                      "scratchpad_state": "none",
+                      "percent": 1,
+                      "urgent": false,
+                      "focused": false,
+                      "layout": "splith",
+                      "workspace_layout": "default",
+                      "last_split_layout": "splith",
+                      "border": "normal",
+                      "current_border_width": -1,
+                      "rect": {
+                        "x": 1366,
+                        "y": 0,
+                        "width": 1920,
+                        "height": 1059
+                      },
+                      "window_rect": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "geometry": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 0,
+                        "height": 0
+                      },
+                      "name": "#0000FF",
+                      "window": null,
+                      "nodes": [
+                        {
+                          "id": 161548952,
+                          "type": "con",
+                          "orientation": "horizontal",
+                          "scratchpad_state": "none",
+                          "percent": 1,
+                          "urgent": false,
+                          "focused": false,
+                          "layout": "splith",
+                          "workspace_layout": "default",
+                          "last_split_layout": "splith",
+                          "border": "normal",
+                          "current_border_width": -1,
+                          "rect": {
+                            "x": 1366,
+                            "y": 0,
+                            "width": 1920,
+                            "height": 1059
+                          },
+                          "window_rect": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "geometry": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 0,
+                            "height": 0
+                          },
+                          "name": "#ff00ff",
+                          "window": null,
+                          "nodes": [
+                            {
+                              "id": 161549248,
+                              "type": "con",
+                              "orientation": "vertical",
+                              "scratchpad_state": "none",
+                              "percent": 0.4358047572201533,
+                              "urgent": false,
+                              "focused": false,
+                              "layout": "stacked",
+                              "workspace_layout": "default",
+                              "last_split_layout": "splith",
+                              "border": "normal",
+                              "current_border_width": -1,
+                              "rect": {
+                                "x": 1366,
+                                "y": 0,
+                                "width": 837,
+                                "height": 1059
+                              },
+                              "window_rect": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "geometry": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "name": "#00ffff",
+                              "window": null,
+                              "nodes": [
+                                {
+                                  "id": 161549544,
+                                  "type": "con",
+                                  "orientation": "horizontal",
+                                  "scratchpad_state": "none",
+                                  "percent": 0.0666666666666667,
+                                  "urgent": false,
+                                  "focused": false,
+                                  "layout": "tabbed",
+                                  "workspace_layout": "default",
+                                  "last_split_layout": "splith",
+                                  "border": "normal",
+                                  "current_border_width": -1,
+                                  "rect": {
+                                    "x": 1366,
+                                    "y": 60,
+                                    "width": 837,
+                                    "height": 999
+                                  },
+                                  "window_rect": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "geometry": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "name": "#00ffff",
+                                  "window": null,
+                                  "nodes": [
+                                    {
+                                      "id": 161612496,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.3333333333333333,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "16:1:Vim[app] - \"dijkstra\"",
+                                      "window": 20971529,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "16:1:Vim[app] - \"dijkstra\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161612760,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.3333333333333333,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "10:1:fish - \"fish  /home/judson/vim-plugins/vim-legend\"",
+                                      "window": 25165924,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "10:1:fish - \"fish  /home/judson/vim-plugins/vim-legend\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161613112,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.3333333333333333,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "fish  /home/judson",
+                                      "window": 25166124,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "fish  /home/judson"
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    }
+                                  ],
+                                  "floating_nodes": [],
+                                  "focus": [
+                                    161613112,
+                                    161612760,
+                                    161612496
+                                  ],
+                                  "fullscreen_mode": 0,
+                                  "floating": "auto_off",
+                                  "swallows": []
+                                },
+                                {
+                                  "id": 161613616,
+                                  "type": "con",
+                                  "orientation": "horizontal",
+                                  "scratchpad_state": "none",
+                                  "percent": 0.3333333333333333,
+                                  "urgent": false,
+                                  "focused": false,
+                                  "layout": "tabbed",
+                                  "workspace_layout": "default",
+                                  "last_split_layout": "splith",
+                                  "border": "normal",
+                                  "current_border_width": -1,
+                                  "rect": {
+                                    "x": 1366,
+                                    "y": 60,
+                                    "width": 837,
+                                    "height": 999
+                                  },
+                                  "window_rect": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "geometry": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "name": "#00FF00",
+                                  "window": null,
+                                  "nodes": [
+                                    {
+                                      "id": 161613880,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.125,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "root@admin:~",
+                                      "window": 25178778,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "root@admin:~"
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161661080,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.125,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "15:1:Vim[app] - \"dijkstra\"",
+                                      "window": 25178991,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "15:1:Vim[app] - \"dijkstra\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161764104,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.125,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "0:0:bash - \"root@app2:~\"",
+                                      "window": 25179035,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "0:0:bash - \"root@app2:~\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161773504,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.125,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "fish  /home/judson",
+                                      "window": 25179082,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "fish  /home/judson"
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161614296,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.125,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "fish  /home/judson/AWS",
+                                      "window": 25178889,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "fish  /home/judson/AWS"
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161693128,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.125,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "root@app2:~",
+                                      "window": 25178968,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "root@app2:~"
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161614712,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.125,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "jdlssh:0:bash - \"root@staging:/var/www/staging.equibid.com/current/backend\"",
+                                      "window": 25166098,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "jdlssh:0:bash - \"root@staging:/var/www/staging.equibid.com/current/backend\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161775856,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.12499999999999997,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "0:2:ruby21 - \"root@msw-staging:/var/www/staging.mindswarms.com/current/backend\"",
+                                      "window": 25179105,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "0:2:ruby21 - \"root@msw-staging:/var/www/staging.mindswarms.com/current/backend\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    }
+                                  ],
+                                  "floating_nodes": [],
+                                  "focus": [
+                                    161661080,
+                                    161764104,
+                                    161773504,
+                                    161614296,
+                                    161693128,
+                                    161614712,
+                                    161775856,
+                                    161613880
+                                  ],
+                                  "fullscreen_mode": 0,
+                                  "floating": "auto_off",
+                                  "swallows": []
+                                },
+                                {
+                                  "id": 161615280,
+                                  "type": "con",
+                                  "orientation": "horizontal",
+                                  "scratchpad_state": "none",
+                                  "percent": 0.6,
+                                  "urgent": false,
+                                  "focused": false,
+                                  "layout": "tabbed",
+                                  "workspace_layout": "default",
+                                  "last_split_layout": "splith",
+                                  "border": "normal",
+                                  "current_border_width": -1,
+                                  "rect": {
+                                    "x": 1366,
+                                    "y": 60,
+                                    "width": 837,
+                                    "height": 999
+                                  },
+                                  "window_rect": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "geometry": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 0,
+                                    "height": 0
+                                  },
+                                  "name": "#ff00ff",
+                                  "window": null,
+                                  "nodes": [
+                                    {
+                                      "id": 161615576,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.1,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "3:0:eix-sync: Finished - \"fish  /home/judson/ruby/LRD/MindSwarms/legacy\"",
+                                      "window": 25165833,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "3:0:eix-sync: Finished - \"fish  /home/judson/ruby/LRD/MindSwarms/legacy\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161616072,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.1,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "12:1:Vim[app] - \"dijkstra\"",
+                                      "window": 25166265,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "12:1:Vim[app] - \"dijkstra\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161616520,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.1,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "7:0:fish - \"fish  /home/judson/ruby/LRD/cms2/backend\"",
+                                      "window": 25165958,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "7:0:fish - \"fish  /home/judson/ruby/LRD/cms2/backend\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161617512,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.1,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "6:0:eix-sync: Finished - \"fish  /home/judson/ruby/LRD/MindSwarms/web/frontend\"",
+                                      "window": 25165900,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "6:0:eix-sync: Finished - \"fish  /home/judson/ruby/LRD/MindSwarms/web/frontend\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161618016,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.1,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "11:0:fish - \"fish  /home/judson/ruby/LRD/MindSwarms/web/backend\"",
+                                      "window": 25166199,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "11:0:fish - \"fish  /home/judson/ruby/LRD/MindSwarms/web/backend\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161618536,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.1,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "13:0:fish - \"fish  /home/judson/ruby/LRD/waterpig\"",
+                                      "window": 25166346,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "13:0:fish - \"fish  /home/judson/ruby/LRD/waterpig\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161619008,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.1,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "14:2:Vim[app] - \"dijkstra\"",
+                                      "window": 25178914,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "14:2:Vim[app] - \"dijkstra\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161768696,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.09999999999999998,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "fish  /home/judson/flash",
+                                      "window": 25179058,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "fish  /home/judson/flash"
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161803520,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.09999999999999998,
+                                      "urgent": false,
+                                      "focused": false,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "fish  /home/judson/ruby/LRD/brownie",
+                                      "window": 25179128,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "fish  /home/judson/ruby/LRD/brownie"
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    },
+                                    {
+                                      "id": 161806624,
+                                      "type": "con",
+                                      "orientation": "none",
+                                      "scratchpad_state": "none",
+                                      "percent": 0.1,
+                                      "urgent": false,
+                                      "focused": true,
+                                      "layout": "splith",
+                                      "workspace_layout": "default",
+                                      "last_split_layout": "splith",
+                                      "border": "normal",
+                                      "current_border_width": -1,
+                                      "rect": {
+                                        "x": 1366,
+                                        "y": 80,
+                                        "width": 837,
+                                        "height": 979
+                                      },
+                                      "window_rect": {
+                                        "x": 2,
+                                        "y": 0,
+                                        "width": 833,
+                                        "height": 977
+                                      },
+                                      "geometry": {
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 991,
+                                        "height": 704
+                                      },
+                                      "name": "18:2:fish - \"fish  /home/judson/.i3\"",
+                                      "window": 25179154,
+                                      "window_properties": {
+                                        "class": "URxvt",
+                                        "instance": "urxvt",
+                                        "title": "18:2:fish - \"fish  /home/judson/.i3\""
+                                      },
+                                      "nodes": [],
+                                      "floating_nodes": [],
+                                      "focus": [],
+                                      "fullscreen_mode": 0,
+                                      "floating": "auto_off",
+                                      "swallows": []
+                                    }
+                                  ],
+                                  "floating_nodes": [],
+                                  "focus": [
+                                    161806624,
+                                    161803520,
+                                    161768696,
+                                    161619008,
+                                    161618536,
+                                    161618016,
+                                    161617512,
+                                    161616520,
+                                    161616072,
+                                    161615576
+                                  ],
+                                  "fullscreen_mode": 0,
+                                  "floating": "auto_off",
+                                  "swallows": []
+                                }
+                              ],
+                              "floating_nodes": [],
+                              "focus": [
+                                161615280,
+                                161613616,
+                                161549544
+                              ],
+                              "fullscreen_mode": 0,
+                              "floating": "auto_off",
+                              "swallows": []
+                            },
+                            {
+                              "id": 161619640,
+                              "type": "con",
+                              "orientation": "horizontal",
+                              "scratchpad_state": "none",
+                              "percent": 0.5641952427798467,
+                              "urgent": false,
+                              "focused": false,
+                              "layout": "tabbed",
+                              "workspace_layout": "default",
+                              "last_split_layout": "splith",
+                              "border": "normal",
+                              "current_border_width": -1,
+                              "rect": {
+                                "x": 2203,
+                                "y": 0,
+                                "width": 1083,
+                                "height": 1059
+                              },
+                              "window_rect": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "geometry": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 0,
+                                "height": 0
+                              },
+                              "name": "#0000FF",
+                              "window": null,
+                              "nodes": [
+                                {
+                                  "id": 161619936,
+                                  "type": "con",
+                                  "orientation": "none",
+                                  "scratchpad_state": "none",
+                                  "percent": 0.3333333333333333,
+                                  "urgent": false,
+                                  "focused": false,
+                                  "layout": "splith",
+                                  "workspace_layout": "default",
+                                  "last_split_layout": "splith",
+                                  "border": "normal",
+                                  "current_border_width": -1,
+                                  "rect": {
+                                    "x": 2203,
+                                    "y": 20,
+                                    "width": 1083,
+                                    "height": 1039
+                                  },
+                                  "window_rect": {
+                                    "x": 2,
+                                    "y": 0,
+                                    "width": 1079,
+                                    "height": 1037
+                                  },
+                                  "geometry": {
+                                    "x": 2182,
+                                    "y": 20,
+                                    "width": 1102,
+                                    "height": 1037
+                                  },
+                                  "name": "LRD | GitLab - Chromium",
+                                  "window": 39845889,
+                                  "window_properties": {
+                                    "class": "Chromium-browser",
+                                    "instance": "Chromium-browser",
+                                    "window_role": "browser",
+                                    "title": "LRD | GitLab - Chromium"
+                                  },
+                                  "nodes": [],
+                                  "floating_nodes": [],
+                                  "focus": [],
+                                  "fullscreen_mode": 0,
+                                  "floating": "auto_off",
+                                  "swallows": []
+                                },
+                                {
+                                  "id": 161620432,
+                                  "type": "con",
+                                  "orientation": "none",
+                                  "scratchpad_state": "none",
+                                  "percent": 0.3333333333333333,
+                                  "urgent": false,
+                                  "focused": false,
+                                  "layout": "splith",
+                                  "workspace_layout": "default",
+                                  "last_split_layout": "splith",
+                                  "border": "normal",
+                                  "current_border_width": -1,
+                                  "rect": {
+                                    "x": 2203,
+                                    "y": 20,
+                                    "width": 1083,
+                                    "height": 1039
+                                  },
+                                  "window_rect": {
+                                    "x": 2,
+                                    "y": 0,
+                                    "width": 1079,
+                                    "height": 1037
+                                  },
+                                  "geometry": {
+                                    "x": 2182,
+                                    "y": 20,
+                                    "width": 1102,
+                                    "height": 1037
+                                  },
+                                  "name": "clocked OUT LRD Time Tracking System - Chromium",
+                                  "window": 39845950,
+                                  "window_properties": {
+                                    "class": "Chromium-browser",
+                                    "instance": "Chromium-browser",
+                                    "window_role": "browser",
+                                    "title": "clocked OUT LRD Time Tracking System - Chromium"
+                                  },
+                                  "nodes": [],
+                                  "floating_nodes": [],
+                                  "focus": [],
+                                  "fullscreen_mode": 0,
+                                  "floating": "auto_off",
+                                  "swallows": []
+                                },
+                                {
+                                  "id": 161765536,
+                                  "type": "con",
+                                  "orientation": "none",
+                                  "scratchpad_state": "none",
+                                  "percent": 0.3333333333333333,
+                                  "urgent": false,
+                                  "focused": false,
+                                  "layout": "splith",
+                                  "workspace_layout": "default",
+                                  "last_split_layout": "splith",
+                                  "border": "normal",
+                                  "current_border_width": -1,
+                                  "rect": {
+                                    "x": 2203,
+                                    "y": 20,
+                                    "width": 1083,
+                                    "height": 1039
+                                  },
+                                  "window_rect": {
+                                    "x": 2,
+                                    "y": 0,
+                                    "width": 1079,
+                                    "height": 1037
+                                  },
+                                  "geometry": {
+                                    "x": 2215,
+                                    "y": 30,
+                                    "width": 1079,
+                                    "height": 1037
+                                  },
+                                  "name": "i3: i3-msg(1) - Chromium",
+                                  "window": 39846330,
+                                  "window_properties": {
+                                    "class": "Chromium-browser",
+                                    "instance": "Chromium-browser",
+                                    "window_role": "browser",
+                                    "title": "i3: i3-msg(1) - Chromium"
+                                  },
+                                  "nodes": [],
+                                  "floating_nodes": [],
+                                  "focus": [],
+                                  "fullscreen_mode": 0,
+                                  "floating": "auto_off",
+                                  "swallows": []
+                                }
+                              ],
+                              "floating_nodes": [],
+                              "focus": [
+                                161765536,
+                                161619936,
+                                161620432
+                              ],
+                              "fullscreen_mode": 0,
+                              "floating": "auto_off",
+                              "swallows": []
+                            }
+                          ],
+                          "floating_nodes": [],
+                          "focus": [
+                            161549248,
+                            161619640
+                          ],
+                          "fullscreen_mode": 0,
+                          "floating": "auto_off",
+                          "swallows": []
+                        }
+                      ],
+                      "floating_nodes": [],
+                      "focus": [
+                        161548952
+                      ],
+                      "fullscreen_mode": 0,
+                      "floating": "auto_off",
+                      "swallows": []
+                    }
+                  ],
+                  "floating_nodes": [],
+                  "focus": [
+                    161548656
+                  ],
+                  "fullscreen_mode": 0,
+                  "floating": "auto_off",
+                  "swallows": []
+                }
+              ],
+              "floating_nodes": [],
+              "focus": [
+                161548360
+              ],
+              "fullscreen_mode": 1,
+              "floating": "auto_off",
+              "swallows": []
+            },
+            {
+              "id": 161621856,
+              "type": "workspace",
+              "orientation": "none",
+              "scratchpad_state": "none",
+              "percent": 0.5,
+              "urgent": false,
+              "focused": false,
+              "layout": "splith",
+              "workspace_layout": "default",
+              "last_split_layout": "splith",
+              "border": "normal",
+              "current_border_width": -1,
+              "rect": {
+                "x": 1366,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
+              },
+              "window_rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "geometry": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "name": "3",
+              "num": 3,
+              "window": null,
+              "nodes": [],
+              "floating_nodes": [
+                {
+                  "id": 161622120,
+                  "type": "floating_con",
+                  "orientation": "horizontal",
+                  "scratchpad_state": "none",
+                  "percent": null,
+                  "urgent": false,
+                  "focused": false,
+                  "layout": "splith",
+                  "workspace_layout": "default",
+                  "last_split_layout": "splith",
+                  "border": "normal",
+                  "current_border_width": -1,
+                  "rect": {
+                    "x": 1593,
+                    "y": 150,
+                    "width": 1028,
+                    "height": 1046
+                  },
+                  "window_rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "name": "#0000FF",
+                  "window": null,
+                  "nodes": [
+                    {
+                      "id": 161622416,
+                      "type": "con",
+                      "orientation": "none",
+                      "scratchpad_state": "none",
+                      "percent": 1,
+                      "urgent": false,
+                      "focused": false,
+                      "layout": "splith",
+                      "workspace_layout": "default",
+                      "last_split_layout": "splith",
+                      "border": "normal",
+                      "current_border_width": -1,
+                      "rect": {
+                        "x": 1593,
+                        "y": 170,
+                        "width": 1028,
+                        "height": 1026
+                      },
+                      "window_rect": {
+                        "x": 2,
+                        "y": 0,
+                        "width": 1024,
+                        "height": 1024
+                      },
+                      "geometry": {
+                        "x": 10,
+                        "y": 322,
+                        "width": 1050,
+                        "height": 748
+                      },
+                      "name": "data:, - Chromium",
+                      "window": 48234497,
+                      "window_properties": {
+                        "class": "Chrome",
+                        "instance": "Chrome (/tmp/.org.chromium.Chromium.seUJtN)",
+                        "window_role": "browser",
+                        "title": "data:, - Chromium"
+                      },
+                      "nodes": [],
+                      "floating_nodes": [],
+                      "focus": [],
+                      "fullscreen_mode": 0,
+                      "floating": "user_on",
+                      "swallows": []
+                    }
+                  ],
+                  "floating_nodes": [],
+                  "focus": [
+                    161622416
+                  ],
+                  "fullscreen_mode": 0,
+                  "floating": "auto_off",
+                  "swallows": []
+                }
+              ],
+              "focus": [
+                161622120
+              ],
+              "fullscreen_mode": 0,
+              "floating": "auto_off",
+              "swallows": []
+            }
+          ],
+          "floating_nodes": [],
+          "focus": [
+            161548064,
+            161621856
+          ],
+          "fullscreen_mode": 0,
+          "floating": "auto_off",
+          "swallows": []
+        },
+        {
+          "id": 161623976,
+          "type": "dockarea",
+          "orientation": "none",
+          "scratchpad_state": "none",
+          "percent": 0.3333333333333333,
+          "urgent": false,
+          "focused": false,
+          "layout": "dockarea",
+          "workspace_layout": "default",
+          "last_split_layout": "splith",
+          "border": "normal",
+          "current_border_width": -1,
+          "rect": {
+            "x": 1366,
+            "y": 1059,
+            "width": 1920,
+            "height": 21
+          },
+          "window_rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": "bottomdock",
+          "window": null,
+          "nodes": [
+            {
+              "id": 161676176,
+              "type": "con",
+              "orientation": "none",
+              "scratchpad_state": "none",
+              "percent": 1,
+              "urgent": false,
+              "focused": false,
+              "layout": "splith",
+              "workspace_layout": "default",
+              "last_split_layout": "splith",
+              "border": "normal",
+              "current_border_width": -1,
+              "rect": {
+                "x": 1366,
+                "y": 1059,
+                "width": 1920,
+                "height": 21
+              },
+              "window_rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 21
+              },
+              "geometry": {
+                "x": 1366,
+                "y": 1059,
+                "width": 1920,
+                "height": 21
+              },
+              "name": "i3bar for output VGA1",
+              "window": 35651591,
+              "window_properties": {
+                "class": "i3bar",
+                "instance": "i3bar",
+                "title": "i3bar for output VGA1"
+              },
+              "nodes": [],
+              "floating_nodes": [],
+              "focus": [],
+              "fullscreen_mode": 0,
+              "floating": "auto_off",
+              "swallows": []
+            }
+          ],
+          "floating_nodes": [],
+          "focus": [
+            161676176
+          ],
+          "fullscreen_mode": 0,
+          "floating": "auto_off",
+          "swallows": [
+            {
+              "dock": 3,
+              "insert_where": 2
+            }
+          ]
+        }
+      ],
+      "floating_nodes": [],
+      "focus": [
+        161547664,
+        161547192,
+        161623976
+      ],
+      "fullscreen_mode": 0,
+      "floating": "auto_off",
+      "swallows": []
+    }
+  ],
+  "floating_nodes": [],
+  "focus": [
+    161546928,
+    161115784,
+    161112424
+  ],
+  "fullscreen_mode": 0,
+  "floating": "auto_off",
+  "swallows": []
+}
