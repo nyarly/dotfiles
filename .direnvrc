@@ -1,0 +1,92 @@
+#!/bin/bash
+
+#The nicest part of continuing to use chruby is that I can `chruby 2.1` or
+#whatever to quick try things out without needing to edit .envrc
+
+source /usr/local/share/chruby/chruby.sh
+
+use_ruby(){
+  local version=$1
+  if [ -z $version ]; then
+    version=".ruby-version"
+  fi
+  if [ -f $version ]; then
+    version=$(cat $version)
+    watch_file $version
+  fi
+
+  chruby $version
+  layout ruby
+}
+
+#NEXT STEP: convert projects to use .direnvrc, and change out prompt.sh so that we check for bundler on entering the dir
+#bundle_setup should trigger a direnv update
+
+session_name(){
+  export TMUX_SESSION_NAME="${*:?session_name needs a name as argument}"
+}
+
+save_function() {
+  local ORIG_FUNC=$(declare -f $1)
+  local NEWNAME_FUNC="$2${ORIG_FUNC#$1}"
+  eval "$NEWNAME_FUNC"
+}
+
+layout_erlang() {
+  export DIRENV_LAYOUT=erlang
+}
+
+save_function layout_go old_layout_go
+layout_go() {
+  old_layout_go
+  export DIRENV_LAYOUT=go
+}
+
+save_function layout_node old_layout_node
+layout_node() {
+  old_layout_node
+  export DIRENV_LAYOUT=node
+}
+
+layout_javascript() {
+  layout_node
+}
+
+save_function layout_python old_layout_python
+layout_python() {
+  old_layout_python
+  export DIRENV_LAYOUT=python
+}
+
+layout_ruby() {
+  local bundle_config=$(find_up .bundle/config)
+  echo $bundle_config 1>&2
+  if [ $? ]; then
+    export DIRENV_LAYOUT=ruby
+    local bundle_bin=$(cat "$bundle_config" | grep BUNDLE_BIN | awk '{ print $2 }')
+    if [ -z $bundle_bin ]; then
+      bundle_config=~/.bundle/config
+      local bundle_bin=$(cat "$bundle_config" | grep BUNDLE_BIN | awk '{ print $2 }')
+    fi
+    if [ -z $bundle_bin ]; then
+      echo "No BUNDLE_BIN found in $bundle_config"
+    else
+      watch_file $bundle_config
+      bundle_bin=$(echo $bundle_bin | sed 's/"//g')
+      local bundle_dir=$(dirname $bundle_config)
+      if echo $bundle_dir | grep -vq '^/'; then
+        bundle_bin=$(readlink -f ${bundle_dir}/../$bundle_bin)
+      fi
+      echo "Adding BUNDLE_BIN $(user_rel_path $bundle_bin) found in $(user_rel_path $bundle_config)"
+      PATH_add $bundle_bin
+    fi
+  fi
+}
+
+add_extra_vimrc() {
+  local extravim="$(find_up .vimrc)"
+  if [ -n "$extravim" ]; then
+    echo "Adding extra .vimrc: ${extravim}"
+    path_add EXTRA_VIM $extravim
+  fi
+}
