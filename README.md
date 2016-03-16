@@ -1,5 +1,8 @@
 Bootstrapping a new machine:
 
+Install the right tools:
+  vim, tmux, reattach-to-user-namespace, ...
+
 Clone this directory
 Set up links from available into config.d
 mr update
