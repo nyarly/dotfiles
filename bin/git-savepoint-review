@@ -1,0 +1,5 @@
+#!/bin/env bash
+
+git difftool -d savepoint &
+bundle || exit 1
+rake spec:full || rake db:migrate && rspec spec
