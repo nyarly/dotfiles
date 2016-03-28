@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/fish.git]
+checkout = vcsh clone git@git.lrdesign.com:judson/vcsh-fish.git fish
