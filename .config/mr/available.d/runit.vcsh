@@ -1,2 +1,2 @@
-[$HOME/.config/vcsh/repo.d/runit.git]
+[.config/vcsh/repo.d/runit.git]
 checkout = vcsh clone git@git.lrdesign.com:judson/vcsh-runit.git runit

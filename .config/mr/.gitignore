@@ -1,1 +1,3 @@
-available.d/
+config.d/*
+!*.swf
+*.sw?
