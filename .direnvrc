@@ -3,7 +3,11 @@
 #The nicest part of continuing to use chruby is that I can `chruby 2.1` or
 #whatever to quick try things out without needing to edit .envrc
 
-source /usr/local/share/chruby/chruby.sh
+if [ -f /usr/local/opt/chruby/share/chruby/chruby.sh ]; then
+  source /usr/local/opt/chruby/share/chruby/chruby.sh
+elif [ -f /usr/local/share/chruby/chruby.sh ]; then
+  source /usr/local/share/chruby/chruby.sh
+fi
 
 use_ruby(){
   local version=$1
@@ -17,6 +21,11 @@ use_ruby(){
 
   chruby $version
   layout ruby
+}
+
+use_docker-machine(){
+  local env=${1:-default}
+  eval $(docker-machine env --shell bash $env)
 }
 
 #NEXT STEP: convert projects to use .direnvrc, and change out prompt.sh so that we check for bundler on entering the dir
@@ -34,28 +43,33 @@ save_function() {
 
 layout_erlang() {
   export DIRENV_LAYOUT=erlang
+  export PROJECT_KIND=erlang
 }
 
 save_function layout_go old_layout_go
 layout_go() {
   old_layout_go
   export DIRENV_LAYOUT=go
+  export PROJECT_KIND=go
 }
 
 save_function layout_node old_layout_node
 layout_node() {
   old_layout_node
   export DIRENV_LAYOUT=node
+  export PROJECT_KIND=javascript-node-npm
 }
 
 layout_javascript() {
   layout_node
+  export PROJECT_KIND=javascript
 }
 
 save_function layout_python old_layout_python
 layout_python() {
   old_layout_python
   export DIRENV_LAYOUT=python
+  export PROJECT_KIND=python
 }
 
 layout_ruby() {
@@ -63,6 +77,7 @@ layout_ruby() {
   echo $bundle_config 1>&2
   if [ $? ]; then
     export DIRENV_LAYOUT=ruby
+    export PROJECT_KIND=ruby
     local bundle_bin=$(cat "$bundle_config" | grep BUNDLE_BIN | awk '{ print $2 }')
     if [ -z $bundle_bin ]; then
       bundle_config=~/.bundle/config
