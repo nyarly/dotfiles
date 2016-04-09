@@ -11,8 +11,8 @@ use_ruby(){
     version=".ruby-version"
   fi
   if [ -f $version ]; then
-    version=$(cat $version)
     watch_file $version
+    version=$(cat $version)
   fi
 
   chruby $version
@@ -34,6 +34,10 @@ save_function() {
 
 layout_erlang() {
   export DIRENV_LAYOUT=erlang
+}
+
+layout_rust() {
+  export DIRENV_LAYOUT=rust
 }
 
 save_function layout_go old_layout_go
