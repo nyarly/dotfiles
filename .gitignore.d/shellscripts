@@ -1,0 +1,11 @@
+*
+!/.gitignore.d
+!/.gitignore.d/shellscripts
+!/bin
+!/bin/git-clean-branches
+!/bin/git-localize-branches
+!/bin/git-savepoint-complete
+!/bin/git-savepoint-merge
+!/bin/git-savepoint-reset
+!/bin/git-savepoint-review
+!/bin/vcsh-mr-setup
