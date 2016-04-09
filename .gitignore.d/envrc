@@ -1,0 +1,4 @@
+*
+!/.direnvrc
+!/.gitignore.d
+!/.gitignore.d/envrc
