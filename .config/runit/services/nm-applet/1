@@ -1,8 +1,2 @@
 
-(nm-applet:6159): GLib-CRITICAL **: Source ID 119 was not found when attempting to remove it
-
-(nm-applet:6159): GLib-CRITICAL **: Source ID 8997826 was not found when attempting to remove it
-
-(nm-applet:6159): GLib-CRITICAL **: Source ID 17034226 was not found when attempting to remove it
-
-(nm-applet:6159): GLib-CRITICAL **: Source ID 17034725 was not found when attempting to remove it
+(nm-applet:6218): GLib-CRITICAL **: Source ID 124 was not found when attempting to remove it

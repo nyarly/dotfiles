@@ -1,4 +1,12 @@
-2016/01/20-20:20:27 Starman::Server (type Net::Server::PreFork) starting! pid(6155)
+2016/03/26-14:23:21 Starman::Server (type Net::Server::PreFork) starting! pid(5766)
+Resolved [*]:5000 to [::]:5000, IPv6
+Not including resolved host [0.0.0.0] IPv4 because it will be handled by [::] IPv6
+Binding to TCP port 5000 on host :: with IPv6
+Setting gid to "1000 1000 10 18 19 27 35 100 102 250 975 979 994 995 996 998 1000 1001"
+Starman: Accepting connections at http://*:5000/
+2016/03/27-01:18:37 Server closing!
+2016/03/27-01:18:37 Server closing!
+2016/03/27-10:03:19 Starman::Server (type Net::Server::PreFork) starting! pid(6219)
 Resolved [*]:5000 to [::]:5000, IPv6
 Not including resolved host [0.0.0.0] IPv4 because it will be handled by [::] IPv6
 Binding to TCP port 5000 on host :: with IPv6

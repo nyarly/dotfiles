@@ -1,3 +1,7 @@
+error: process ID list syntax error
+
+Usage:
+ ps [options]
 
  Try 'ps --help <simple|list|output|threads|misc|all>'
   or 'ps --help <s|l|o|t|m|a>'
@@ -44306,5 +44310,3 @@ error: process ID list syntax error
 
 Usage:
  ps [options]
-
- Try 'ps --help <simple|list|output|threads|misc|all>'
