@@ -1,0 +1,75 @@
+[core]
+  fsyncobjectfiles = false
+  excludesfile = ~/.config/git/ignore
+[user]
+  email = nyarly@gmail.com
+  name = Judson
+[branch]
+  autosetupmerge = true
+[color]
+  branch = true
+  diff = true
+  grep = true
+  interactive = true
+  status = true
+  ui = true
+[rerere]
+  enabled = true
+#[difftool]
+#  external = ~/bin/git-meld-wrapper.sh
+#  prompt = no
+[github]
+  user = nyarly
+  token = 04767ca648330b31246a36d90fc9d79fd2ed3c76
+[init]
+  templatedir = ~/.git_template
+[alias]
+  ctags = !.git/hooks/ctags
+  bundle-tags = !.git/hooks/bundle-ctags
+  savepoint-merge = !~/bin/git-savepoint-merge
+  savepoint-complete = !~/bin/git-savepoint-complete
+  savepoint-reset = !~/bin/git-savepoint-reset
+  savepoint-zap = branch -d savepoint
+  localize-branches = !~/bin/git-localize-branches
+  go-root = !echo $(pwd) $GIT_PREFIX
+  pb = !pb
+  mt = mergetool
+  dt = difftool -d
+
+[bash]
+  showDirtyState = true
+
+[push]
+  default = current
+
+[diff "rawtext"]
+  #textconv = "sed -e :a -e '/^\\\n*$/{$d;N;};/\\\n$/ba' | sed 's/\\s*$//'"
+  textconv = "sed -e :a -e '/^\\n*$/{$d;N;ba' -e '}' | sed 's/[[:space:]]*$//'"
+
+[filter "trimwhite"]
+  #clean = "sed -e :a -e '/^\\\n*$/{$d;N;};/\\\n$/ba' | sed 's/\\s*$//'"
+  clean = "sed -e :a -e '/^\\n*$/{$d;N;ba' -e '}' | sed 's/[[:space:]]*$//'"
+
+[help]
+  autocorrect = -1
+
+[interactive]
+  singlekey = true
+
+[merge]
+  tool = mymeld
+  conflictstyle = diff3
+
+[mergetool "mymeld"]
+  cmd = meld --diff $LOCAL $BASE $REMOTE --output $MERGED --diff $BASE $LOCAL --diff $BASE $REMOTE
+
+[mergetool]
+  keepBackup = false
+  prompt = false
+
+[rebase]
+  autosquash = yes
+[diff]
+  tool = meld
+[url "git@github.com:"]
+	insteadOf = https://github.com/
