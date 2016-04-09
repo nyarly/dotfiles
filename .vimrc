@@ -60,6 +60,7 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'rking/ag.vim'
 
 Bundle 'fatih/vim-go'
+Bundle 'rust-lang/rust.vim'
 
 runtime! ftdetect/UltiSnips.vim
 filetype plugin indent on
