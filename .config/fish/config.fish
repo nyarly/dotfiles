@@ -7,6 +7,8 @@ set -g __fish_git_prompt_show_informative_status yes
 set -x BROWSER chromium-browser
 set -x CHROME_BIN /usr/bin/chromium
 
+set -gx MANPATH "" $MANPATH
+
 if test -f ~/.config/fish/private.fish
   source ~/.config/fish/private.fish
 end
@@ -14,9 +16,6 @@ end
 # The shell is my partner - it needs tools too:
 eval (direnv hook fish)
 source /usr/local/share/chruby/chruby.fish
-if test -f ~/.autojump/share/autojump/autojump.fish
-  . ~/.autojump/share/autojump/autojump.fish
-end
 
 source ~/.config/fish/functions/autotmux.fish
 source ~/.config/fish/functions/_run_fasd.fish

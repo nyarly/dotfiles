@@ -15,6 +15,7 @@ function direnv_ps1
       case      ruby;         term_fcolor   701516;
       case      shell;        term_fcolor   5861ce;
       case      vim;          term_fcolor   199c4b;
+      case      rust;         term_fcolor   dea584;
       case      *;            term_fcolor   aaa;
     end
   end

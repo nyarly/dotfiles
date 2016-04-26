@@ -24,3 +24,9 @@
   when: 1452753272
 - cmd: 2
   when: 1455061031
+- cmd: function partial_path\nset -l path (pwd)\nset -l string ""\nswitch (echo $path | sed 's#/# #g'|wc -w)\ncase 0 1 2\necho -n $path\nreturn 0\nend\nset -l string (basename {$path})\nset -l path (dirname {$path})\nset -l string (basename {$path})"/$string"\nset -l path (dirname {$path})\nset -l string "…"(echo $path | sed 's#/# #g'|wc -w)"/$string"\necho -n $string\nend
+  when: 1458085357
+- cmd: y
+  when: 1458085610
+- cmd: y
+  when: 1458152906

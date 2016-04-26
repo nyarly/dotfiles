@@ -1,3 +1,3 @@
 set -x GOPATH ~/golang
-set -x PATH $PATH /usr/lib/go/bin $GOPATH/bin
+set -x fish_user_paths $PATH /usr/lib/go/bin $GOPATH/bin
 

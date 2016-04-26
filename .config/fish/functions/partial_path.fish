@@ -1,7 +1,8 @@
 function partial_path
 	set -l path (pwd)
   set -l string ""
-  switch (echo $path | sed 's#/# #g'|wc -w)
+  set -l segcount (echo $path | sed 's#/# #g'|wc -w|sed 's/[[:space:]]//g')
+  switch $segcount
   case  0 1 2
     echo -n $path
     return 0
@@ -10,6 +11,6 @@ function partial_path
   set -l path (dirname {$path})
   set -l string (basename {$path})"/$string"
   set -l path (dirname {$path})
-  set -l string "…"(echo $path | sed 's#/# #g'|wc -w)"/$string"
+  set -l string "…{$segcount}/$string"
   echo -n $string
 end

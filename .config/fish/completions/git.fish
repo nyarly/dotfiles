@@ -361,7 +361,7 @@ complete -f -c git -n '__fish_git_needs_command' -a savepoint-reset -d 'Fall bac
 complete -f -c git -n '__fish_git_needs_command' -a savepoint-review -d 'Review changes in a merge - usually happens automatically'
 complete -f -c git -n '__fish_git_needs_command' -a savepoint-complete -d 'Approve a merge - removes savepoint, pushes to origin'
 
-complete -f -c git -n '__fish_git_using_command savepoint-merge' -a '(git branch -r | grep -v HEAD | sed "s/^\s*//")' -d 'Remote branch'
+complete -f -c git -n '__fish_git_using_command savepoint-merge' -a '(git branch -r | grep -v HEAD | sed "s/^[[:space:]]*//")' -d 'Remote branch'
 ## Aliases (custom user-defined commands)
 #
 complete -c git -n '__fish_git_needs_command' -a '(command git config --get-regexp alias | sed "s/^alias\.\([^ ]*\).*/\1/")' -d 'Alias (user-defined command)'
