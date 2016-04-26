@@ -27,6 +27,8 @@ let g:tmuxline_separators.right_alt = g:airline_right_alt_sep
 
 "I think this will clobber hunks if I ever use one of those plugins...
 let g:airline_section_b = "%{airline#util#wrap(strpart(airline#extensions#branch#get_head(),0,18),0)}"
+" This is to add an obsession marker
+let g:airline_section_z = airline#section#create(['%{ObsessionStatus(''◉'', '''')}', 'windowswap', '%3p%% ', 'linenr', ':%3v '])
 let g:airline_extensions = ['branch', 'tabline', 'syntastic', 'tagbar', 'ctrlp', 'tmuxline']
 let g:airline#extensions#branch#displayed_head_limit = 18
 let g:airline#extensions#branch#format = 2
