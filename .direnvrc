@@ -46,9 +46,14 @@ layout_erlang() {
   export PROJECT_KIND=erlang
 }
 
+layout_rust() {
+  export DIRENV_LAYOUT=rust
+  export PROJECT_KIND=rust
+}
+
 save_function layout_go old_layout_go
 layout_go() {
-  old_layout_go
+#  old_layout_go
   export DIRENV_LAYOUT=go
   export PROJECT_KIND=go
 }
