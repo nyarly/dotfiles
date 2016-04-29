@@ -21,7 +21,7 @@ set ts=2
 set pastetoggle=[23~
 set gdefault
 set shortmess+=I
-set cursorline
+"set cursorline "is so very slow
 set scrolloff=4
 set backspace=2
 
