@@ -1,3 +1,1 @@
-function z
-	fasd_cd -d $argv
-end
+/Users/jlester/.config/fisherman/fasd/functions/z.fish

@@ -1,0 +1,1 @@
+/Users/jlester/.config/fisherman/fasd/completions/s.fish
