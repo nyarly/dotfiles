@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 if egrep -qv '^#|^(\s|\[[^]]*\])*$' $1; then
   echo -n ""
