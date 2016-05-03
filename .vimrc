@@ -12,6 +12,8 @@ set encoding=utf-8
 
 runtime! ftdetect/UltiSnips.vim
 
+set autowrite
+set autowriteall
 set laststatus=2
 set incsearch
 set expandtab
