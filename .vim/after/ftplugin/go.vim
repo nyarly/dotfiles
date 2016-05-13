@@ -8,6 +8,9 @@ function! s:SetMarks()
   'i/)/+2mark c
   0/const/mark c
   0/const (/+1mark c
+  'i/)/+2mark t
+  0/type/mark t
+  0/type (/+1mark t
 endfunction
 
 silent! call s:SetMarks()

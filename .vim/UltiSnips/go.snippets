@@ -3,3 +3,7 @@ if err != nil {
 	log.Fatal(err)
 }
 endsnippet
+
+snippet	lf "Log a value" !b
+log.Printf("${2:${1/.*/$0/}} = %+v\n", $1)
+endsnippet
