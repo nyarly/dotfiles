@@ -15,12 +15,8 @@
   ui = true
 [rerere]
   enabled = true
-#[difftool]
-#  external = ~/bin/git-meld-wrapper.sh
-#  prompt = no
-[github]
-  user = nyarly
-  token = 04767ca648330b31246a36d90fc9d79fd2ed3c76
+[include]
+  path = ./secret
 [init]
   templatedir = ~/.git_template
 [alias]
@@ -63,7 +59,7 @@
   singlekey = true
 
 [merge]
-  tool = mymeld
+  tool = meld
   conflictstyle = diff3
 
 [mergetool "mymeld"]

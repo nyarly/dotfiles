@@ -2,7 +2,7 @@
 
 file=$1
 source=$2
-commit_sha=$3
+#commit_sha=$3
 
 #exit if source == 'commit'
 if [ "${source}" == "commit" ]; then
@@ -10,33 +10,37 @@ if [ "${source}" == "commit" ]; then
 fi
 
 path=$(git symbolic-ref HEAD)
-if [ ! $? ]; then
+if [ $? -ne 0 ]; then
   exit 0
 fi
-
-current=$(echo $path | sed 's#refs/heads/##')
-numbers=$(echo $current | sed 's#[^0-9]\+# #')
-
-if echo $numbers | egrep -q '[0-9]'; then
-  echo -n ""
-else
-  exit 0
-fi
-
-#if egrep "^[^#].*\[(\w+\s)?(#\d+\s)*#$number(\s#\d+)*(\s\w+)?\]" $file; then
-#  exit 0
-#fi
 
 keyword_re="\[(fix|fixes|fixed|complete|completes|completed|finish|finishes|finished|deliver|delivers|delivered)\]"
 
-keyword=$(egrep $keyword_re $file | sed "s#.*\($keyword_re\).*#\1#")
+keyword=$(egrep "$keyword_re" "$file" | sed "s#.*\($keyword_re\).*#\1#")
 
-pivotal_tag="["
-for number in $keyword $numbers; do
-  pivotal_tag+=" #$number"
-done
-pivotal_tag+=" ]"
+current=${path#refs/heads/}
 
-awk "/^#/ && !x {print \"$pivotal_tag\"; x=1} 1" $file > $file.tmp
+pivotals=$(git config --get-all "branch.${current}.pivotal-story" | sort -u)
+if [ $? -eq 0 ]; then
+  if echo "$pivotals" | egrep -q '[0-9]'; then
+    pivotal_tag="["
+    for number in $keyword $pivotals; do
+      pivotal_tag+=" #$number"
+    done
+    pivotal_tag+=" ]"
 
-mv $file.tmp $file
+    awk "/^#/ && !x {print \"$pivotal_tag\"; x=1} 1" "$file" > "$file.tmp"
+
+    mv "$file.tmp" "$file"
+  fi
+fi
+
+jiras=$(git config --get-all "branch.${current}.jira-ticket" | sort -u)
+if [ $? -eq 0 ]; then
+  smart_commit=""
+  for jira_id in $jiras; do
+    smart_commit+="$jira_id "
+  done
+  awk "/^#/ && !x {print \"$smart_commit\"; x=1} 1" "$file" > "$file.tmp"
+  mv "$file.tmp" "$file"
+fi

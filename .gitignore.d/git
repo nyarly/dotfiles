@@ -2,6 +2,7 @@
 !/.config
 !/.config/git
 !/.config/git/*
+.config/git/secret
 !/.git_template
 !/.git_template/*
 !/.gitconfig
