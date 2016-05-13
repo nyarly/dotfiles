@@ -1,5 +1,5 @@
 function fish_prompt
-  set -l prompt_bg e0e0e0
+	set -l prompt_bg e0e0e0
   switch (hostname)
   case "dijkstra"
     set -l prompt_bg e0e0e0
@@ -21,6 +21,7 @@ function fish_prompt
   term_fcolor 0bb
   partial_path
   __fish_git_prompt " "(tput setaf 3)"⭠"(tput setaf 4)" %.20s"
+  __git_issue_id__ " [%s]"
   echo -n ' '
   if test -n "$IN_NIX_SHELL"
     set expr (echo $out | sed 's/[^-]*-\([^-]*\).*/\1/')
