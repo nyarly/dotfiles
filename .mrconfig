@@ -3,3 +3,6 @@ git_gc = git gc "$@"
 jobs = 5
 
 include = cat ~/.config/mr/config.d/*
+
+[rust/TVIDE/tmux-pi]
+checkout = git clone 'git@git.lrdesign.com:judson/tmux-pi.git' 'tmux-pi'
