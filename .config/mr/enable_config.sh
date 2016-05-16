@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-set -x
 
 if [ $# -lt 1 ]; then
   echo "Usage: $0 <available config.ext>+"
