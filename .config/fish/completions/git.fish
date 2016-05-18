@@ -361,7 +361,8 @@ complete -f -c git -n '__fish_git_needs_command' -a savepoint-reset -d 'Fall bac
 complete -f -c git -n '__fish_git_needs_command' -a savepoint-review -d 'Review changes in a merge - usually happens automatically'
 complete -f -c git -n '__fish_git_needs_command' -a savepoint-complete -d 'Approve a merge - removes savepoint, pushes to origin'
 
-complete -f -c git -n '__fish_git_using_command jira-branch' -a '(jira-tickets)' -d 'Jira Issue'
+complete -f -c git -n '__fish_git_needs_command' -a jira-branch -d 'Add configuration to the branch that tracks a Jira issue'
+complete -f -c git -n '__fish_git_using_command jira-branch' -a '(__cached_jira_issues)' -d 'Jira Issue'
 
 complete -f -c git -n '__fish_git_using_command savepoint-merge' -a '(git branch -r | grep -v HEAD | sed "s/^[[:space:]]*//")' -d 'Remote branch'
 ## Aliases (custom user-defined commands)
