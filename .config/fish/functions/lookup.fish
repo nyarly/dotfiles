@@ -1,0 +1,1 @@
+/Users/jlester/.config/fisherman/lookup/functions/lookup.fish
