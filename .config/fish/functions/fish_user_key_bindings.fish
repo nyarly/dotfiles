@@ -7,3 +7,7 @@ function fish_user_key_bindings
   bind \e` clobber_history
   bind \es 'prepend_command sudo'
 end
+
+if type -q fzf_key_bindings
+  fzf_key_bindings
+end
