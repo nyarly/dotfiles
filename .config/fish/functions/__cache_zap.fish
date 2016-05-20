@@ -1,1 +1,1 @@
-/Users/jlester/.config/fisherman/cache-file/__cache_zap.fish
+/Users/jlester/.config/fisherman/cache-file/functions/__cache_zap.fish

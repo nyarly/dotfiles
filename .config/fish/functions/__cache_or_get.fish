@@ -1,1 +1,1 @@
-/Users/jlester/.config/fisherman/cache-file/__cache_or_get.fish
+/Users/jlester/.config/fisherman/cache-file/functions/__cache_or_get.fish
