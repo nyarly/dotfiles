@@ -12,6 +12,7 @@ set autowrite
 set autowriteall
 set laststatus=2
 set incsearch
+set hlsearch
 set expandtab
 set modeline
 set sw=2

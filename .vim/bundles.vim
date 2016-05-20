@@ -1,5 +1,5 @@
 if &shell =~# 'fish$'
-  set shell=sh
+  set shell=/bin/sh
 endif
 
 set nocompatible
