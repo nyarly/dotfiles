@@ -1,5 +1,3 @@
-NeoCompleteEnable
-
 function! s:SetMarks()
   2mark i
   0/import/mark i

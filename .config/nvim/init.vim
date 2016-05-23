@@ -1,39 +1,30 @@
 "set runtimepath=$HOME/.vim,$VIM/ultisnips,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$VIM/ultisnips/after,$HOME/.vim/after
 
-if &shell =~# 'fish$'
-  set shell=/bin/sh
-endif
-
+"if &shell =~# 'fish$'
+"  set shell=/bin/sh
+"endif
+"
 set nocompatible
-filetype plugin indent on
 
 runtime plugins.vim
-
-syntax on
-
-set encoding=utf-8
-
 runtime! ftdetect/UltiSnips.vim
 
 set autowrite
 set autowriteall
-set laststatus=2
-set incsearch
-set hlsearch
 set expandtab
 set modeline
 set sw=2
 set ts=2
+set scrolloff=4
 set pastetoggle=[23~
 set gdefault
 set shortmess+=I
-"set cursorline "is so very slow
-set scrolloff=4
-set backspace=2
+set number
+set relativenumber
+set cursorline
 
 set title
 
-set wildmenu
 set wildmode=list:longest
 
 set undodir="~/.vim/undo"
@@ -61,3 +52,13 @@ if exists("$EXTRA_VIM")
     exec "source " .path
   endfor
 endif
+
+" These are all included in vim-sensible
+"filetype plugin indent on
+"syntax on
+"set laststatus=2
+"set backspace=2
+"set incsearch
+"set hlsearch
+"set wildmenu
+"set encoding=utf-8
