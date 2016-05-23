@@ -1,6 +1,13 @@
 "set runtimepath=$HOME/.vim,$VIM/ultisnips,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$VIM/ultisnips/after,$HOME/.vim/after
 
-runtime bundles.vim
+if &shell =~# 'fish$'
+  set shell=/bin/sh
+endif
+
+set nocompatible
+filetype plugin indent on
+
+runtime plugins.vim
 
 syntax on
 
