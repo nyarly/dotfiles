@@ -2,5 +2,6 @@
 !/.config
 !/.config/fish
 !/.config/fish/**
+/.config/fish/functions/fisher.fish.*
 !/.gitignore.d
 !/.gitignore.d/fish
