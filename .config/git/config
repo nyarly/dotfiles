@@ -15,8 +15,6 @@
   ui = true
 [rerere]
   enabled = true
-[include]
-  path = ./secret
 [init]
   templatedir = ~/.git_template
 [alias]
@@ -75,3 +73,10 @@
   tool = meld
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+
+[jira]
+	user = jlester
+	jarfile = /Users/jlester/Documents/Tools/atlassian-cli-5.3.0/lib/jira-cli-5.3.0.jar
+	server = https://opentable.atlassian.net
+[include]
+  path = ./secret
