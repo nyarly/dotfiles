@@ -30,6 +30,9 @@ set wildmode=list:longest
 set undodir="~/.vim/undo"
 set undofile
 
+set clipboard+=unnamed
+set clipboard+=unnamedplus
+
 set t_ut= "Needed to get non-text background colors to work correctly in urxvt + tmux
 let s:hour = str2nr(strftime("%H"))
 if s:hour > 6 && s:hour < 21
