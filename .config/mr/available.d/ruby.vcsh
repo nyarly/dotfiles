@@ -1,2 +1,2 @@
-[.config/vcsh/repo.d/vcsh-ruby.git]
+[.config/vcsh/repo.d/ruby.git]
 checkout = vcsh clone git@git.lrdesign.com:judson/vcsh-ruby.git ruby

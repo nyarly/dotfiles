@@ -6,7 +6,7 @@ checkout = git clone 'git@github.com:nyarly/sous.git' 'sous'
 
 [Projects/blog]
 checkout = git clone 'git@git.lrdesign.com:judson/blog.git' 'blog'
-fixups = cd $MR_REPO && type bundle && bundle
+fixups = cd $MR_REPO && type bundle && bundle > /dev/null && echo "bundle successful"
 order = 20
 
 [golang/src/github.com/nyarly/mergetron]
