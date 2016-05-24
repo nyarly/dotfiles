@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ssh $@ -t tmux -f ~/.ssh-tmux new-session -s jdlssh
+ssh $@ -t tmux -f ~/.ssh-tmux attach-session -t jdlssh

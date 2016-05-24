@@ -1,0 +1,67 @@
+#!/usr/bin/ruby -Ilib/
+# vim: set filetype=ruby:
+
+require 'command-set/text-interpreter'
+require 'command-set/og'
+require 'web-lifecycle/model'
+require 'web-lifecycle/commands'
+require 'web-lifecycle/paramount-criteria'
+
+Logger.get.level = Logger::WARN
+if ARGV.first == "-d"
+  ARGV.shift
+  Logger.get.level = Logger::DEBUG
+  $DBG=true
+end
+
+
+def go(*args)
+  config = {
+    :store => 'mysql',
+    :evolve => :remove,
+    :address => 'sandbox.paramount.com',
+    :name => 'weblife',
+    :user => 'weblifeuser',
+    :password => 'ambA4Vex'
+  }
+  Og.start(config)
+
+  interpreter = Command::TextInterpreter.new
+  interpreter.command_set = WebLifecycle::Commands::main_commands
+
+  template = interpreter.command_set.subject_template
+  template.current_state = []
+  template.collection = []
+  template.interpreter = interpreter
+  template.command_set = interpreter.command_set
+
+  interpreter.subject=template
+  interpreter.behavior(:debug_commands => true)
+
+  logger = Logger.new('outputlog')
+  logger.level = Logger::DEBUG
+
+  def interpreter.get_formatter
+    Command::Results::StrategyFormatter.new(::Command::raw_stdout)
+  end
+
+  if args.empty?
+    interpreter.go
+  else
+    begin
+    interpreter.complete_line = true
+    result = interpreter.single_command(args.join(" "))
+    rescue Object => ex
+      p ex
+      puts ex.backtrace.join("\n")
+    end
+  end
+
+  WebLifecycle::Criteria.pending.names do |action|
+    puts "pending: #{action}"
+  end
+end
+
+
+puts "Greetings.  Welcome to the Website Lifecycle Console"
+go(*ARGV)

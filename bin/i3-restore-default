@@ -1,0 +1,6 @@
+#!/bin/env fish
+
+i3-msg "workspace 1; append_layout ~/.i3/layouts/docs-and-chat.json; exec pidgin"
+i3-msg "workspace 2; append_layout ~/.i3/layouts/main-work.json; exec --no-startup-id urxvtc; exec chromium"
+# In terms of getting Chrome to do 'the right thing' - possibly I should strip down the tabbed container in main-work and
+# make sure wer're focused there when we start up?

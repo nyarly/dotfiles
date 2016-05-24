@@ -1,0 +1,14 @@
+#!/bin/env bash
+
+git branch | grep '^\* merging'
+if [ $? -ne 0 ];  then
+  echo "Not on merging branch"
+  exit 1
+fi
+
+echo "On merging branch"
+
+git checkout master
+git merge merging
+git push
+git-clean-branches

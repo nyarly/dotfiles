@@ -1,0 +1,89 @@
+#!/usr/bin/ruby
+
+require 'net/http'
+require 'optparse'
+require 'pp'
+include Net
+
+def print_headers(domain, options={})
+  defaults = {
+    :path => "/",
+    :ips => ("172.20.19.41".."172.20.19.44").to_a + ["129.228.1.21"]
+  }
+  options = defaults.merge(options)
+
+  pp options
+
+  if /^dev\./ =~ domain
+    if options[:port].nil?
+      options[:port] = 11111
+    end
+  else
+    if /^www\./ !~ domain
+      warn "#{domain} doesn't start \"www.\" - canonical?"
+    end
+    if options[:port].nil?
+      options[:port] = 80
+    end
+  end
+
+  req = HTTP::Head.new(options[:path], {"Host" => domain})
+
+  unless options[:user].nil? and options[:password].nil?
+    if options[:user].nil? or options[:password].nil?
+      warn "Missing either username or password - not authenticating"
+    else
+      req.basic_auth(options[:user], options[:password])
+    end
+  end
+
+  options[:ips].each do |ip|
+    puts "#{ip}:"
+    HTTP::start(ip, options[:port]) do |http|
+      res = http.request(req)
+      puts "#{res.code}: #{res.message}"
+      res.each_capitalized do |key, value|
+        puts "#{key}: #{value}"
+      end
+    end
+    puts
+  end
+end
+
+options = {}
+parser = OptionParser.new do |parser|
+  parser.on("-p", "--path=path", "The path to check") do |path|
+    path = "/" + path unless %r"^/" =~ path
+    options[:path] = path
+  end
+
+  parser.on("-P", "--port=number", Integer, "The port to check on") do |port|
+    options[:port] = port
+  end
+
+  parser.on("-u", "--user=username[:password]", "Basic authentication credentials") do |username|
+    if m = (/^([^:]*):(\S+)/.match(username))
+      options[:user] = m[1]
+      options[:password] = m[2]
+    else
+      options[:user] = username
+    end
+  end
+
+  parser.on("--pass=password", "--passwd=password", "--password=password", "Basic authentication password") do |pass|
+    options[:password]=pass
+  end
+
+  parser.on("-h", "--help", "Print this message") do
+    puts parser
+    exit 0
+  end
+end
+
+args = parser.permute(ARGV)
+
+unless args.length == 1
+  raise "Don't understand \"#{args.join(" ")}\""
+end
+
+print_headers(args[0], options)

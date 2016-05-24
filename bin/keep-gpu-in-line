@@ -1,0 +1,7 @@
+#!/bin/fish
+
+set -l gpu_process (pgrep -f gpu-process)
+
+if test (ps -p $gpu_process -o c -h) -gt 60;
+  kill $gpu_process
+end

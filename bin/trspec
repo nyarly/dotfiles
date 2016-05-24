@@ -1,0 +1,11 @@
+#!/bin/env bash
+
+if [ $# -lt 1 ]; then
+  spec_path="spec"
+else
+  spec_path="$@"
+fi
+
+rspec_command="bundle exec rspec $spec_path"
+
+tmux split-window -p 90 "tmux set-window-option remain-on-exit yes; echo $rspec_command; $rspec_command;"

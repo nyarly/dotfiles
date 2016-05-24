@@ -1,0 +1,31 @@
+#!/bin/env bash
+
+if [ $# -lt 1 ]; then
+  echo "Usage: $0 <branches*>"
+fi
+
+#All these commands need to bail if git fails
+
+#Check for uncommitted changes
+
+function bail_out() {
+  echo $1
+  exit 1
+}
+
+
+git branch -d merging #Is fine if it fails
+for branch in $@; do
+  git checkout $branch || bail_out "Couldn't check out $branch"
+done
+
+git checkout master || bail_out "Couldn't check out master (!!)"
+git checkout -b merging || bail_out "Couldn't create merging branch"
+
+for branch in $@; do
+  #If any fail, write rest to continue file
+  git merge $branch || bail_out "Couldn't merge $branch from $@"
+done
+
+echo "Branches merged to 'merging'"
+echo "Run specs, and if looks good, run git-complete-merge"

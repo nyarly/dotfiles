@@ -1,0 +1,31 @@
+#!/usr/bin/ruby
+
+require 'readline'
+
+test_strings = ARGV
+
+while test = Readline::readline('Regex: ', true)
+  begin
+    regex = Regexp.compile(test.chomp)
+    puts regex
+    puts ""
+
+    test_strings.each do |test_string|
+      puts "Matching: \"#{test_string}\""
+      match = regex.match(test_string)
+
+      if(match.nil?)
+        puts "Null match"
+      else
+        puts "Before: " + match.pre_match
+        match.to_a.each_index do |idx|
+          puts "m[#{idx}]: #{match[idx]}"
+        end
+        puts "After: " + match.post_match
+      end
+      puts ""
+    end
+  rescue RegexpError => ree
+    puts ree.message
+  end
+end

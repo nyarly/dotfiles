@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ $# -ne 4 ]; then
+    echo "Need 4 args"
+    exit 1
+fi
+
+left= $1
+right= $2
+old= $3
+new= $4
+
+cp old new
+/usr/bin/meld left right new

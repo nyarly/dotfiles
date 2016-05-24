@@ -1,0 +1,12 @@
+#!/bin/env bash
+
+STARTING_BRANCH=$(git branch | grep '^[*]' | sed 's/^[*] *//')
+
+echo "Starting from:" $STARTING_BRANCH
+
+for branch in $*; do
+  branch=$(echo $branch | sed 's#.*/##')
+  git checkout -b $branch
+done
+
+git checkout $STARTING_BRANCH
