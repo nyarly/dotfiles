@@ -2,7 +2,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'gmarik/vundle'
 Plug 'sjl/gundo.vim'
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-fugitive'
 

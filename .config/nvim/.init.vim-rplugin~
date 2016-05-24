@@ -1,6 +1,6 @@
 " python3 plugins
-call remote#host#RegisterPlugin('python3', '/Users/jlester/.config/nvim/plugged/deoplete.nvim/rplugin/python3/deoplete', [
-      \ {'sync': v:true, 'name': '_deoplete', 'type': 'function', 'opts': {}},
+call remote#host#RegisterPlugin('python3', '/home/judson/.config/nvim/plugged/deoplete.nvim/rplugin/python3/deoplete', [
+      \ {'sync': 1, 'name': '_deoplete', 'opts': {}, 'type': 'function'},
      \ ])
 
 
