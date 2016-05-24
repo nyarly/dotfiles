@@ -1,4 +1,0 @@
-
-(process:5874): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
-
-(process:5874): GLib-CRITICAL **: g_variant_unref: assertion 'value->ref_count > 0' failed
