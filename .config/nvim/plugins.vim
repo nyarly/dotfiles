@@ -1,3 +1,7 @@
+function update_remote()
+  UpdateRemotePlugins
+endfunction
+
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'gmarik/vundle'
@@ -55,7 +59,7 @@ Plug 'rking/ag.vim'
 Plug 'fatih/vim-go'
 Plug 'godoctor/godoctor.vim'
 "Plug 'Shougo/neocomplete'
-Plug 'Shougo/deoplete.nvim'
+Plug 'Shougo/deoplete.nvim', { 'do': function('update_remote') }
 Plug 'zchee/deoplete-go', { 'do': 'make'}
 
 Plug 'rust-lang/rust.vim'
