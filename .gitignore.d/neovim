@@ -2,6 +2,7 @@
 !/.config
 !/.config/nvim
 !/.config/nvim/**
+/.config/nvim/.init.vim-rplugin~
 !/.gitignore.d
 !/.gitignore.d/neovim
 /.config/nvim/plugged

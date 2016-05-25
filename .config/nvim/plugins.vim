@@ -56,6 +56,7 @@ Plug 'fatih/vim-go'
 Plug 'godoctor/godoctor.vim'
 "Plug 'Shougo/neocomplete'
 Plug 'Shougo/deoplete.nvim'
+Plug 'zchee/deoplete-go', { 'do': 'make'}
 
 Plug 'rust-lang/rust.vim'
 
