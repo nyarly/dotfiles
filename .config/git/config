@@ -42,13 +42,9 @@
   gpgSign = if-asked
 
 [diff "rawtext"]
-  #textconv = "sed -e :a -e '/^\\\n*$/{$d;N;};/\\\n$/ba' | sed 's/\\s*$//'"
-  #textconv = "sed -e :a -e '/^\\n*$/{$d;N;ba' -e '}' | sed 's/[[:space:]]*$//'"
   textconv =    "~/.config/git/trimwhite.sh"
 
 [filter "trimwhite"]
-  #clean = "sed -e :a -e '/^\\\n*$/{$d;N;};/\\\n$/ba' | sed 's/\\s*$//'"
-  #clean =    "sed -e :a -e '/^\\n*$/{$d;N;ba' -e '}' | sed 's/[[:space:]]*$//'"
   clean =    "~/.config/git/trimwhite.sh"
 [help]
   autocorrect = -1
