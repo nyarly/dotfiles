@@ -1,1 +1,1 @@
-/home/judson/.config/fisherman/fasd/functions/zz.fish
+/Users/jlester/.config/fisherman/fasd/functions/zz.fish

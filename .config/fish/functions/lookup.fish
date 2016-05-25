@@ -1,1 +1,1 @@
-/home/judson/.config/fisherman/lookup/functions/lookup.fish
+/Users/jlester/.config/fisherman/lookup/functions/lookup.fish

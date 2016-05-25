@@ -1,1 +1,1 @@
-/home/judson/.config/fisherman/fasd/init.fish
+/Users/jlester/.config/fisherman/fasd/init.fish

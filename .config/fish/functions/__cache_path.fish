@@ -1,1 +1,1 @@
-/home/judson/.config/fisherman/cache-file/functions/__cache_path.fish
+/Users/jlester/.config/fisherman/cache-file/functions/__cache_path.fish
