@@ -1,5 +1,5 @@
 function __jira_issues
-  set -l username $JIRA_USERNAME
+	set -l username $JIRA_USERNAME
   set -l password $JIRA_PASSWORD
   set -l jql $JIRA_JQL
   set -l jarfile $JIRA_JARFILE
@@ -41,5 +41,5 @@ if test -z $jql
 end
 end
 
-java -jar "$jarfile" --server "$server" --user "$username" --password "$password" --action getIssueList --columns key,summary,status --jql "$jql $extra_jql" | sed -E 's/^"|"$//g' | awk -F '"*,"*' 'NR > 2 && NF == 3 { print $1 }'
+java -jar "$jarfile" --server "$server" --user "$username" --password "$password" --action getIssueList --columns key,summary,status --jql "$jql $extra_jql" | sed -E 's/^"|"$//g' | awk -F '"*,"*' 'NR > 2 && NF == 3 { print $1 "	" $2 " [" $3 "]" }'
 end
