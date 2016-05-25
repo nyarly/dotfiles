@@ -1,3 +1,3 @@
 [.config/vcsh/repo.d/neovim.git]
 checkout = vcsh clone git@git.lrdesign.com:judson/vcsh-neovim.git neovim
-fixups = nvim -u ~/.config/nvim/plugins.vim +PlugInstall +qall
+fixups = nvim -u ~/.config/nvim/plugins.vim +PlugInstall +UpdateRemotePlugins +qall && nvim +qall
