@@ -1,5 +1,11 @@
-function update_remote()
-  UpdateRemotePlugins
+function UpdateRemote(info)
+  if a:info.status == 'installed' || a:info.status == 'updated' || a:info.force
+    UpdateRemotePlugins
+  endif
+endfunction
+
+function InstallGo(info)
+  GoInstallBinaries
 endfunction
 
 call plug#begin('~/.config/nvim/plugged')
@@ -56,10 +62,9 @@ Plug 'mxw/vim-jsx'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'rking/ag.vim'
 
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'do': function('InstallGo') }
 Plug 'godoctor/godoctor.vim'
-"Plug 'Shougo/neocomplete'
-Plug 'Shougo/deoplete.nvim', { 'do': function('update_remote') }
+Plug 'Shougo/deoplete.nvim', { 'do': function('UpdateRemote') }
 Plug 'zchee/deoplete-go', { 'do': 'make'}
 
 Plug 'rust-lang/rust.vim'
