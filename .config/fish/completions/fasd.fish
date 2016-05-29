@@ -1,1 +1,1 @@
-/Users/jlester/.config/fisherman/fasd/completions/fasd.fish
+/home/judson/.config/fisherman/fasd/completions/fasd.fish
