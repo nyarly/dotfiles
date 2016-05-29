@@ -1,44 +1,58 @@
-out_to_x no
-own_window no
-out_to_console yes
-background no
-max_text_width 0
-double_buffer no
+-- vim: ts=4 sw=4 noet ai cindent syntax=lua
+--[[
+Conky, a system monitor, based on torsmo
 
-# Update interval in seconds
-update_interval 2.0
+Any original torsmo code is licensed under the BSD license
 
-temperature_unit fahrenheit
+All code written since the fork of torsmo is licensed under the GPL
 
-# This is the number of times Conky will update before quitting.
-# Set to zero to run forever.
-total_run_times 0
+Please see COPYING for details
 
-# Shortens units to a single character (kiB->k, GiB->G, etc.). Default is off.
-short_units yes
+Copyright (c) 2004, Hannu Saransaari and Lauri Hakkarainen
+Copyright (c) 2005-2012 Brenden Matthews, Philip Kovacs, et. al. (see AUTHORS)
+All rights reserved.
 
-# How strict should if_up be when testing an interface for being up?
-# The value is one of up, link or address, to check for the interface
-# being solely up, being up and having link or being up, having link
-# and an assigned IP address.
-if_up_strictness address
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-# Add spaces to keep things from moving about?  This only affects certain objects.
-# use_spacer should have an argument of left, right, or none
-use_spacer left
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# Force UTF8? note that UTF8 support required XFT
-override_utf8_locale no
 
-# number of cpu samples to average
-# set to 1 to disable averaging
-cpu_avg_samples 2
 
 # Stuff after 'TEXT' will be formatted on screen
 TEXT
 
 # JSON for i3bar
 
+
+]]
+
+conky.config = {
+	out_to_x = false,
+	own_window = false,
+	out_to_console = true,
+	background = false,
+	max_text_width = 0,
+	double_buffer = false,
+	update_interval = 2.0,
+	temperature_unit = "fahrenheit",
+	total_run_times = 0,
+	short_units = true,
+	if_up_strictness = "address",
+	use_spacer = "left",
+	override_utf8_locale = false,
+	cpu_avg_samples = 2,
+    net_avg_samples = 2,
+}
+
+conky.text = [[
  [\
   {\
     "full_text" : "Root ${fs_free /}  (${fs_free_perc /}%) Free",\
@@ -61,18 +75,22 @@ TEXT
   },\
   {\
     "full_text" : "${loadavg}",\
-    "urgency": ${if_match ${loadavg 1 }>2}"true"${else}"false"${endif},\
+    "urgency": ${if_match ${loadavg 1}>2}"true"${else}"false"${endif},\
     "color": ${if_match ${loadavg 1}>2}"\#ff0000"${else}"\#ffffff"${endif}\
   },\
   {\
     "full_text" : "Temp: ${acpitemp}°",\
-    "urgency": ${if_match ${acpitemp }>180}"true"${else}"false"${endif},\
+    "urgency": ${if_match ${acpitemp}>180}"true"${else}"false"${endif},\
     "color": ${if_match ${acpitemp}>180}"\#ff0000"${else}"\#ffffff"${endif}\
   },\
   { "full_text" : "Wifi: ${addrs wlan0}", "color" : "\#ffffff" },\
-${if_match ${addrs eth0} != "0.0.0.0"}\
+${if_match "${addrs eth0}" != "0.0.0.0"}\
   { "full_text" : "eth0: ${addrs eth0}", "color" : "\#ffffff" },\
 ${endif}\
   { "full_text" : "Power: ${battery_short BAT0} ${battery_time BAT0}" , "color" : "\#ffffff" },\
   { "full_text" : "${tztime US/Pacific %H:%M %b %e}", "color" : "\#ffffff" },\
-  { "full_text" : "${tztime UTC0 %H:%M}", "color" : "\#aaaaaa" },\
+  { "full_text" : "${tztime UTC0 %H:%M}", "color" : "\#aaaaaa" }\
+],
+
+
+]]
