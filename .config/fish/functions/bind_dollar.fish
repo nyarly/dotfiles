@@ -1,1 +1,1 @@
-/home/judson/.config/fisherman/bang-bang/functions/bind_dollar.fish
+../../../.config/fisherman/bang-bang/functions/bind_dollar.fish

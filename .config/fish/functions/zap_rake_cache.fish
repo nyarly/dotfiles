@@ -1,1 +1,1 @@
-/home/judson/.config/fisherman/rake-complete/functions/zap_rake_cache.fish
+../../../.config/fisherman/rake-complete/functions/zap_rake_cache.fish
