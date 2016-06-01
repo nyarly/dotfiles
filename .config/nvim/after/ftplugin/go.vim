@@ -13,3 +13,5 @@ endfunction
 silent! call s:SetMarks()
 
 map <Leader>i <C-\><C-n>'iO""<Left>
+
+set keywordprg=devdocs\ go
