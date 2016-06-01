@@ -7,8 +7,13 @@ function fish_prompt
     set -l prompt_bg eef
   end
 
+
+  term_bcolor 999
+  term_fcolor $prompt_bg
+  echo -n (date '+ %H:%M:%S ')
   term_bcolor $prompt_bg
   term_fcolor 999
+  echo -n ⮀
   __fixed_width_number $CMD_SECONDS
   status_glyph
   term_fcolor 3b1

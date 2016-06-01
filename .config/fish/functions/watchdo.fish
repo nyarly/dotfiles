@@ -11,9 +11,12 @@ function watchdo
   eval $command
 
   while true do
+    echo
     echo Watching $pattern
+    date '+ %H:%M:%S'
     fswatch -1ri "$pattern" -e '.*' .
 
+    date '+ %H:%M:%S'
     eval $command
     if [ $status -eq 0 ]
       notify Success "$command"
