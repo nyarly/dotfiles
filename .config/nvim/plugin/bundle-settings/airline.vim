@@ -34,6 +34,7 @@ let g:airline#extensions#branch#displayed_head_limit = 18
 let g:airline#extensions#branch#format = 2
 let g:airline#extensions#branch#format = 2
 let g:airline#extensions#tmuxline#snapshot_file = "~/.tmux-statusline-colors.conf"
+let g:airline#extensions#tmuxline#color_template = "insert"
 
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 let g:airline#extensions#tabline#show_close_button = 1
