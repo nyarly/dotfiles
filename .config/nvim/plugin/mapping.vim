@@ -33,11 +33,18 @@ function! ToggleDark()
   colorscheme solarized
 endfunction
 
+function! DoMake()
+  make
+  cwin
+endfunction
+
+tnoremap <A-n> <C-\><C-n><C-w>c
 tnoremap <A-x> <C-\><C-n><C-w>c
 tnoremap <A-h> <C-\><C-n><C-w>h
 tnoremap <A-j> <C-\><C-n><C-w>j
 tnoremap <A-k> <C-\><C-n><C-w>k
 tnoremap <A-l> <C-\><C-n><C-w>l
+nnoremap <A-n> <C-w>c
 nnoremap <A-x> <C-w>c
 nnoremap <A-h> <C-w>h
 nnoremap <A-j> <C-w>j
@@ -52,6 +59,7 @@ noremap <silent><Leader>] <Esc>:nohls<CR>
 noremap <silent><Leader>q <Esc>:nohls<CR>
 inoremap jk <Esc>
 inoremap jK <Esc>
+nnoremap MM :call DoMake()<CR>
 nnoremap / /\v
 vnoremap / /\v
 cmap w!! %!sudo tee > /dev/null %

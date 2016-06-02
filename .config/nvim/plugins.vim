@@ -66,6 +66,7 @@ Plug 'fatih/vim-go', { 'do': function('InstallGo') }
 Plug 'godoctor/godoctor.vim'
 Plug 'Shougo/deoplete.nvim', { 'do': function('UpdateRemote') }
 Plug 'zchee/deoplete-go', { 'do': 'make'}
+Plug 'Shougo/echodoc.vim'
 
 Plug 'rust-lang/rust.vim'
 
