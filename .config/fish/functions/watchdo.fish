@@ -20,8 +20,10 @@ function watchdo
     eval $command
     if [ $status -eq 0 ]
       notify Success "$command"
+      echo Success "$command"
     else
       notify Failure "$command"
+      echo Failure "$command"
     end
   end
 end
