@@ -76,3 +76,5 @@
 	server = https://opentable.atlassian.net
 [include]
   path = ./secret
+[gpg]
+	program = gpg2
