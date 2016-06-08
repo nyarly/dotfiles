@@ -17,6 +17,7 @@ function watchdo
     fswatch -1ri "$pattern" -e '.*' .
 
     date '+ %H:%M:%S'
+    echo '>' $command
     eval $command
     if [ $status -eq 0 ]
       notify Success "$command"
