@@ -1,1 +1,1 @@
-/home/judson/.config/fisherman/cache-file/functions/__cache_zap.fish
+../../../.config/fisherman/cache-file/functions/__cache_zap.fish

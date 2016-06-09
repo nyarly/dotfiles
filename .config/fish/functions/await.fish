@@ -1,1 +1,1 @@
-/home/judson/.config/fisherman/await/functions/await.fish
+../../../.config/fisherman/await/functions/await.fish

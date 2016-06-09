@@ -1,1 +1,1 @@
-/home/judson/.config/fisherman/fzf/functions/__fzf_install.fish
+../../../.config/fisherman/fzf/functions/__fzf_install.fish
