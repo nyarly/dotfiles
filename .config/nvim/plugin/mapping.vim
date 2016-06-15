@@ -38,6 +38,9 @@ function! DoMake()
   cwin
 endfunction
 
+"use gQ for Ex mode anyway
+map Q gq
+
 tnoremap <A-n> <C-\><C-n><C-w>c
 tnoremap <A-x> <C-\><C-n><C-w>c
 tnoremap <A-h> <C-\><C-n><C-w>h
@@ -51,6 +54,8 @@ nnoremap <A-j> <C-w>j
 nnoremap <A-k> <C-w>k
 nnoremap <A-l> <C-w>l
 nnoremap WW :TrimWhite<CR>:update<CR>
+nnoremap <C-w><C-w> <C-w><C-p>
+nnoremap <C-w>w <C-w><C-p>
 imap <C-W> <Esc>:
 imap <C-H> <C-O>h
 imap <C-J> <C-O>j
