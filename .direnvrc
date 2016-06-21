@@ -51,6 +51,11 @@ layout_rust() {
   export PROJECT_KIND=rust
 }
 
+layout_vim() {
+  export DIRENV_LAYOUT=vim
+  export PROJECT_KIND=vim
+}
+
 save_function layout_go old_layout_go
 layout_go() {
 #  old_layout_go
