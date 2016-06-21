@@ -1,11 +1,10 @@
 *
 !/.config
 !/.config/git
-!/.config/git/*
-.config/git/secret
+!/.config/git/config
+!/.config/git/ignore
+!/.config/git/trimwhite.sh
 !/.git_template
 !/.git_template/*
-!/.gitconfig
 !/.gitignore.d
 !/.gitignore.d/git
-*.sw?
