@@ -12,10 +12,23 @@ runtime! compiler/go.vim
 
 let current_compiler = "go-test"
 
+
+let wrapped=['#!/bin/bash',
+            \"filter='".
+            \'/^ok|^\?/ { lines = ""; print; next }; '.
+            \'/^FAIL[[:space:]][[:alnum:]]/ { print "BEGIN   " gp "/src/" $2; print lines; print "FAIL    " gp "/src/" $2; lines = ""; next }; '.
+            \'{ lines = lines "\n" $0 }'."'",
+            \'go test -short ./... | awk -v gp=$GOPATH "$filter"',
+            \'exit "${PIPESTATUS[0]}"'
+            \]
+
+call writefile(wrapped, "/tmp/go-test.sh")
+call system("chmod +x /tmp/go-test.sh")
+
 if filereadable("makefile") || filereadable("Makefile")
     CompilerSet makeprg=make\ test
 else
-    CompilerSet makeprg=go\ test\ -short\ ./...
+    CompilerSet makeprg=/tmp/go-test.sh
 endif
 
 let s:goerrs=&errorformat
@@ -24,12 +37,12 @@ let s:goerrs=&errorformat
 CompilerSet errorformat= ""
 "CompilerSet errorformat+= ""
 "
-CompilerSet errorformat=%E---\ FAIL:\ %m
-CompilerSet errorformat+=%C%\\s%#%\\S%#%[\	\ ]%#Error\ Trace:%\\s%#%f:%l "Error report
+CompilerSet errorformat+=%-DBEGIN\ \ \ %f
+CompilerSet errorformat+=%-XFAIL\ \ \ \ %f
+CompilerSet errorformat+=%E%\\s%#%\\S%#%[\	\ ]%#Error\ Trace:%\\s%#%f:%l "Error report
 CompilerSet errorformat+=%C%\\s%#%\\S%#%[\	\ ]%#Error%\\s%#%m "Error report
-CompilerSet errorformat+=%C%\\s%#%\\S%#%[\	\ ]%# "Error report
+CompilerSet errorformat+=%Z%\\s%#%\\S%#%[\	\ ]%# "Blank line ends a testify output
 CompilerSet errorformat+=%C%\\s%#%\\S%#%[\	\ ]%#%m "Error report
-CompilerSet errorformat+=%ZFAIL
 "
 CompilerSet errorformat+=%-G#\ %.%#                   " Ignore lines beginning with '#' ('# command-line-arguments' line sometimes appears?)
 CompilerSet errorformat+=%Ecan\'t\ load\ package:\ %m " Start of multiline error string is 'can\'t load package'
