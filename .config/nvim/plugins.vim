@@ -57,6 +57,7 @@ Plug 'jeroenbourgois/vim-actionscript'
 Plug 'kchmck/vim-coffee-script'
 
 Plug 'chrisbra/Colorizer'
+Plug 'vim-scripts/nginx.vim'
 
 Plug 'mxw/vim-jsx'
 Plug 'nathanaelkane/vim-indent-guides'
