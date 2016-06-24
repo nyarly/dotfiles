@@ -72,8 +72,8 @@
 
 [jira]
 	user = jlester
-	jarfile = /Users/jlester/Documents/Tools/atlassian-cli-5.3.0/lib/jira-cli-5.3.0.jar
 	server = https://opentable.atlassian.net
+  # password should be in ./secret
 [include]
   path = ./secret
 [gpg]
