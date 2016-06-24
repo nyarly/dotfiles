@@ -31,6 +31,12 @@ use_docker-machine(){
 #NEXT STEP: convert projects to use .direnvrc, and change out prompt.sh so that we check for bundler on entering the dir
 #bundle_setup should trigger a direnv update
 
+nix_shell(){
+  source <(nix-shell --run env | sed 's/=/="/' | sed 's/$/"/' | sed 's/^/export /')
+  watch_file shell.nix
+  watch_file default.nix
+}
+
 session_name(){
   export TMUX_SESSION_NAME="${*:?session_name needs a name as argument}"
 }
@@ -49,6 +55,11 @@ layout_erlang() {
 layout_rust() {
   export DIRENV_LAYOUT=rust
   export PROJECT_KIND=rust
+}
+
+layout_vim() {
+  export DIRENV_LAYOUT=vim
+  export PROJECT_KIND=vim
 }
 
 save_function layout_go old_layout_go
