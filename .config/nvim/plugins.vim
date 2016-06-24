@@ -1,10 +1,10 @@
-function UpdateRemote(info)
+function! UpdateRemote(info)
   if a:info.status == 'installed' || a:info.status == 'updated' || a:info.force
     UpdateRemotePlugins
   endif
 endfunction
 
-function InstallGo(info)
+function! InstallGo(info)
   GoInstallBinaries
 endfunction
 
@@ -39,6 +39,7 @@ Plug 'vim-scripts/rfc-syntax'
 Plug 'closetag.vim'
 Plug 'dag/vim-fish'
 Plug 'LnL7/vim-nix'
+Plug 'plasticboy/vim-markdown'
 
 Plug 'vim-airline/vim-airline'
 Plug 'edkolev/tmuxline.vim'
@@ -70,5 +71,7 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'Shougo/echodoc.vim'
 
 Plug 'rust-lang/rust.vim'
+
+Plug 'nyarly/jobmake'
 
 call plug#end()

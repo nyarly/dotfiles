@@ -64,7 +64,7 @@ noremap <silent><Leader>] <Esc>:nohls<CR>
 noremap <silent><Leader>q <Esc>:nohls<CR>
 inoremap jk <Esc>
 inoremap jK <Esc>
-nnoremap MM :call DoMake()<CR>
+nnoremap MM :Jmake<CR>
 nnoremap / /\v
 vnoremap / /\v
 cmap w!! %!sudo tee > /dev/null %
