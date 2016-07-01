@@ -6,6 +6,10 @@
 "
 set nocompatible
 
+if &shell =~# 'fish$'
+  set shell=/bin/sh
+endif
+
 runtime plugins.vim
 runtime! ftdetect/UltiSnips.vim
 
