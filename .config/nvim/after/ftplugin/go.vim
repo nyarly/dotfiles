@@ -12,6 +12,8 @@ endfunction
 
 silent! call s:SetMarks()
 
+compiler! go-test
+
 map <Leader>i <C-\><C-n>'iO""<Left>
 
 set keywordprg=devdocs\ go

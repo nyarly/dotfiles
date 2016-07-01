@@ -13,7 +13,7 @@ runtime! compiler/go.vim
 let current_compiler = "go-test"
 
 
-let wrapped=['#!/bin/bash',
+let wrapped=['#!/bin/sh',
             \"filter='".
             \'/^ok|^\?/ { lines = ""; print; next }; '.
             \'/^FAIL[[:space:]][[:alnum:]]/ { print "BEGIN   " gp "/src/" $2; print lines; print "FAIL    " gp "/src/" $2; lines = ""; next }; '.
@@ -56,12 +56,5 @@ CompilerSet errorformat+=%-G%.%#                      " All lines not matching a
 "endfor
 unlet s:goerrs
 
-"--- FAIL: TestRoundTrip (0.00s)
-"	assertions.go:225:                         	Error Trace:	image_mapping_test.go:61
-"			Error:		Not equal: "docker.repo.io/wackadoo@sha256:deadbeef1234567890" (expected)
-"			        != "docker.repo.io/wackadoo:version-1.2.3" (actual)
-"		
-"FAIL
 
-
-" vim:ts=4:sw=4:et
+" vim:ts=2:sw=2:et
