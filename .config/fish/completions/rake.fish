@@ -1,1 +1,1 @@
-../../../.config/fisherman/rake-complete/completions/rake.fish
+/home/judson/.config/fisherman/rake-complete/completions/rake.fish

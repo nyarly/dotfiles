@@ -1,1 +1,1 @@
-../../../.config/fisherman/fasd/functions/f.fish
+/home/judson/.config/fisherman/fasd/functions/f.fish

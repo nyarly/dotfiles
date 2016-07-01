@@ -8,6 +8,10 @@ function fish_user_key_bindings
     bind \e\[4~ end-of-line
     bind \e` clobber_history
     bind \es 'prepend_command sudo'
+    ### bang-bang ###
+    bind ! bind_bang
+    bind '$' bind_dollar
+    ### bang-bang ###
     ### fzf ###
     bind \ct '__fzf_ctrl_t'
     bind \cr '__fzf_ctrl_r'
@@ -20,8 +24,4 @@ function fish_user_key_bindings
         bind -M insert \ec '__fzf_alt_c'
     end
     ### fzf ###
-    ### bang-bang ###
-    bind ! bind_bang
-    bind '$' bind_dollar
-    ### bang-bang ###
 end

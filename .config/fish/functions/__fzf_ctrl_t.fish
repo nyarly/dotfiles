@@ -1,1 +1,1 @@
-../../../.config/fisherman/fzf/functions/__fzf_ctrl_t.fish
+/home/judson/.config/fisherman/fzf/functions/__fzf_ctrl_t.fish

@@ -1,1 +1,1 @@
-../../../.config/fisherman/cache-file/functions/__cache_dir.fish
+/home/judson/.config/fisherman/cache-file/functions/__cache_dir.fish
