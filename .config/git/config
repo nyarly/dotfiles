@@ -74,6 +74,7 @@
 [jira]
 	user = jlester
 	server = https://opentable.atlassian.net
+  # password should be in ./secret
 [include]
   path = ./secret
 [gpg]
