@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-set -x
-
 terms=$1
 shift
 while [ $# -gt 0 ]; do
