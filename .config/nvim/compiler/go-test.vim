@@ -27,26 +27,27 @@ call system("chmod +x /tmp/go-test.sh")
 
 if filereadable("makefile") || filereadable("Makefile")
     CompilerSet makeprg=make\ test
+elseif filereadable(".cadre/test")
+    CompilerSet makeprg=.cadre/test
 else
     CompilerSet makeprg=/tmp/go-test.sh
 endif
 
 let s:goerrs=&errorformat
 
-
 CompilerSet errorformat= ""
 "CompilerSet errorformat+= ""
 "
 CompilerSet errorformat+=%-DBEGIN\ \ \ %f
 CompilerSet errorformat+=%-XFAIL\ \ \ \ %f
+CompilerSet errorformat+=%E%\\s%#Error\ Trace:%\\s%#%f:%l " Error report
+CompilerSet errorformat+=%C%\\s%#Error%\\s%#%m            " Error report
 CompilerSet errorformat+=%A%f:%l:%c:\ %m                                      " Start of multiline unspecified string is 'filename:linenumber:columnnumber:'
 CompilerSet errorformat+=%A%f:%l:\ %m                                         " Start of multiline unspecified string is 'filename:linenumber:'
 CompilerSet errorformat+=%*\\sprevious\ declaration\ at\ %f:%l                " Previous declaration is useful
 CompilerSet errorformat+=%C%*\\s%m                                            " Continuation of multiline error message is indented
-CompilerSet errorformat+=%E%\\s%#%\\S%#%[\	\ ]%#Error\ Trace:%\\s%#%f:%l " Error report
-CompilerSet errorformat+=%C%\\s%#%\\S%#%[\	\ ]%#Error%\\s%#%m            " Error report
-CompilerSet errorformat+=%Z%\\s%#%\\S%#%[\	\ ]%#                         " Blank line ends a testify output
-CompilerSet errorformat+=%C%\\s%#%\\S%#%[\	\ ]%#%m                           " Error report
+CompilerSet errorformat+=%Z%\\s%#                         " Blank line ends a testify output
+CompilerSet errorformat+=%C%\\s%#%m                           " Error report
                                                                               "
 CompilerSet errorformat+=%-G#\ %.%#                                           " Ignore lines beginning with '#' ('# command-line-arguments' line sometimes appears?)
 CompilerSet errorformat+=%Ecan\'t\ load\ package:\ %m                         " Start of multiline error string is 'can\'t load package'
