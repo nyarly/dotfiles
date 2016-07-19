@@ -72,6 +72,7 @@ Plug 'Shougo/echodoc.vim'
 
 Plug 'rust-lang/rust.vim'
 
-Plug 'nyarly/jobmake'
+"Plug 'nyarly/jobmake'
+Plug '/home/judson/vim/jobmake'
 
 call plug#end()

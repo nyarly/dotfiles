@@ -26,6 +26,7 @@ set shortmess+=I
 set number
 set relativenumber
 set cursorline
+set noshowmode
 
 set title
 
