@@ -15,3 +15,6 @@ silent! call s:SetMarks()
 map <Leader>i <C-\><C-n>'iO""<Left>
 
 set keywordprg=devdocs\ go
+
+LegendEnable
+exec "au BufEnter,BufWinEnter ". expand('%:p') ." LegendEnable"
