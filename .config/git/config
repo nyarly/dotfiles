@@ -39,7 +39,6 @@
 [push]
   default = current
   followTags = true
-  gpgSign = if-asked
 
 [diff "rawtext"]
   textconv =    "~/.config/git/trimwhite.sh"
