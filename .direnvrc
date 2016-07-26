@@ -25,6 +25,9 @@ use_ruby(){
 
 use_docker-machine(){
   local env=${1:-default}
+  echo Docker machine: $env
+  local machine_cmd=$(docker-machine env --shell bash $env)
+
   eval $(docker-machine env --shell bash $env)
 }
 
