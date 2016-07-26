@@ -1,1 +1,0 @@
-/home/judson/.config/fisherman/rake-complete/completions/rake.fish

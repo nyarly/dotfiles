@@ -1,1 +1,0 @@
-/home/judson/.config/fisherman/lookup/functions/lookup.fish

@@ -1,1 +1,0 @@
-/home/judson/.config/fisherman/fasd/completions/sf.fish
