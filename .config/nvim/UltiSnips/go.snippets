@@ -7,3 +7,11 @@ endsnippet
 snippet	lf "Log a value" !b
 log.Printf("${2:${1/.*/$0/}} = %+v\n", $1)
 endsnippet
+
+snippet testa "Test with testify/assert" !b
+func Test${1:Something}(t *testing.T) {
+	assert := assert.New(t)
+
+	${0}
+}
+endsnippet
