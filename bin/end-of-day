@@ -1,6 +1,8 @@
 #!/usr/bin/env fish
 
+vcsh foreach status --porcelain
 vcsh status
+
 for d in (commute list)
   begin
     cd $d
