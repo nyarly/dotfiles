@@ -1,0 +1,11 @@
+#!/usr/bin/env fish
+
+vcsh status
+for d in (commute list)
+  begin
+    cd $d
+    pwd
+    git status --porcelain
+    git log --branches --not --remotes --oneline
+  end
+end
