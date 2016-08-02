@@ -2,7 +2,7 @@ remotes:
 - git@github.com:nyarly/commute.git
 - git@github.com:nyarly/sous.git
 - git@github.com:nyarly/legendary.git
-- git@github.com:nyarly/engulf
 - git@git.lrdesign.com:judson/blog.git
 - git@github.com:nyarly/jobmake.git
 - git@git.lrdesign.com:judson/tmux-pi.git
+- git@github.com:nyarly/engulf.git
