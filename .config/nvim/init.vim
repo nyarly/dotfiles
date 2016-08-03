@@ -27,6 +27,7 @@ set number
 set relativenumber
 set cursorline
 set noshowmode
+set foldlevelstart=2
 
 set title
 
