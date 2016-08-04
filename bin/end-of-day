@@ -1,6 +1,9 @@
 #!/usr/bin/env fish
 
-vcsh foreach status --porcelain
+for r in (vcsh list)
+  echo "$r: "
+  vcsh $r status --porcelain
+end
 vcsh status
 
 for d in (commute list)
