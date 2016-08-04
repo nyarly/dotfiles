@@ -6,3 +6,4 @@ remotes:
 - git@github.com:nyarly/jobmake.git
 - git@git.lrdesign.com:judson/tmux-pi.git
 - git@github.com:nyarly/engulf.git
+- git@github.com:nyarly/coerce
