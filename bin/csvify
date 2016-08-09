@@ -1,0 +1,4 @@
+#!/usr/bin/env fish
+
+set -l SEP ,
+exec awk -v OFS=$SEP '{ gsub(/$SEP/,""); gsub(/"/,""); $1=$1; print $0 }'
