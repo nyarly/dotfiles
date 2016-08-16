@@ -34,10 +34,17 @@ endif
 
 let s:goerrs=&errorformat
 
+" testing errorformat:
+" :set efm=|compiler go-test|cf
 
 CompilerSet errorformat= ""
 "CompilerSet errorformat+= ""
 "
+CompilerSet errorformat+=panic:%m                                           " First line of a panic
+CompilerSet errorformat+=%-G%\\s%#/usr/local/Cellar%.%#                     " Panic in go libs
+CompilerSet errorformat+=%-G%.%#vendor/%.%#                                 " Hrm. Excluding vendored libs...
+CompilerSet errorformat+=%\\s%#%f:%l\ +0x%\\d%#                             " Alternate lines of a panic
+
 CompilerSet errorformat+=%-DBEGIN\ \ \ %f
 CompilerSet errorformat+=%-XFAIL\ \ \ \ %f
 CompilerSet errorformat+=%E%\\s%#Error\ Trace:%\\s%#%f:%l " Error report
