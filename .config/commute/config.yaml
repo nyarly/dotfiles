@@ -7,3 +7,4 @@ remotes:
 - git@git.lrdesign.com:judson/tmux-pi.git
 - git@github.com:nyarly/engulf.git
 - git@github.com:nyarly/coerce
+- git@github.com:nyarly/rust-cryptopals.git
