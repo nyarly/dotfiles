@@ -4,7 +4,8 @@ function __jira_issues
   set -l jql $JIRA_JQL
   set -l jarfile $JIRA_JARFILE
   set -l server $JIRA_SERVER
-  set -l extra_jql 'and assignee = currentUser()'
+  set -l extra_jql 'and sprint in openSprints()'
+  #'and assignee = currentUser()'
 
   if test -z $username
     set username (git config --get jira.user)
