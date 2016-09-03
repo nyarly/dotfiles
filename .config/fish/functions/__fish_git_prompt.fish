@@ -2,7 +2,7 @@
 #
 # Written by Kevin Ballard <kevin@sb.org>
 # Updated by Brian Gernhardt <brian@gernhardtsoftware.com>
-#							
+#
 # This is heavily based off of the git-prompt.bash script that ships with
 # git, which is Copyright (C) 2006,2007 Shawn O. Pearce <spearce@spearce.org>.
 # The act of porting the code, along with any new code, are Copyright (C) 2012
@@ -425,7 +425,7 @@ function __fish_git_prompt --description "Prompt function for Git"
 	if test -n "$u"
 		set u "$___fish_git_prompt_color_untrackedfiles$u$___fish_git_prompt_color_untrackedfiles_done"
 	end
-	set b (echo $b | sed 's|refs/heads/||')
+	set b (echo $b | sed 's|refs/heads/||' | cut -c 1-16 | sed 's|[-_.]*$||' )
 	if test -n "$b"
 		set b "$branch_color$b$branch_done"
 	end
