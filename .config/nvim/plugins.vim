@@ -57,5 +57,6 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'Shougo/echodoc.vim'
 Plug 'rust-lang/rust.vim'
 Plug 'nyarly/jobmake'
+Plug 'tomtom/quickfixsigns_vim'
 
 call plug#end()
