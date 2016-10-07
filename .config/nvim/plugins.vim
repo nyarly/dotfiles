@@ -55,7 +55,7 @@ Plug 'godoctor/godoctor.vim'
 Plug 'Shougo/deoplete.nvim', { 'do': function('UpdateRemote') }
 Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'Shougo/echodoc.vim'
-Plug 'rust-lang/rust.vim', { 'for': ['rust'], 'do': 'cargo install rustfmt'}
+Plug 'rust-lang/rust.vim', { 'for': ['rust'], 'do': 'cargo install rustfmt \|\| true'}
 Plug 'nyarly/jobmake'
 Plug 'tomtom/quickfixsigns_vim'
 
