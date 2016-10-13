@@ -24,7 +24,7 @@ if [ ${#branches[*]} -ne 0 ]; then
   echo -n > $logfile
   for branch in ${branches[*]}; do
     #If we can delete the branch remotely, delete it locally
-    git push origin :$branch 2>> $logfile
+    git push $remote :$branch 2>> $logfile
     git branch -d $branch 2>> $logfile
   done
 
