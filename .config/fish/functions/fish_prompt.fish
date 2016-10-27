@@ -3,7 +3,7 @@ function fish_prompt
   switch (hostname)
   case "dijkstra"
     set -l prompt_bg e0e0e0
-  case  *
+  case  '*'
     set -l prompt_bg eef
   end
 
