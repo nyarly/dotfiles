@@ -8,28 +8,43 @@ if exists("current_compiler")
   finish
 endif
 
+if !exists("g:gotest_currentpackage")
+  let g:gotest_currentpackage = 1
+endif
+
 runtime! compiler/go.vim
 
 let current_compiler = "go-test"
 
 let wrapped=['#!/usr/bin/env bash',
-            \"filter='".
-            \'/^ok|^\?/ { lines = ""; print; next }; '.
-            \'/^FAIL[[:space:]][[:alnum:]]/ { print "BEGIN   " gp "/src/" $2; print lines; print "FAIL    " gp "/src/" $2; lines = ""; next }; '.
-            \'{ lines = lines "\n" $0 }'."'",
-            \'go test -short ./... | awk -v gp=$GOPATH "$filter"',
-            \'exit "${PIPESTATUS[0]}"'
-            \]
-
-call writefile(wrapped, "/tmp/go-test.sh")
-call system("chmod +x /tmp/go-test.sh")
+      \"package='./...'",
+      \"if [ $# -gt 0 ]; then",
+      \'  package="$1"',
+      \'fi',
+      \"filter='".
+      \'/^ok|^\?/ { lines = ""; print; next }; '.
+      \'/^FAIL[[:space:]][[:alnum:]]/ { print "BEGIN   " gp "/src/" $2; print lines; print "FAIL    " gp "/src/" $2; lines = ""; next }; '.
+      \'{ lines = lines "\n" $0 }'."'",
+      \'go test -short "./$package" | awk -v gp=$GOPATH "$filter"',
+      \'exit "${PIPESTATUS[0]}"'
+      \]
 
 if filereadable("makefile") || filereadable("Makefile")
-    CompilerSet makeprg=make\ test
+  CompilerSet makeprg=make\ test
 elseif filereadable(".cadre/test")
+  if g:gotest_currentpackage
+    CompilerSet makeprg=.cadre/test\ %:h
+  else
     CompilerSet makeprg=.cadre/test
+  endif
 else
+  call writefile(wrapped, "/tmp/go-test.sh")
+  call system("chmod +x /tmp/go-test.sh")
+  if g:gotest_currentpackage
+    CompilerSet makeprg=/tmp/go-test.sh\ %:h
+  else
     CompilerSet makeprg=/tmp/go-test.sh
+  endif
 endif
 
 let s:goerrs=&errorformat
@@ -55,7 +70,7 @@ CompilerSet errorformat+=%*\\sprevious\ declaration\ at\ %f:%l                " 
 CompilerSet errorformat+=%C%*\\s%m                                            " Continuation of multiline error message is indented
 CompilerSet errorformat+=%Z%\\s%#                         " Blank line ends a testify output
 CompilerSet errorformat+=%C%\\s%#%m                           " Error report
-                                                                              "
+"
 CompilerSet errorformat+=%-G#\ %.%#                                           " Ignore lines beginning with '#' ('# command-line-arguments' line sometimes appears?)
 CompilerSet errorformat+=%Ecan\'t\ load\ package:\ %m                         " Start of multiline error string is 'can\'t load package'
 CompilerSet errorformat+=%A%f:%l:%c:\ %m                                      " Start of multiline unspecified string is 'filename:linenumber:columnnumber:'
