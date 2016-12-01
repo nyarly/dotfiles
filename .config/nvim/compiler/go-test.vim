@@ -53,31 +53,32 @@ let s:goerrs=&errorformat
 " :set efm=|compiler go-test|cf
 
 CompilerSet errorformat= ""
-"CompilerSet errorformat+= ""
-"
+
 CompilerSet errorformat+=panic:%m                                           " First line of a panic
 CompilerSet errorformat+=%-G%\\s%#/usr/local/Cellar%.%#                     " Panic in go libs
 CompilerSet errorformat+=%-G%.%#vendor/%.%#                                 " Hrm. Excluding vendored libs...
 CompilerSet errorformat+=%\\s%#%f:%l\ +0x%\\d%#                             " Alternate lines of a panic
-
+"
 CompilerSet errorformat+=%-DBEGIN\ \ \ %f
 CompilerSet errorformat+=%-XFAIL\ \ \ \ %f
 CompilerSet errorformat+=%E%\\s%#Error\ Trace:%\\s%#%f:%l " Error report
 CompilerSet errorformat+=%C%\\s%#Error%\\s%#%m            " Error report
+
+CompilerSet errorformat+=%I%\\d%\\{4%\\}/%\\d%\\{2%\\}/%\\d%\\{2%\\}\ %\\d%\\{2%\\}:%\\d%\\{2%\\}:%\\d%\\{2%\\}\ %f:%l:\ %m                                      " Start of multiline unspecified string is 'filename:linenumber:columnnumber:'
 CompilerSet errorformat+=%A%f:%l:%c:\ %m                                      " Start of multiline unspecified string is 'filename:linenumber:columnnumber:'
 CompilerSet errorformat+=%A%f:%l:\ %m                                         " Start of multiline unspecified string is 'filename:linenumber:'
 CompilerSet errorformat+=%*\\sprevious\ declaration\ at\ %f:%l                " Previous declaration is useful
 CompilerSet errorformat+=%C%*\\s%m                                            " Continuation of multiline error message is indented
 CompilerSet errorformat+=%Z%\\s%#                         " Blank line ends a testify output
 CompilerSet errorformat+=%C%\\s%#%m                           " Error report
-"
+""
 CompilerSet errorformat+=%-G#\ %.%#                                           " Ignore lines beginning with '#' ('# command-line-arguments' line sometimes appears?)
 CompilerSet errorformat+=%Ecan\'t\ load\ package:\ %m                         " Start of multiline error string is 'can\'t load package'
 CompilerSet errorformat+=%A%f:%l:%c:\ %m                                      " Start of multiline unspecified string is 'filename:linenumber:columnnumber:'
 CompilerSet errorformat+=%A%f:%l:\ %m                                         " Start of multiline unspecified string is 'filename:linenumber:'
 CompilerSet errorformat+=%C%*\\s%m                                            " Continuation of multiline error message is indented
 CompilerSet errorformat+=%-G%.%#                                              " All lines not matching any of the above patterns are ignored
-
+"
 "for s:errf in split(s:goerrs, ",")
 "    exec "CompilerSet errorformat+=".escape(s:errf," \"\\\|")
 "endfor
