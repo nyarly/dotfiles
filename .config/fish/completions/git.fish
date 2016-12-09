@@ -1,11 +1,12 @@
 # extra fish completion for git
 
-if test -f /usr/share/fish/completions/git.fish
-  source /usr/share/fish/completions/git.fish
-end
+set -l pos (contains -i ~/.config/fish/completions $fish_complete_path)
 
-if test -f /usr/local/share/fish/completions/git.fish
-  source /usr/local/share/fish/completions/git.fish
+for dir in $fish_complete_path[(math $pos + 1)..-2]
+  if test -f $dir/git.fish
+    source $dir/git.fish
+    break
+  end
 end
 
 complete -f -c git -n '__fish_git_needs_command' -a savepoint-merge -d 'Merge a branch, creating a savepoint first'
