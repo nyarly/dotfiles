@@ -11,3 +11,4 @@ remotes:
 - git@github.com:nyarly/swaggering.git
 - git@github.com:opentable/go-singularity
 - git@github.com:opentable/otpl-sous-converter.git
+- git@github.com:opentable/otpl-sous-converter
