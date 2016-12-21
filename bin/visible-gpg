@@ -1,5 +1,0 @@
-#!/bin/sh
-# This is a thin wrapper on gpg for use with git so that the use of gpg is visible
-# (I space out a little bit during git operations, and so miss e.g. pinentry)
-set -x
-exec gpg2 ${*}
