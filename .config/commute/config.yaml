@@ -10,3 +10,4 @@ remotes:
 - git@github.com:nyarly/rust-cryptopals.git
 - git@github.com:nyarly/swaggering.git
 - git@github.com:opentable/go-singularity
+- git@github.com:opentable/otpl-sous-converter.git
