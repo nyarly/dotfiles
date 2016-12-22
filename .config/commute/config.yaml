@@ -6,7 +6,6 @@ remotes:
 - git@github.com:nyarly/jobmake.git
 - git@git.lrdesign.com:judson/tmux-pi.git
 - git@github.com:nyarly/engulf.git
-- git@github.com:nyarly/coerce
 - git@github.com:nyarly/rust-cryptopals.git
 - git@github.com:nyarly/swaggering.git
 - git@github.com:opentable/go-singularity
