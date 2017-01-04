@@ -1,6 +1,7 @@
 [core]
   fsyncobjectfiles = false
   excludesfile = ~/.config/git/ignore
+  sshCommand = proud-ssh
 [user]
   email = nyarly@gmail.com
   name = Judson

@@ -47,3 +47,5 @@ if $(echo $GIT_DIR | grep -qv '.config/vcsh/repo.d') && git status -s | grep '^\
   echo "Error: These files are untracked.  Add them to the repo or to .gitignore"
   exit 1
 fi
+
+echo "Commit acceptable. Signing..."
