@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+PROJ=$(pwd)
+while [ "$PROJ" != "/" ]; do
+  if [ -d "$PROJ/.git" ]; then
+    break
+  fi
+  PROJ=$(dirname "$PROJ")
+done
+
+package='...'
+if [ $# -gt 0 ]; then
+  package=$1
+fi
+
+go test "./$package" | awk -v gp="$GOPATH" -v proj="$PROJ" -f <(cat <<'EOF'
+/^ok|^\?/ { lines = ""; print; next };
+/^FAIL[[:space:]][[:alnum:]]/ { print proj; print "BEGIN   " gp "/src/" $2; print lines; print "FAIL    " gp "/src/" $2; lines = ""; next };
+{ gsub("^.*\\r", ""); gsub("^[^:]\+: " proj "/*", ""); lines = lines "\n" $0 };
+EOF
+)
+exit "${PIPESTATUS[0]}"
