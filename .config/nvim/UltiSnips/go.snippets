@@ -4,6 +4,13 @@ if err != nil {
 }
 endsnippet
 
+snippet errp "Error panic" !b
+if err != nil {
+	panic(err)
+}
+endsnippet
+
+
 snippet	lf "Log a value" !b
 log.Printf("${2:${1/.*/$0/}} = %+v\n", $1)
 endsnippet

@@ -29,14 +29,14 @@ let wrapped=['#!/usr/bin/env bash',
       \'exit "${PIPESTATUS[0]}"'
       \]
 
-if filereadable("makefile") || filereadable("Makefile")
-  CompilerSet makeprg=make\ test
-elseif filereadable(".cadre/test")
+if filereadable(".cadre/test")
   if g:gotest_currentpackage
     CompilerSet makeprg=.cadre/test\ %:h
   else
     CompilerSet makeprg=.cadre/test
   endif
+elseif filereadable("makefile") || filereadable("Makefile")
+  CompilerSet makeprg=make\ test
 else
   call writefile(wrapped, "/tmp/go-test.sh")
   call system("chmod +x /tmp/go-test.sh")
