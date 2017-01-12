@@ -5,6 +5,7 @@
 [user]
   email = nyarly@gmail.com
   name = Judson
+  signingkey = 54BF0B7D
 [branch]
   autosetupmerge = true
 [color]
