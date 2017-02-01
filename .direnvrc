@@ -124,3 +124,13 @@ add_extra_vimrc() {
     path_add EXTRA_VIM $extravim
   fi
 }
+
+append_gopath() {
+  local old_paths="${GOPATH:-${HOME}/go}"
+  local dir
+  dir=$(expand_path "${2:-$(pwd)}")
+
+  old_paths="$old_paths:$dir"
+
+  export "GOPATH=$old_paths"
+}
