@@ -13,10 +13,12 @@ if [ $# -gt 0 ]; then
   package=$1
 fi
 
-go test "./$package" | awk -v gp="$GOPATH" -v proj="$PROJ" -f <(cat <<'EOF'
+echo "Running in $PROJ for $package"
+
+go test -v "./$package" 2>&1 | awk -v gp="$GOPATH" -v proj="$PROJ" -f <(cat <<'EOF'
 /^ok|^\?/ { lines = ""; print; next };
 /^FAIL[[:space:]][[:alnum:]]/ { print proj; print "BEGIN   " gp "/src/" $2; print lines; print "FAIL    " gp "/src/" $2; lines = ""; next };
-{ gsub("^.*\\r", ""); gsub("^[^:]\+: " proj "/*", ""); lines = lines "\n" $0 };
+{ gsub("^.*\\r", ""); gsub("^[^:]\+: [0-9]{0,2}:[0-9]{0,2}:[0-9]{0,2} " proj "/*", ""); lines = lines "\n" $0 };
 EOF
 )
 exit "${PIPESTATUS[0]}"
