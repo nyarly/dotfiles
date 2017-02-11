@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-if egrep -qv '^#|^(\s|\[[^]]*\])*$' $1; then
+cp "$1" "$1.bak"
+
+if egrep -qv '^#|^(\s|\[[^]]*\])*$' "$1"; then
   echo -n ""
 else
   echo "Aborting commit due to empty commit message"
