@@ -1,12 +1,21 @@
 function __fish_git_prompt_informative_status
-	
-  set -l changedFiles (timeout 0.5 git diff --name-status | cut -c 1-2; or echo 0)
-  set -l stagedFiles (timeout 0.5 git diff --staged --name-status | cut -c 1-2; or echo 0)
+	set -l changedFiles
+  set -l stagedFiles
+  set -l untrackedfiles
+
+  if type -q timeout
+    set changedFiles (timeout 0.5 git diff --name-status | cut -c 1-2; or echo 0)
+    set stagedFiles (timeout 0.5 git diff --staged --name-status | cut -c 1-2; or echo 0)
+    set untrackedfiles (count (timeout 0.5 git ls-files --others --exclude-standard; or echo))
+  else
+    set changedFiles (git diff --name-status | cut -c 1-2; or echo 0)
+    set stagedFiles (git diff --staged --name-status | cut -c 1-2; or echo 0)
+    set untrackedfiles (count (git ls-files --others --exclude-standard; or echo))
+  end
 
   set -l dirtystate (math (count $changedFiles) - (count (echo $changedFiles | grep "U")))
   set -l invalidstate (count (echo $stagedFiles | grep "U"))
   set -l stagedstate (math (count $stagedFiles) - $invalidstate)
-  set -l untrackedfiles (count (timeout 0.5 git ls-files --others --exclude-standard; or echo))
 
   set -l info
 
