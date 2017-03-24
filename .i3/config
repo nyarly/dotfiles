@@ -302,8 +302,6 @@ for_window [instance="^chromium-browser-chromium \(\./\.chrome_dev_user\).*"] fl
 
 for_window [instance="^dzen$"] floating enable
 
-exec --no-startup-id ~/.config/xinit/autostart
-
 bindsym $mod+z exec --no-startup-id ~/.i3/scripts/splits-to-tabs.rb
 bindsym $gui+z exec --no-startup-id ~/.i3/scripts/splits-to-tabs.rb
 bindsym $mod+Shift+z exec --no-startup-id ~/.i3/scripts/tabs-to-splits.rb
