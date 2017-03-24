@@ -16,7 +16,9 @@ end
 
 # The shell is my partner - it needs tools too:
 eval (direnv hook fish)
-source /usr/local/share/chruby/chruby.fish
+if [ -f /usr/local/share/chruby/chruby.fish ]
+  source /usr/local/share/chruby/chruby.fish
+end
 
 source ~/.config/fish/functions/autotmux.fish
 source ~/.config/fish/functions/_run_fasd.fish
