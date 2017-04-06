@@ -58,5 +58,6 @@ Plug 'Shougo/echodoc.vim'
 Plug 'rust-lang/rust.vim', { 'for': ['rust'], 'do': 'cargo install rustfmt \|\| true'}
 Plug 'nyarly/jobmake'
 Plug 'tomtom/quickfixsigns_vim'
+Plug 'vito-c/jq.vim'
 
 call plug#end()

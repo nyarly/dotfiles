@@ -61,6 +61,8 @@ imap <C-J> <C-O>j
 imap <C-K> <C-O>k
 noremap <silent><Leader>] <Esc>:nohls<CR>
 noremap <silent><Leader>q <Esc>:nohls<CR>
+inoremap <Leader>a <Esc>:Ag <C-R><C-W><CR>
+nnoremap <Leader>a :Ag <C-R><C-W><CR>
 inoremap jk <Esc>
 inoremap jK <Esc>
 nnoremap MM :Jmake<CR>

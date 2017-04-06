@@ -35,3 +35,9 @@ toolchains
 auditable
 TeamCity
 workflow
+tarball
+symlinks
+tarballs
+github
+regex
+staticcheck
