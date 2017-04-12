@@ -14,3 +14,4 @@ remotes:
 - git@github.com:nyarly/cygnus.git
 - git@github.com:nyarly/palomino.git
 - git@github.com:opentable/sous-build-containers.git
+- git@github.com:nyarly/inlinefiles.git
