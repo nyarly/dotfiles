@@ -36,7 +36,7 @@ Plug 'dag/vim-fish'
 Plug 'LnL7/vim-nix'
 Plug 'plasticboy/vim-markdown'
 Plug 'vim-airline/vim-airline'
-Plug 'edkolev/tmuxline.vim'
+Plug 'grensjo/tmuxline.vim'
 Plug 'vim-airline/vim-airline-themes'
 "tagbar is maybe slow?
 Plug 'majutsushi/tagbar'
