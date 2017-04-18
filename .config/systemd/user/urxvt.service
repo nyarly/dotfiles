@@ -1,0 +1,10 @@
+[Unit]
+Description=Rxvt Unicode Daemon
+PartOf=graphical-session.target
+
+[Service]
+Environment=SHELL=fish
+ExecStart=/run/current-system/sw/bin/urxvtd -o
+
+[Install]
+WantedBy=graphical-session.target

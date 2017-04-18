@@ -1,0 +1,9 @@
+[Unit]
+Description=Network Manager Applet
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/run/current-system/sw/bin/nm-applet
+
+[Install]
+WantedBy=graphical-session.target

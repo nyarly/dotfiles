@@ -1,0 +1,9 @@
+[Unit]
+Description=Xmobar Status bar
+PartOf=xmonad.target
+
+[Service]
+ExecStart=/home/judson/.nix-profile/bin/xmobar
+
+[Install]
+WantedBy=xmonad.target

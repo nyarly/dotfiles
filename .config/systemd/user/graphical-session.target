@@ -1,0 +1,3 @@
+[Unit]
+Description=XSession is ready
+BindsTo=graphical-session.target
