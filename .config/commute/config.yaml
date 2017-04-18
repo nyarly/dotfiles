@@ -15,3 +15,4 @@ remotes:
 - git@github.com:nyarly/palomino.git
 - git@github.com:opentable/sous-build-containers.git
 - git@github.com:nyarly/inlinefiles.git
+- git@github.com:opentable/sous-demo.git
