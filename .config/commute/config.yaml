@@ -16,3 +16,5 @@ remotes:
 - git@github.com:opentable/sous-build-containers.git
 - git@github.com:nyarly/inlinefiles.git
 - git@github.com:opentable/sous-demo.git
+- git@github.com:nyarly/engulf
+- git@github.com:nyarly/mergetron.git
