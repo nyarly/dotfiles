@@ -42,3 +42,6 @@ let g:airline#extensions#tabline#show_close_button = 1
 
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_loaded  = 'not really but I want it disabled'
+
+let g:airline#extensions#promptline#snapshot_file = "~/.config/fish/shell_prompt.sh"
+let g:airline#extensions#promptline#enabled = 1
