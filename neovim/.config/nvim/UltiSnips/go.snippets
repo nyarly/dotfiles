@@ -1,0 +1,28 @@
+snippet errlf "Error log.Fatal" !b
+if err != nil {
+	log.Fatal(err)
+}
+endsnippet
+
+snippet errp "Error panic" !b
+if err != nil {
+	panic(err)
+}
+endsnippet
+
+
+snippet	lf "Log a value" !b
+log.Printf("${2:${1/.*/$0/}} = %+v\n", $1)
+endsnippet
+
+snippet testa "Test with testify/assert" !b
+func Test${1:Something}(t *testing.T) {
+	assert := assert.New(t)
+
+	${0}
+}
+endsnippet
+
+snippet	xv "Extracted variable"
+`!v getreg('.')` := `!v getreg('"')`
+endsnippet
