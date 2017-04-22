@@ -47,6 +47,13 @@ __(not done yet)__
 since it dotfiles can get added to your commute list
 so that you remember to do the `git push`.
 
+## Notes about the implementation
+
+Most of these repos are config files,
+and as such contain hidden files.
+**`ls -a` liberally!**
+
+
 ## Notes on specific branches
 
 `fish` requires that `git` be checked out properly -
