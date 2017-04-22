@@ -1,0 +1,8 @@
+[Unit]
+Description=Dropbox
+
+[Service]
+ExecStart=/home/judson/.nix-profile/bin/dropbox
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Nitrogen Wallpaper Setup
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/home/judson/.nix-profile/bin/nitrogen --restore
+
+[Install]
+WantedBy=graphical-session.target
