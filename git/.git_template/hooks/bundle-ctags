@@ -1,0 +1,9 @@
+#!/bin/sh
+mkdir .git/bundle_tags_lock 2>/dev/null || exit 0
+set -e
+PATH="/usr/local/bin:$PATH"
+GEM_PATHS=$(ruby -rbundler -e 'puts Bundler.load.specs.map(&:full_gem_path)' | grep -v 'gems/bundler-')
+trap "rmdir .git/bundle_tags_lock; rm -f .git/bundle-tags.$$" EXIT
+
+ctags --tag-relative -Rf.git/bundle-tags.$$ --exclude=.git --languages=-javascript,sql ${GEM_PATHS}
+mv .git/bundle-tags.$$ .git/bundle-tags

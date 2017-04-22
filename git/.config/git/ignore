@@ -1,0 +1,12 @@
+.envrc
+.ctrlp-root
+.vim-role
+.cadre
+.sw?
+!.swf
+failed_specs
+rspec_status
+*Session.vim
+gemset.nix
+shell.nix
+errors.err

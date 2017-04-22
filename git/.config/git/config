@@ -1,0 +1,85 @@
+[core]
+  fsyncobjectfiles = false
+  excludesfile = ~/.config/git/ignore
+  sshCommand = proud-ssh
+[user]
+  email = nyarly@gmail.com
+  name = Judson
+  signingkey = 54BF0B7D
+[branch]
+  autosetupmerge = true
+[color]
+  branch = true
+  diff = true
+  grep = true
+  interactive = true
+  status = true
+  ui = true
+[rerere]
+  enabled = true
+[init]
+  templatedir = ~/.git_template
+[alias]
+  ctags = !.git/hooks/ctags
+  bundle-tags = !.git/hooks/bundle-ctags
+  savepoint-merge = !~/bin/git-savepoint-merge
+  savepoint-complete = !~/bin/git-savepoint-complete
+  savepoint-reset = !~/bin/git-savepoint-reset
+  savepoint-zap = branch -d savepoint
+  localize-branches = !~/bin/git-localize-branches
+  go-root = !echo $(pwd) $GIT_PREFIX
+  pb = !pb
+  mt = mergetool
+  dt = difftool -d
+
+[bash]
+  showDirtyState = true
+
+[commit]
+  gpgSign = true
+
+[push]
+  default = current
+  followTags = true
+
+[diff "rawtext"]
+  textconv =    "~/.config/git/trimwhite.sh"
+
+[filter "trimwhite"]
+  clean =    "~/.config/git/trimwhite.sh"
+[help]
+  autocorrect = -1
+
+[interactive]
+  singlekey = true
+
+[merge]
+  tool = meld
+  conflictstyle = diff3
+
+[mergetool "mymeld"]
+  cmd = meld --diff $LOCAL $BASE $REMOTE --output=$MERGED --diff $BASE $LOCAL --diff $BASE $REMOTE
+
+[mergetool]
+  keepBackup = false
+  prompt = false
+
+[rebase]
+  autosquash = yes
+[diff]
+  tool = meld
+  rename = copy
+	algorithm = patience
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+
+[jira]
+	user = jlester
+	server = https://opentable.atlassian.net
+  # password should be in ./secret
+[include]
+  path = ./secret
+[gpg]
+	program = gpg2
+[github]
+	user = nyarly

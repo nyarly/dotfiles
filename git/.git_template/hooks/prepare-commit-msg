@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+file=$1
+source=$2
+#commit_sha=$3
+
+#exit if source == 'commit'
+if [ "${source}" == "commit" ]; then
+  exit 0
+fi
+
+path=$(git symbolic-ref HEAD)
+if [ $? -ne 0 ]; then
+  exit 0
+fi
+
+keyword_re="\[(fix|fixes|fixed|complete|completes|completed|finish|finishes|finished|deliver|delivers|delivered)\]"
+
+keyword=$(egrep "$keyword_re" "$file" | sed "s#.*\($keyword_re\).*#\1#")
+
+current=${path#refs/heads/}
+
+pivotals=$(git config --get-all "branch.${current}.pivotal-story" | sort -u)
+if [ $? -eq 0 ]; then
+  if echo "$pivotals" | egrep -q '[0-9]'; then
+    pivotal_tag="["
+    for number in $keyword $pivotals; do
+      pivotal_tag+=" #$number"
+    done
+    pivotal_tag+=" ]"
+
+    awk "/^#/ && !x {print \"$pivotal_tag\"; x=1} 1" "$file" > "$file.tmp"
+
+    mv "$file.tmp" "$file"
+  fi
+fi
+
+jiras=$(git config --get-all "branch.${current}.jira-ticket" | sort -u)
+if [ $? -eq 0 ]; then
+  smart_commit=""
+  for jira_id in $jiras; do
+    smart_commit+="$jira_id "
+  done
+  awk "/^#/ && !x {print \"$smart_commit\"; x=1} 1" "$file" > "$file.tmp"
+  mv "$file.tmp" "$file"
+fi

@@ -1,0 +1,10 @@
+*
+!/.config
+!/.config/git
+!/.config/git/config
+!/.config/git/ignore
+!/.config/git/trimwhite.sh
+!/.git_template
+!/.git_template/*
+!/.gitignore.d
+!/.gitignore.d/git
