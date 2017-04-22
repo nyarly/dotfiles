@@ -1,0 +1,4 @@
+[.config/vcsh/repo.d/vim.git]
+checkout = vcsh clone git@git.lrdesign.com:judson/vcsh-vim.git vim &&
+  vim -u ~/.vim/bundles.vim +BundleInstall +qall
+# No fixups= because Vundle is kind of slow, and vim takes over the console

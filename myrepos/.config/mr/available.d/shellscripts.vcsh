@@ -1,0 +1,2 @@
+[.config/vcsh/repo.d/shellscripts.git]
+checkout = vcsh clone git@git.lrdesign.com:judson/vcsh-shellscripts.git shellscripts

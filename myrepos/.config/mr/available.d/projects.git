@@ -1,0 +1,19 @@
+[rust/TVIDE/tmux-pi]
+checkout = git clone 'git@git.lrdesign.com:judson/tmux-pi.git' 'tmux-pi'
+
+[golang/src/github.com/opentable/sous]
+checkout = git clone 'git@github.com:nyarly/sous.git' 'sous'
+
+[Projects/blog]
+checkout = git clone 'git@git.lrdesign.com:judson/blog.git' 'blog'
+fixups = cd $MR_REPO && type bundle && bundle > /dev/null && echo "bundle successful"
+order = 20
+
+[golang/src/github.com/nyarly/mergetron]
+checkout = git clone 'git@github.com:nyarly/mergetron.git' 'mergetron'
+
+[/Users/jlester/Projects/fish/lookup]
+checkout = git clone 'git@github.com:nyarly/lookup.git' 'lookup'
+
+[/Users/jlester/Projects/fish/cache_file]
+checkout = git clone 'git@github.com:nyarly/cache_file.git' 'cache_file'

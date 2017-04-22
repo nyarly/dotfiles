@@ -1,0 +1,2 @@
+[.config/vcsh/repo.d/envrc.git]
+checkout = vcsh clone git@git.lrdesign.com:judson/vcsh-envrc.git envrc
