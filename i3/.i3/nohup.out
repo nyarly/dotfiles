@@ -1,0 +1,2345 @@
+[10239:10239:1124/104922:ERROR:browser_main_loop.cc(209)] GLib-GObject: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+[10239:10239:1124/104922:ERROR:browser_main_loop.cc(209)] GLib-GObject: Attempt to add property GtkSettings::gtk-entry-select-on-focus after class was initialised
+[10239:10239:1124/104922:ERROR:browser_main_loop.cc(209)] GLib-GObject: Attempt to add property GtkSettings::gtk-entry-password-hint-timeout after class was initialised
+[10239:10356:1124/104922:ERROR:nss_util.cc(819)] After loading Root Certs, loaded==false: NSS error code: -8018
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: option value of option force_s3tc_enable ignored.
+[10239:10239:1124/104922:ERROR:browser_main_loop.cc(209)] GLib-GObject: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1124/104923:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1124/105607:ERROR:browser_main_loop.cc(209)] GLib-GObject: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+[10239:10239:1124/105607:ERROR:browser_main_loop.cc(209)] GLib-GObject: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+[10239:10239:1124/105607:ERROR:browser_main_loop.cc(209)] GLib-GObject: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1124/115110:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 113
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1124/135714:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 147
+getrlimit(RLIMIT_NOFILE) failed
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1124/142453:ERROR:browser_main_loop.cc(209)] GLib-GObject: Attempt to add property GtkSettings::gtk-scrolled-window-placement after class was initialised
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1124/143241:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1124/144600:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1124/150248:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 261
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1124/162318:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1124/162455:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1124/162455:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 361
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1124/171138:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1124/171138:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 396
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1124/173403:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1124/173403:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 425
+[10239:10356:1124/173503:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1124/173544:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 434
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1124/200706:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1124/222637:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1124/225305:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 463
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1125/002427:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+No bp log location saved, using default.
+[000:000] Cpu: 6.42.7, x8, 2900Mhz, 8059MB
+[000:000] Computer model: Not available
+[000:007] Warning(clientchannel.cc:472): 0xb81b0e10: Unreadable or no port file.  Could not initiate GoogleTalkPlugin connection
+[000:007] 0xb81b0e10: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"error" : -1,
+		"step" : "0"
+	}
+]
+
+[000:009] Warning(clientchannel.cc:445): 0xb81b0e10: Could not initiate GoogleTalkPlugin connection
+[000:009] 0xb81b0e10: GoogleTalkPlugin not running. Starting new process...
+[000:009] Starting Flute
+[000:009] Warning(pluginutils.cc:268): Failed to get GoogleTalkPlugin path. Trying default.
+[000:012] Started GoogleTalkPlugin, path=/opt/google/talkplugin/GoogleTalkPlugin
+[000:012] 0xb81b0e10: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "2"
+	}
+]
+
+[000:013] 0xb81b0e10: Waiting for GoogleTalkPlugin to start...
+[001:106] 0xb81b0e10: Attempting to connect to GoogleTalkPlugin...
+[001:205] Read port file, port=50491
+[001:205] 0xb81b0e10: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "0"
+	}
+]
+
+[001:208] 0xb81957e0:  sending cookie 6pYwQnMoIdMm+0rB
+[001:208] 0xb81b0e10: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "1"
+	}
+]
+
+[001:209] 0xb81b0e10: Initiated connection to GoogleTalkPlugin
+[001:209] 0xb81b0e10: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "3"
+	}
+]
+
+[001:209] 0xb81b0e10: Socket connection established
+[001:209] 0xb81b0e10: ScheduleOnlineCheck: Online check in 5000ms
+[001:309] 0xb81957e0: Got cookie response, socket is authorized
+[001:309] 0xb81b0e10: AUTHORIZED; socket handshake complete
+[001:314] 0xb81b0e10: C->F: ["mf",2,{"appName":"docs","buildLabel":"chat_wcs_20141117.120048_RC4","setup_timeout":90000,"exps":["wvpp","tm","mef","tl","hvr","fcom","wvsmb","cpuadaptation","hmlb","vp","mtg","wvlb","hlssb","ols","ia","wvhb","pocm","wcaet","fiwb","fcaq","fcas","wvls","wts","hre","wvseus","bpd","wvlm","hc","wadc","wca","wv","wvvhb","spar","hmb","gii","msv","vnr","cc"],"jid":"judson@lrdesign.com","renderer":2,"useBrowserHttp":true,"o3dVersion":"0.1.44.29","domain":"0.talkgadget.google.com","useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.42 Safari/537.36","pluginversion":"5.38.5.0"}]
+[001:316] 0xb81b0e10: F->C: ["fs",{"pr":"a"}]
+[001:409] 0xb81b0e10: F->C: ["mf","mf5.38","5.38.5.0",2,{"audioCodecs":[[103,"ISAC",1,0,16000],[111,"opus",2,64000,48000],[104,"ISAC",1,0,32000],[9,"G722",1,64000,16000],[102,"ILBC",1,13300,8000],[0,"PCMU",1,64000,8000],[8,"PCMA",1,64000,8000],[106,"CN",1,0,32000],[105,"CN",1,0,16000],[13,"CN",1,0,8000],[127,"red",1,0,8000],[126,"telephone-event",1,0,8000]],"audioRtpHdrExts":[{"id":1,"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"bundle":1,"camDeviceName":"Lenovo EasyCamera","caps":15,"cpuAdaptVersion":1,"cpuArchitecture":0,"cpuCacheSize":6291456,"cpuFamily":6,"cpuFlags":["sse2","ssse3","sse4_1","sse4_2","avx"],"cpuHasSSE2":true,"cpuModel":42,"cpuSpeed":2900,"cpuStepping":7,"cpuVendor":"GenuineIntel","cpus":8,"cpusPhysical":4,"cryptoRandom":"LlSTcClCHDAL0KRucQGqeIHf","cryptoSuites":["AES_CM_128_HMAC_SHA1_80","AES_CM_128_HMAC_SHA1_32"],"dataChannelVersion":1,"effectsVersion":12,"gpuDescription":"","gpuDeviceId":0,"gpuDeviceName":"","gpuDriver":"","gpuDriverVersion":"","gpuVendorId":0,"iceVersion":1,"machineModel":"Not available","remotingAssistanceAllowed":1,"remotingVersion":1,"renderer":2,"rtcpMux":true,"screencast":2,"screencastLocalPreview":1,"supportsConcurrentSessions":true,"transports":["i","gice"],"unsignalledRecvStreams":2,"videoCodecs":[[100,"VP8",640,400,30],[116,"red",640,400,30],[117,"ulpfec",640,400,30],[96,"rtx",640,400,30,{"apt":"100"}]],"videoRtpHdrExts":[{"id":2,"uri":"urn:ietf:params:rtp-hdrext:toffset"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"vsVersion":1}]
+[001:421] 0xb81b0e10: C->F: ["getdevicestate"]
+[001:422] 0xb81b0e10: F->C: ["getproxyforurl",{"url":"https://relay.google.com/"}]
+[001:422] Error(clientchannel.cc:551): 0xb81b0e10: Failed getting proxy settings: ["getproxyforurl",{"url":"https://relay.google.com/"}]
+[001:509] 0xb81b0e10: F->C: ["getdevicestate","15","1",["__default_device","Built-in Audio Analog Stereo"],"0",["__default_device","Built-in Audio Analog Stereo"],"0",["Lenovo EasyCamera"]]
+[001:585] 0xb81b0e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRCY7/nMnikaEEjBg1Nrsm8N3M1tScE5bpQ=",["relay.google.com","19305","19305","443"]]]
+[001:900] 0xb81b0e10: C->F: ["jec",[[96,"H264-SVC",1280,800,30]],{"num_threads":-1,"cpu_profile":61}]
+[006:216] 0xb81b0e10: HandleOnlineCheck: Starting check
+[006:216] 0xb81b0e10: HandleOnlineCheck: OK; current state: 3
+[10239:10410:1125/092019:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+[10239:10410:1125/101501:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/113633:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/120355:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/120510:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/122956:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1125/122956:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 694
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/124420:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+No bp log location saved, using default.
+[000:000] Cpu: 6.42.7, x8, 2900Mhz, 8059MB
+[000:001] Computer model: Not available
+[000:008] Warning(clientchannel.cc:472): 0xb7e83e10: Unreadable or no port file.  Could not initiate GoogleTalkPlugin connection
+[000:008] 0xb7e83e10: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"error" : -1,
+		"step" : "0"
+	}
+]
+
+[000:010] Warning(clientchannel.cc:445): 0xb7e83e10: Could not initiate GoogleTalkPlugin connection
+[000:010] 0xb7e83e10: GoogleTalkPlugin not running. Starting new process...
+[000:010] Starting Flute
+[000:010] Warning(pluginutils.cc:268): Failed to get GoogleTalkPlugin path. Trying default.
+[000:013] Started GoogleTalkPlugin, path=/opt/google/talkplugin/GoogleTalkPlugin
+[000:013] 0xb7e83e10: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "2"
+	}
+]
+
+[000:014] 0xb7e83e10: Waiting for GoogleTalkPlugin to start...
+[001:107] 0xb7e83e10: Attempting to connect to GoogleTalkPlugin...
+[001:107] Read port file, port=37233
+[001:107] 0xb7e83e10: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "0"
+	}
+]
+
+[001:109] 0xb7e687e0:  sending cookie lFJZ+OvCJc4vzgWr
+[001:109] 0xb7e83e10: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "1"
+	}
+]
+
+[001:110] 0xb7e83e10: Initiated connection to GoogleTalkPlugin
+[001:207] 0xb7e83e10: SendConnectStatus: Connect Status: 
+[
+	"f-connect",
+	
+	{
+		"step" : "3"
+	}
+]
+
+[001:208] 0xb7e83e10: Socket connection established
+[001:225] 0xb7e83e10: ScheduleOnlineCheck: Online check in 5000ms
+[001:307] 0xb7e687e0: Got cookie response, socket is authorized
+[001:308] 0xb7e83e10: AUTHORIZED; socket handshake complete
+[001:313] 0xb7e83e10: C->F: ["mf",2,{"appName":"docs","buildLabel":"chat_wcs_20141117.120048_RC4","setup_timeout":90000,"exps":["wvpp","tm","mef","tl","hvr","fcom","wvsmb","cpuadaptation","hmlb","vp","mtg","wvlb","hlssb","ols","ia","wvhb","pocm","wcaet","fiwb","fcaq","fcas","wvls","wts","hre","wvseus","bpd","wvlm","hc","wadc","wca","wv","wvvhb","spar","hmb","gii","msv","vnr","cc"],"jid":"judson@lrdesign.com","renderer":2,"useBrowserHttp":true,"o3dVersion":"0.1.44.29","domain":"0.talkgadget.google.com","useragent":"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.42 Safari/537.36","pluginversion":"5.38.5.0"}]
+[001:315] 0xb7e83e10: F->C: ["fs",{"pr":"a"}]
+[001:407] 0xb7e83e10: F->C: ["mf","mf5.38","5.38.5.0",2,{"audioCodecs":[[103,"ISAC",1,0,16000],[111,"opus",2,64000,48000],[104,"ISAC",1,0,32000],[9,"G722",1,64000,16000],[102,"ILBC",1,13300,8000],[0,"PCMU",1,64000,8000],[8,"PCMA",1,64000,8000],[106,"CN",1,0,32000],[105,"CN",1,0,16000],[13,"CN",1,0,8000],[127,"red",1,0,8000],[126,"telephone-event",1,0,8000]],"audioRtpHdrExts":[{"id":1,"uri":"urn:ietf:params:rtp-hdrext:ssrc-audio-level"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"bundle":1,"camDeviceName":"Lenovo EasyCamera","caps":15,"cpuAdaptVersion":1,"cpuArchitecture":0,"cpuCacheSize":6291456,"cpuFamily":6,"cpuFlags":["sse2","ssse3","sse4_1","sse4_2","avx"],"cpuHasSSE2":true,"cpuModel":42,"cpuSpeed":2900,"cpuStepping":7,"cpuVendor":"GenuineIntel","cpus":8,"cpusPhysical":4,"cryptoRandom":"HyxfIMnjs6BeEJUKZfVDw5B6","cryptoSuites":["AES_CM_128_HMAC_SHA1_80","AES_CM_128_HMAC_SHA1_32"],"dataChannelVersion":1,"effectsVersion":12,"gpuDescription":"","gpuDeviceId":0,"gpuDeviceName":"","gpuDriver":"","gpuDriverVersion":"","gpuVendorId":0,"iceVersion":1,"machineModel":"Not available","remotingAssistanceAllowed":1,"remotingVersion":1,"renderer":2,"rtcpMux":true,"screencast":2,"screencastLocalPreview":1,"supportsConcurrentSessions":true,"transports":["i","gice"],"unsignalledRecvStreams":2,"videoCodecs":[[100,"VP8",640,400,30],[116,"red",640,400,30],[117,"ulpfec",640,400,30],[96,"rtx",640,400,30,{"apt":"100"}]],"videoRtpHdrExts":[{"id":2,"uri":"urn:ietf:params:rtp-hdrext:toffset"},{"id":3,"uri":"http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time"}],"vsVersion":1}]
+[001:416] 0xb7e83e10: C->F: ["getdevicestate"]
+[001:416] 0xb7e83e10: F->C: ["getproxyforurl",{"url":"https://relay.google.com/"}]
+[001:416] Error(clientchannel.cc:551): 0xb7e83e10: Failed getting proxy settings: ["getproxyforurl",{"url":"https://relay.google.com/"}]
+[001:508] 0xb7e83e10: F->C: ["getdevicestate","15","1",["__default_device","Built-in Audio Analog Stereo"],"0",["__default_device","Built-in Audio Analog Stereo"],"0",["Lenovo EasyCamera"]]
+[002:893] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRCurpTUnikaEDtDr+HTcguYBbBQIT7l4E8=",["relay.google.com","19305","19305","443"]]]
+[002:894] 0xb7e83e10: C->F: ["jec",[[96,"H264-SVC",1280,800,30]],{"num_threads":-1,"cpu_profile":61}]
+[006:314] 0xb7e83e10: HandleOnlineCheck: Starting check
+[006:315] 0xb7e83e10: HandleOnlineCheck: OK; current state: 3
+[10239:10410:1125/132732:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1125/141549:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1125/161823:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 804
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/162149:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[14693:245] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRCAgJXbnikaEKQmp5EWMSTDuS0W1SKhT8U=",["relay.google.com","19305","19305","443"]]]
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/172257:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1125/172333:ERROR:CONSOLE(0)] "Application Cache Error event: Manifest changed during update", source: https://www.google.com/_/chrome/newtab?espv=2&es_th=1&ie=UTF-8 (0)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/172335:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1125/173001:ERROR:CONSOLE(0)] "Application Cache Error event: Manifest changed during update", source: https://www.google.com/_/chrome/newtab?espv=2&es_th=1&ie=UTF-8 (0)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/194004:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[29369:915] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRCz5ZTinikaEI0GjjGgiIktREzHKxPp5jE=",["relay.google.com","19305","19305","443"]]]
+[29369:971] Warning(logging.cc:195): Slow log: took 56ms to write 325 bytes.
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/212320:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/212556:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/213218:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1125/213218:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 1083
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1125/213805:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 1091
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/214420:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/214720:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1125/214720:ERROR:navigation_entry_screenshot_manager.cc(152)] Invalid entry with unique id: 1121
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/223012:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1125/223058:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10410:1126/001921:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[43796:338] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRCaqIXpnikaEHCezn48uNTW5UwajnaHYsc=",["relay.google.com","19305","19305","443"]]]
+[58496:595] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRD9xYbwnikaEGN2rFDGPBD5FJ301UJV9v8=",["relay.google.com","19305","19305","443"]]]
+[10239:10356:1126/065528:ERROR:socket_stream.cc(208)] Closing stream with result -100
+[10239:10356:1126/072632:ERROR:socket_stream.cc(208)] Closing stream with result -100
+[72911:006] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRDGqvb2nikaEB9sQsn/R9zfipagg5UihA4=",["relay.google.com","19305","19305","443"]]]
+[10239:10410:1126/091757:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1126/101235:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1126/102452:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1126/105303:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1126/113132:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1126/120429:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10356:1126/121351:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1126/131206:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[87580:037] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRDs0/X9nikaECdbYxsf0SsmaLrIpy8VgvA=",["relay.google.com","19305","19305","443"]]]
+[10239:10410:1126/140358:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1126/143119:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+Fontconfig error: Cannot load default config file
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1126/144336:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1126/150358:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1126/153443:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1126/155633:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1126/165012:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+Fontconfig error: Cannot load default config file
+[101998:892] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRCP2OWEnykaED6RAo1hyFFrvkp1uaIaD/M=",["relay.google.com","19305","19305","443"]]]
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1126/184828:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1126/202826:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[116425:955] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRDXotaLnykaEIHSOiEiVRp7Tzx4bN+EjyE=",["relay.google.com","19305","19305","443"]]]
+[10239:10410:1126/223322:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1127/002904:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[130872:183] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRChgMiSnykaEFegmdwYf+iUrY7542GQZqo=",["relay.google.com","19305","19305","443"]]]
+[145297:034] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRCbtriZnykaELrStEKDopMeld6lIi0iw/0=",["relay.google.com","19305","19305","443"]]]
+[10239:10410:1127/070021:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[159730:140] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRCBramgnykaEMeIw7n+hKxRGVrivP+63+8=",["relay.google.com","19305","19305","443"]]]
+[10239:10410:1127/100434:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1127/130245:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1127/130302:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[174136:307] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRCI0ZinnykaEGfBNeWbnNti/jS0RD4ePhc=",["relay.google.com","19305","19305","443"]]]
+[188815:862] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRD1zJiunykaEJpdnB+AC7osKUY0v2Q7glA=",["relay.google.com","19305","19305","443"]]]
+[10239:10410:1127/174543:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1127/180057:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[203255:924] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRCJ+om1nykaEMdHg+3npQBdfu67UtnhN2g=",["relay.google.com","19305","19305","443"]]]
+[217880:638] 0xb7e83e10: C->F: ["jf",[["stun.l.google.com","19302"],["alt4.stun.l.google.com","19302"],["alt2.stun.l.google.com","19302"],["alt1.stun.l.google.com","19302"],["alt3.stun.l.google.com","19302"]],["CAESHAoTanVkc29uQGxyZGVzaWduLmNvbRDAyYa8nykaEDDOel/F+pequDtLz+WiotM=",["relay.google.com","19305","19305","443"]]]
+[10239:10410:1128/040012:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1128/094349:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1128/143607:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1128/155316:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1128/164547:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1128/165207:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1128/171430:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1128/171654:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1128/172607:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1128/202922:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1128/224639:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1129/001659:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1129/043311:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1129/115208:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1129/144607:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1129/153442:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10356:1129/153902:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1129/165621:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1129/175250:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1129/205517:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1129/215519:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10356:1129/222819:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1129/224356:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1129/230955:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1129/231440:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10410:1130/034944:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1130/074944:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:861:1130/132207:ERROR:cert_verify_proc_nss.cc(886)] CERT_PKIXVerifyCert for cdn.ghostery.com failed err=-8181
+[10239:10410:1130/132733:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:861:1130/135207:ERROR:cert_verify_proc_nss.cc(886)] CERT_PKIXVerifyCert for cdn.ghostery.com failed err=-8181
+[10239:861:1130/142707:ERROR:cert_verify_proc_nss.cc(886)] CERT_PKIXVerifyCert for cdn.ghostery.com failed err=-8181
+[10239:10410:1130/171730:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1130/181613:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1130/190608:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1130/204106:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1130/212048:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1130/222607:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1201/003809:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1201/015120:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1201/022207:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1201/071911:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+Fontconfig error: Cannot load default config file
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+Fontconfig error: Cannot load default config file
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1201/112230:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10410:1201/112450:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1201/120613:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1201/121753:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1201/135813:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+Fontconfig error: Cannot load default config file
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1201/140754:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1201/141005:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+Fontconfig error: Cannot load default config file
+[10239:10356:1201/144102:ERROR:mcs_client.cc(693)] Received close command, resetting connection.
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1201/174834:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1201/182147:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+Fontconfig error: Cannot load default config file
+[10239:10356:1201/194008:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+Fontconfig error: Cannot load default config file
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1201/195342:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10410:1202/032001:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1202/113048:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1202/113438:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1202/141616:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1202/143136:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1202/152847:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1202/161859:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1202/162339:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10356:1202/162347:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1202/165553:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1203/071631:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1203/105307:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1203/105347:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1203/115252:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1203/122353:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1203/125420:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1203/134105:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1203/142007:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+Fontconfig error: Cannot load default config file
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1203/165605:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1203/193911:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10356:1204/024307:ERROR:socket_stream.cc(208)] Closing stream with result -100
+[10239:10356:1204/024951:ERROR:socket_stream.cc(208)] Closing stream with result -100
+[10239:10356:1204/081623:ERROR:socket_stream.cc(208)] Closing stream with result -100
+[10239:10410:1204/091226:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1204/095958:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10356:1204/102537:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1204/104550:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)
+[10239:10356:1204/104550:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1204/105749:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/105954:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/110621:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/111206:ERROR:socket_stream.cc(208)] Closing stream with result -100
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/111530:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/111929:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1204/115746:ERROR:CONSOLE(61)] "Uncaught Database not available", source: https://www.google.com/xjs/_/js/k=xjs.ntp.en_US.leY7shcau38.O/m=jsa,ntp,pcc,csi/rt=j/d=1/t=zcms/rs=ACT90oH_EYsyGIUvzPOAyIx2jTJsNrzejg (61)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/115747:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/120523:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/121811:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/124009:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/125038:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/141811:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1204/145717:ERROR:CONSOLE(61)] "Uncaught Database not available", source: https://www.google.com/xjs/_/js/k=xjs.ntp.en_US.leY7shcau38.O/m=jsa,ntp,pcc,csi/rt=j/d=1/t=zcms/rs=ACT90oH_EYsyGIUvzPOAyIx2jTJsNrzejg (61)
+[10239:10356:1204/145717:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/165306:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/172858:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1204/174358:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1204/185656:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1204/205746:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1204/220659:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1205/093114:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1205/100539:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1205/112641:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1205/115821:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1205/123357:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1205/132608:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1205/155050:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1205/165222:ERROR:CONSOLE(0)] "Application Cache Error event: Manifest changed during update", source: https://www.google.com/_/chrome/newtab?espv=2&es_th=1&ie=UTF-8 (0)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1205/200625:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1205/201009:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10356:1205/202518:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1205/203020:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+Fontconfig error: Cannot load default config file
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1206/003802:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1206/101036:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1206/121451:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1206/125739:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10410:1206/191808:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1206/231811:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1207/042710:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1207/082710:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1207/092633:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1207/132515:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10410:1207/151749:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1207/162608:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1207/175759:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1207/195715:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10356:1207/201653:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10410:1207/203108:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1207/215653:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1207/224048:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1208/025813:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1208/065814:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1208/094730:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1208/100225:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+WARNING: no real random source present!
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1208/120032:ERROR:CONSOLE(61)] "Uncaught Database not available", source: https://www.google.com/xjs/_/js/k=xjs.ntp.en_US.leY7shcau38.O/m=jsa,ntp,pcc,csi/rt=j/d=1/t=zcms/rs=ACT90oH_EYsyGIUvzPOAyIx2jTJsNrzejg (61)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[WARNING:flash/platform/pepper/pep_url_request_info.cpp(219)] Missing colon in HTTP header line "".
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1208/134727:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+Fontconfig error: Cannot load default config file
+[10239:10356:1208/135504:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1208/143403:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1208/175725:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1209/000648:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1209/052727:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1209/092728:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1209/095216:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1209/100206:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1209/113411:ERROR:CONSOLE(0)] "Application Cache Error event: Manifest changed during update", source: https://www.google.com/_/chrome/newtab?espv=2&es_th=1&ie=UTF-8 (0)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10350:1209/113538:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/113538:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/113559:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/113559:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/113608:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/113608:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/113635:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/113635:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/113648:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/113648:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/113715:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/113716:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/113735:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/113738:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/113806:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/113812:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/113815:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/113816:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/113838:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/113840:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/113903:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/113904:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/113909:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/113913:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/113935:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/113935:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/113941:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/113952:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/114012:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114015:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114017:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/114019:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114044:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114044:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/114114:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/114114:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114116:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114121:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114150:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114151:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/114203:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/114204:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114225:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114229:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/114235:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/114235:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/114311:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114315:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/114317:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114317:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/114343:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/114346:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/114349:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/114349:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/114413:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/114422:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/114427:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/114427:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114447:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114503:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114507:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114508:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114521:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114528:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/114553:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/114553:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/114603:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/114604:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114636:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114642:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114715:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/114715:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/114717:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114718:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/114748:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114753:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/114815:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/114815:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/114816:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/114821:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/114846:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114848:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/114850:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/114851:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/114925:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/114930:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115005:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115005:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/115015:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/115015:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115042:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115050:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/115115:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/115117:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/115117:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/115120:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/115148:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/115153:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115155:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115155:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/115235:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/115235:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115250:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115300:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/115326:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/115327:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/115400:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/115400:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/115404:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/115407:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115435:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115436:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/115438:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/115501:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/115508:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/115511:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/115515:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/115516:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/115538:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/115544:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115611:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115611:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/115615:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/115616:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115644:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115648:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115711:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115712:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/115721:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/115721:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10408:1209/115751:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10239:1209/115752:ERROR:CONSOLE(61)] "Uncaught Database not available", source: https://www.google.com/xjs/_/js/k=xjs.ntp.en_US.leY7shcau38.O/m=jsa,ntp,pcc,csi/rt=j/d=1/t=zcms/rs=ACT90oH_EYsyGIUvzPOAyIx2jTJsNrzejg (61)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10351:1209/115753:ERROR:connection.cc(1060)] Quota sqlite error 778, errno 0: disk I/O error, sql: UPDATE OriginInfoTable SET last_modified_time = ? WHERE origin = ? AND type = ?
+[10239:10359:1209/115754:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115756:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10351:1209/115758:ERROR:connection.cc(1060)] Predictor sqlite error 778, errno 0: disk I/O error, sql: UPDATE network_action_predictor SET id=?, user_text=?, url=?, number_of_hits=?, number_of_misses=? WHERE id=?1
+[10239:10351:1209/115758:ERROR:connection.cc(1060)] Predictor sqlite error 1, errno 0: SQL logic error or missing database, sql: ROLLBACK
+[10239:10356:1209/115759:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10408:1209/115802:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10351:1209/115821:ERROR:connection.cc(1060)] Quota sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115821:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115825:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115835:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115835:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/115858:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/115905:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/115915:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/115915:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/115928:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/115928:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120002:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120006:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/120011:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/120011:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10351:1209/120023:ERROR:connection.cc(1060)] Quota sqlite error 778, errno 0: disk I/O error, sql: UPDATE OriginInfoTable SET used_count = ?, last_access_time = ? WHERE origin = ? AND type = ?
+[10239:10239:1209/120023:ERROR:CONSOLE(64)] "Uncaught Database not available", source: https://www.google.com/xjs/_/js/k=xjs.ntp.en_US.EVofKHTMGNs.O/m=jsa,ntp,pcc,csi/rt=j/d=1/t=zcms/rs=ACT90oEJQneP3HaZA_H0B6Fi54gvLhrqDw (64)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10351:1209/120027:ERROR:connection.cc(1060)] Predictor sqlite error 778, errno 0: disk I/O error, sql: UPDATE network_action_predictor SET id=?, user_text=?, url=?, number_of_hits=?, number_of_misses=? WHERE id=?1
+[10239:10351:1209/120027:ERROR:connection.cc(1060)] Predictor sqlite error 1, errno 0: SQL logic error or missing database, sql: ROLLBACK
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10408:1209/120046:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10351:1209/120052:ERROR:connection.cc(1060)] Quota sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120055:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10351:1209/120056:ERROR:connection.cc(1060)] Quota sqlite error 778, errno 0: disk I/O error, sql: UPDATE OriginInfoTable SET used_count = ?, last_access_time = ? WHERE origin = ? AND type = ?
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1209/120059:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+[10239:10408:1209/120101:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10351:1209/120105:ERROR:connection.cc(1060)] Predictor sqlite error 778, errno 0: disk I/O error, sql: UPDATE network_action_predictor SET id=?, user_text=?, url=?, number_of_hits=?, number_of_misses=? WHERE id=?1
+[10239:10351:1209/120105:ERROR:connection.cc(1060)] Predictor sqlite error 1, errno 0: SQL logic error or missing database, sql: ROLLBACK
+[10239:10408:1209/120109:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120117:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120124:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10351:1209/120126:ERROR:connection.cc(1060)] Quota sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/120135:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/120135:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/120151:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/120156:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/120215:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/120217:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/120223:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/120223:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/120254:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/120259:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10350:1209/120315:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/120316:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/120328:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/120328:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120405:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/120411:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/120411:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120414:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/120437:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/120439:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/120445:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/120445:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/120509:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120515:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120516:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/120521:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120539:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120539:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120551:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120551:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120611:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120614:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/120633:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/120633:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120643:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120643:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/120714:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/120715:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120716:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120718:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/120750:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/120750:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10408:1209/120805:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120806:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10359:1209/120821:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/120831:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/120835:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/120835:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10359:1209/120854:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/120859:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/120915:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/120916:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/120925:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/120931:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/120958:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/120959:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/121009:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/121010:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/121028:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/121032:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/121053:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/121054:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/121100:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/121101:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121131:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121134:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121135:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121135:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121204:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121205:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/121215:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/121216:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/121240:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/121242:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/121306:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/121307:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121326:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121328:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/121350:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/121351:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121357:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121358:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121429:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121431:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/121435:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/121435:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121503:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121505:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/121515:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/121516:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121538:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121540:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121609:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121610:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/121616:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/121621:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121651:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121654:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/121657:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/121658:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/121733:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/121736:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/121736:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/121736:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/121804:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/121808:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/121815:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/121816:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/121839:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/121841:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/121906:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/121907:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/121921:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/121926:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/121954:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/121956:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/121958:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122000:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122033:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122036:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122037:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122041:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122105:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/122106:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122115:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122116:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122146:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122149:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122206:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122207:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122223:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/122225:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/122236:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/122236:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122255:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122256:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122315:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122316:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122327:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122329:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122403:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122404:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122407:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122408:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122444:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122448:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122515:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/122516:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122534:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/122538:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/122548:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/122549:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122606:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/122608:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122638:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122639:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122709:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122711:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122715:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/122717:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122739:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/122741:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122815:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122816:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122816:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122817:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122845:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122847:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/122901:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/122902:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/122916:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/122921:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/122951:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/122952:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123016:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123017:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/123021:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123022:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/123046:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123046:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123059:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123103:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/123136:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/123136:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/123144:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123144:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/123209:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/123209:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/123215:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123220:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/123300:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123302:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/123316:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/123317:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123330:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123331:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123401:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123405:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123414:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123416:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/123433:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/123435:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123451:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123452:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/123511:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123515:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123536:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123536:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/123543:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/123543:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123613:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/123616:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/123616:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123618:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10350:1209/123646:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/123648:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123649:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/123649:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123716:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123719:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123736:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123736:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/123746:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/123747:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/123816:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123816:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123817:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123819:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/123846:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123847:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/123916:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/123916:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123916:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/123919:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/123946:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/123948:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124002:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124003:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/124016:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124018:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124036:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124036:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124046:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124050:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124116:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/124116:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124117:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/124119:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124146:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124147:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/124216:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/124216:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/124216:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124221:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124247:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124250:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/124309:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/124310:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/124318:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124320:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/124349:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124352:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124352:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/124354:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124421:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124423:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124436:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124436:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124453:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124456:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/124516:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/124517:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/124522:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124524:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124553:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124557:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/124616:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124616:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10350:1209/124634:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124637:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/124652:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/124653:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124705:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124707:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124735:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/124736:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/124737:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124738:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/124806:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124809:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124816:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124816:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/124838:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/124840:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/124910:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124912:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/124914:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124915:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10350:1209/124943:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/124950:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/125005:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/125005:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/125015:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125016:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/125047:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125050:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/125116:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125117:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/125117:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/125120:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/125148:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125148:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/125151:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/125155:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/125223:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/125226:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/125255:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125258:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/125310:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/125311:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/125358:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/125403:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/125415:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125416:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/125428:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/125429:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/125459:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125503:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/125507:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125508:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/125559:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125602:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125602:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/125603:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/125630:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/125631:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/125636:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/125636:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/125700:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/125703:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/125716:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125716:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/125731:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125732:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/125800:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/125801:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/125802:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/125805:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10351:1209/125829:ERROR:connection.cc(1060)] Quota sqlite error 778, errno 0: disk I/O error, sql: UPDATE OriginInfoTable SET used_count = ?, last_access_time = ? WHERE origin = ? AND type = ?
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10351:1209/125831:ERROR:connection.cc(1060)] Predictor sqlite error 778, errno 0: disk I/O error, sql: UPDATE network_action_predictor SET id=?, user_text=?, url=?, number_of_hits=?, number_of_misses=? WHERE id=?1
+[10239:10351:1209/125831:ERROR:connection.cc(1060)] Predictor sqlite error 1, errno 0: SQL logic error or missing database, sql: ROLLBACK
+[10239:10408:1209/125833:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125838:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10351:1209/125858:ERROR:connection.cc(1060)] Quota sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/125903:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125911:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/125914:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/125927:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/125933:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/125935:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130016:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130016:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/130018:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/130023:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130049:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130051:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130102:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130102:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/130122:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/130128:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130136:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130136:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/130153:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/130154:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/130216:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/130217:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/130228:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/130236:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/130302:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130304:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/130304:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130305:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130334:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/130336:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130336:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/130337:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10359:1209/130409:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/130415:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/130416:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/130416:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130440:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130443:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130504:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130505:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130511:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130513:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130543:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130545:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/130613:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/130615:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/130616:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/130617:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/130651:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/130705:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130711:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130711:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/130719:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/130723:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130751:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/130752:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130753:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/130753:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/130821:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/130823:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/130836:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/130837:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/130851:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/130853:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/130916:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/130916:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/130921:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/130924:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/130951:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/130953:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131016:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131019:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/131021:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/131029:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131051:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131055:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/131116:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/131117:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/131121:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/131123:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131147:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131147:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131151:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131154:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131221:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131225:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/131236:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/131236:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/131252:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/131252:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131316:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131316:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/131322:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/131325:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131347:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131348:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/131352:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/131353:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/131422:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/131424:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/131436:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/131436:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131452:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131453:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/131516:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/131517:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/131522:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/131524:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131552:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131554:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/131610:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/131610:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131622:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131629:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/131650:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/131651:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131652:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131652:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131722:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131726:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/131731:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/131731:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131814:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131815:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/131822:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/131827:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/131855:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/131856:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/131922:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/131927:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131936:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131936:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/131952:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/131953:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/132016:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132016:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/132022:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/132028:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/132052:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132052:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/132114:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132115:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/132122:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132126:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/132152:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/132153:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/132155:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132155:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/132223:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/132228:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/132236:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/132236:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/132253:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132254:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/132316:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/132316:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/132323:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/132327:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/132354:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/132356:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/132412:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132413:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/132424:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132427:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/132444:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132444:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/132504:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/132507:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10408:1209/132516:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132517:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/132534:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/132536:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/132613:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/132616:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10359:1209/132616:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10359:1209/132616:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10408:1209/132645:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/132702:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10408:1209/132711:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/132711:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+[10239:10350:1209/132714:ERROR:connection.cc(1060)] Cookie sqlite error 778, errno 0: disk I/O error, sql: UPDATE cookies SET last_access_utc=? WHERE creation_utc=?
+[10239:10350:1209/132755:ERROR:connection.cc(1060)] Cookie sqlite error 1, errno 0: SQL logic error or missing database, sql: COMMIT
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1209/143334:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1209/155726:ERROR:CONSOLE(64)] "Uncaught Database not available", source: https://www.google.com/xjs/_/js/k=xjs.ntp.en_US.EVofKHTMGNs.O/m=jsa,ntp,pcc,csi/rt=j/d=1/t=zcms/rs=ACT90oEJQneP3HaZA_H0B6Fi54gvLhrqDw (64)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1209/160650:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1209/163838:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10239:1209/175739:ERROR:CONSOLE(64)] "Uncaught Database not available", source: https://www.google.com/xjs/_/js/k=xjs.ntp.en_US.EVofKHTMGNs.O/m=jsa,ntp,pcc,csi/rt=j/d=1/t=zcms/rs=ACT90oEJQneP3HaZA_H0B6Fi54gvLhrqDw (64)
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10410:1210/015622:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10356:1210/070828:ERROR:socket_stream.cc(208)] Closing stream with result -100
+[10239:10410:1210/093821:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+[10239:10410:1210/095321:ERROR:get_updates_processor.cc(240)] PostClientToServerMessage() failed during GetUpdates
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1210/102624:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+getrlimit(RLIMIT_NOFILE) failed
+[10239:10356:1210/104547:ERROR:channel.cc(290)] RawChannel read error (connection broken)
