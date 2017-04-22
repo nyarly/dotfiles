@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+git reset --hard savepoint
+git branch -d savepoint
+rm -f .git/merges.sh

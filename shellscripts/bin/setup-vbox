@@ -1,0 +1,7 @@
+#/bin/bash
+
+for mod in $(ls /lib/modules/3.0.4-gentoo-r1/misc/ | grep ^vbox | sed s/\\..*$//); do
+  sudo modprobe $mod
+done
+
+echo Okay

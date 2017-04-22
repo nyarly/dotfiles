@@ -1,0 +1,15 @@
+#!/bin/sh
+
+BUNDLE_BASE=~/ruby/bundle-paths/rails3
+
+if [ -f .bundle/config ]; then
+  echo "Bundle config file already exists"
+  bundle install
+else
+  projname=$(basename $(pwd))
+  BUNDLE_PATH="$BUNDLE_BASE/lib"
+  BINSTUBS=".bundle/bin"
+
+  echo "Setting up bundle for $projname"
+  bundle install --path=$BUNDLE_PATH --binstubs=$BINSTUBS
+fi

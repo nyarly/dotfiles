@@ -1,0 +1,5 @@
+#!/bin/sh
+urxvtc "$@"
+if [ $? -eq 2 ]; then
+  exec urxvt "$@"
+fi

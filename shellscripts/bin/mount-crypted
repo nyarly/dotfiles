@@ -1,0 +1,46 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]; then
+  echo "Usage: $0 <crypted_file>"
+  exit 1
+fi
+
+file=$1
+mapping=$(basename $file | sed 's/\..*$//')
+crypted_dev="/dev/mapper/$mapping"
+
+echo "Disk image: $file"
+echo "Maps to: $mapping"
+echo "Mounted on: $crypted_dev"
+
+if mount | grep -n "$crypted_dev"; then
+  echo "$crypted_dev is already mounted - exiting"
+  exit 1
+fi
+
+device=$(sudo losetup -j $file | head -n 1 | sed s/:.*//)
+
+if [ -z "$device" ]; then
+  echo "No loopback for $file - creating"
+  device=$(sudo losetup -f --show $file)
+  echo "Loopback setup on '$device'"
+else
+  echo "$file already setup on $device"
+fi
+
+if [ ! -b "$device" ]; then
+  echo "'$device' is not a block device.  Fail."
+  exit 1
+fi
+
+if [ ! -b "$crypted_dev" ]; then
+  echo "Mapping $device to $mapping"
+  sudo cryptsetup luksOpen $device $mapping
+
+  if [ ! -b "$crypted_dev" ]; then
+    echo "$crypted_dev is not a block device. Fail"
+  fi
+fi
+
+echo "Mounting $crypted_dev"
+mount $crypted_dev

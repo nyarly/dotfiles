@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+git branch -d savepoint
+
+rm -f .git/merges.sh
+
+git push
+git-clean-branches

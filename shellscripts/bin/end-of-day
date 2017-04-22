@@ -1,0 +1,16 @@
+#!/usr/bin/env fish
+
+for r in (vcsh list)
+  echo "$r: "
+  vcsh $r status --porcelain
+end
+vcsh status
+
+for d in (commute list)
+  begin
+    cd $d
+    pwd
+    git status --porcelain
+    git log --branches --not --remotes --oneline
+  end
+end

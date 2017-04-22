@@ -1,0 +1,6 @@
+*
+!/.gitignore.d
+!/.gitignore.d/shellscripts
+!/bin
+!/bin/*
+*.sw?

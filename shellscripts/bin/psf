@@ -1,0 +1,2 @@
+#!/bin/env bash
+ps -o pid,ppid,pgid,euser,egroup,ruser,rgroup,label:10,stat,wchan:18,flags,nice,%mem,rss,vsz,class,bsdstart,bsdtime,%cpu,tty,command $* | less -S

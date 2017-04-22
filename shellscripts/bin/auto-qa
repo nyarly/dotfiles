@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Simple, but maybe surprising: runs auto-qa-select to determine the correct qa runner, and then runs it
+$(auto-qa-select)

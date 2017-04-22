@@ -1,0 +1,74 @@
+#!/usr/bin/ruby
+
+require 'handy/template-form'
+
+def make_salt
+  salt = ""
+  2.times do
+    idx = rand(62)
+    if idx < 26 # F'ing EBSDIC
+      salt += ('a'[0] + idx).chr
+    elsif idx < 52
+      salt += ('A'[0] + idx - 26).chr
+    else
+      salt += ('0'[0] + idx - 52).chr
+    end
+  end
+  salt
+end
+
+script_template = TemplateForm.new
+script_template["bash"] = <<EOS
+#!/bin/bash
+
+ssh ${var dev-servers#0/ssh} sudo mkdir -p /vol0/mp/${var /Domain}/dev /vol0/mp/${var /Domain}/production ${each servers}/vol0/logs/mp/${var /Domain}/${var name} ${end}${each dev-servers}/vol0/logs/mp/${var /Domain}/dev/${var name} ${end}
+
+${each dev-servers}ssh ${var ssh} sudo /usr/sbin/useradd -u ${var /uids/live} -d /vol0/mp/${var /Domain}//production/ -s /usr/local/sbin/scponlyc -p "${var /live-crypt-passwd}"  ${var /Domain}
+ssh ${var ssh} sudo /usr/sbin/useradd -u ${var /uids/dev} -d /vol0/mp/${var /Domain}//dev/ -s /usr/local/sbin/scponlyc -p "${var /dev-crypt-passwd}" dev.${var /Domain}
+ssh ${var ssh} sudo gpasswd -a ${var /Domain} dev.${var /Domain}
+${end}
+
+ssh ${var dev-servers#0/ssh} sudo /usr/local/pkg/pde-apache/bin/htpasswd -b /vol0/etc/htpasswd ${var /http_account/user} ${var /http_account/passwd}
+
+ssh ${var dev-servers#0/ssh} 'echo ${var /Domain}: tester ${var /http_account/user} | sudo tee -a /vol0/etc/htgroups'
+
+ssh ${var dev-servers#0/ssh} sudo chown -R ${var /Domain}:${var /Domain} /vol0/mp/${var /Domain}/production
+
+ssh ${var dev-servers#0/ssh} sudo chown -R dev.${var /Domain}:dev.${var /Domain} /vol0/mp/${var /Domain}/dev
+
+ssh ${var dev-servers#0/ssh} sudo /vol0/make_chroot.sh /vol0/mp/${var /Domain} /vol0/mp/${var /Domain}/dev
+EOS
+
+script_template["output_path"]="./${var Domain}.sh"
+
+accounts = {}
+
+script_template.fill do |cfg|
+  cfg["servers"] = [
+    { "name" => "web02" },
+    { "name" => "web03" },
+    { "name" => "web04" },
+    { "name" => "web05" }
+  ]
+  cfg["dev-servers"] = [ { "name" => "web02", "ssh" => "web2" },
+    { "name" => "web05", "ssh" => "web5" } ]
+  change_me = cfg.dup
+  change_me.delete_if {|k,| %w{ live-crypt-passwd dev-crypt-passwd }.include?(k)}
+  change_me.optional_keys("servers", "dev-servers")
+  cfg.merge!(TemplateForm::edit(change_me))
+  accounts = { "dev.#{cfg["Domain"]}" => nil, cfg["Domain"] => nil }
+  accounts.each_key do |user|
+    accounts[user] = %x( passook ).chomp
+  end
+
+  cfg["dev-crypt-passwd"] = accounts["dev.#{cfg["Domain"]}"].crypt(make_salt)
+  cfg["live-crypt-passwd"] = accounts[cfg["Domain"]].crypt(make_salt)
+  cfg
+end
+
+File::open(script_template.out("output_path"), "w") do |file|
+  file.puts script_template.out("bash")
+  file.chmod(0700)
+end
+
+puts YAML.dump(accounts)

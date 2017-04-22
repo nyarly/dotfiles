@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+cd $(git rev-parse --show-toplevel)
+
+if [ $# -lt 1 ]; then
+  echo "Need some origin/branches!"
+  exit 1
+fi
+
+git branch savepoint || exit 1
+
+for branch in $*; do
+  echo "git pull $(echo $branch | sed "s#\([^/]*\)/\(.*\)#'\1' '\2'#")" >> .git/merges.sh
+done
+
+source .git/merges.sh || exit 1
+
+exec git-savepoint-review

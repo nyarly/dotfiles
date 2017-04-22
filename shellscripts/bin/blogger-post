@@ -1,0 +1,90 @@
+#!/usr/bin/ruby
+
+require 'handy/template-form'
+require 'tempfile'
+require 'fileutils'
+require 'yaml'
+require 'redcloth'
+require 'net/https'
+require 'uri'
+
+template=<<EOT
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entry xmlns="http://purl.org/atom/ns#">
+  <title mode="escaped" type="text/plain">${var title}</title>
+  <issued>${eval Time.now.utc.strftime("%Y-%m-%dT%H:%M:%SZ")}</issued>
+  <generator url="http://redfivellc.com">SlipperPost</generator>
+  <content type="application/xhtml+xml">
+    <div xmlns="http://www.w3.org/1999/xhtml">${var body}</div>
+  </content>
+  <draft xmlns="http://purl.org/atom-blog/ns#">${var draft?}</draft>
+</entry>
+EOT
+
+blanks=<<EOB
+title: Title
+body: |
+  Body
+draft?: true
+EOB
+
+help=<<EOH
+#draft? should be true or false
+#
+#use Textile stuff in the body.  Don't forget to indent the lines of the
+#body.
+#
+#Textile reminders: Links are "Linked text in quotes":http://go_here.com
+#link aliases "In quotes":alias  and then [alias]http://where_to_go.com
+EOH
+
+form = TemplateForm.new
+form["default"] = template
+
+form.fill do |form_hash|
+  base_yaml = ""
+  if(ARGV[0].nil?)
+    file = Tempfile.new("blog-post", "/tmp")
+    base_yaml = file.path
+    file.puts(help)
+    file.puts(blanks)
+    file.close
+    system("vim", base_yaml)
+    FileUtils::cp(base_yaml, base_yaml + ".bak")
+    new_hash = nil
+  else
+    base_yaml = ARGV[0]
+  end
+
+  File::open(base_yaml, "r") do |file|
+    new_hash = YAML.load(file)
+  end
+  body = new_hash["body"]
+  #  body.gsub!(/([^\n])\n([^\n])/) {|m| "#{m[1]} #{m[2]}"}
+  body = RedCloth.new(body).to_html
+  body.gsub!(/\n/, " ")
+  new_hash["body"] = RedCloth.new(body).to_html
+  new_hash
+end
+
+entry_data = form.out("default")
+
+url = URI.parse('https://www.blogger.com/atom/7727300')
+header = {"Content_type" => "application/xml"}
+request = Net::HTTP::Post.new(url.path, header)
+#require 'dev-utils/debug'; breakpoint
+request.basic_auth 'nyarly', 'b3dbug'
+connection=Net::HTTP.new(url.host, url.port)
+connection.use_ssl=true
+res = connection.request(request, entry_data)
+
+puts
+puts [res.code, res.message].join(" ")
+puts res.body
+gets
+#
+#POST /atom/3187374 HTTP/1.1
+#Content-type: application/xml
+#Host: www.blogger.com
+#Authorization: BASIC c3RldmVqOm5vdGFyZWFscGFzc3dvcmQ=
+#

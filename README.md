@@ -46,3 +46,12 @@ __(not done yet)__
 [commute](https://github.com/nyarly/commute) is a nice complement to this repo,
 since it dotfiles can get added to your commute list
 so that you remember to do the `git push`.
+
+## Notes on specific branches
+
+`fish` requires that `git` be checked out properly -
+you'll want to `fisher install` after adding 'fish',
+and if git fails, it'll fail and clean out the fishfile.
+
+Likewise, you'll want to launch `nvim` and `:PlugInstall`
+after pulling in the 'neovim` repo.

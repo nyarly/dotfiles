@@ -1,0 +1,27 @@
+#!/bin/bash
+
+if [ -z $TMUX ]; then
+  echo "No tmux session for this terminal!"
+  exit 1
+fi
+
+editor_root=$(lookup -p .vim-role)
+
+for editor_role in test app; do
+  editor_id=${editor_role}:${editor_root}
+
+  servername="TMUXVIM"
+  existing_editor=$(tmux-engine.rb find-variable --server_prefix $servername vw_id $editor_id | head -n 1)
+
+  if [ -z ${existing_editor} ]; then
+    echo -n
+  else
+    vimcmd="vim --servername $existing_editor"
+
+    echo "Reloading quickfix errors for [$editor_role]"
+
+    basecmd=$vimcmd
+    vimcmd="$vimcmd --remote-send '<C-\><C-N>:QuickfixRole<CR>'"
+    eval $vimcmd
+  fi
+done

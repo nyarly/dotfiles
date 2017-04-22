@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ ! -z ${WANT_TMUX} ]; then
+  echo "unset WANT_TMUX; tmux"
+fi

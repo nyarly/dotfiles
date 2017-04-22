@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]; then
+  echo "Usage: $0 <cmd>"
+  exit 17
+fi
+
+session_idx=$(tmux display -p "#S")
+window_idx=$(tmux display -p "#I")
+pane_idx=$(tmux display -p "#P")
+
+pid=$(tmux-pane-to-pid $session_idx $window_idx $pane_idx)
+if [ ! $? ] ; then
+  exit $?
+fi
+
+dir=$(readlink /proc/$pid/cwd)
+cd $dir
+
+exec $@
