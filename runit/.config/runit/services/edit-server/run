@@ -1,0 +1,3 @@
+#!/bin/sh
+export EDITSERVER_BLOCKING=1
+exec plackup -s Starman -a ~/bin/edit-server.pl 2>&1

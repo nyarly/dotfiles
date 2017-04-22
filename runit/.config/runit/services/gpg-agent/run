@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/gpg-agent --options /home/judson/.gnupg/gpg-agent.conf --no-detach --daemon sleep 9999d

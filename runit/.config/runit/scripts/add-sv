@@ -1,0 +1,23 @@
+#!/bin/env ruby
+
+require 'find'
+require 'fileutils'
+require 'erb'
+$:.unshift File::dirname(__FILE__)
+
+require 'runit-settings'
+
+if ARGV.length < 2
+  puts "Usage: #$0 <svc name> <run group>"
+  exit 1
+end
+
+svc_name = ARGV[0]
+rungroup = ARGV[1]
+
+link_path = File::join(RunitSettings::RunsvDir, rungroup, svc_name)
+link_target = File::join(RunitSettings::AllServicesDir, svc_name)
+
+puts "#{link_path} -> #{link_target}"
+
+FileUtils::symlink(link_target, link_path)

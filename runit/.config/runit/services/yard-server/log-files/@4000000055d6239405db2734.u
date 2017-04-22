@@ -1,0 +1,16 @@
+[warn]: Unrecognized/invalid option: --private
+[warn]: Unrecognized/invalid option: --protected
+>> YARD 0.8.7.4 documentation server at http://0.0.0.0:8808
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8808, CTRL+C to stop
+[error]: The file `doc-src/api_docs_plugin.rb' could not be loaded:
+cannot load such file -- doc-src/api_docs_plugin.rb
+[warn]: Unrecognized/invalid option: --private
+[warn]: Unrecognized/invalid option: --protected
+>> YARD 0.8.7.4 documentation server at http://0.0.0.0:8808
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:8808, CTRL+C to stop
+[error]: The file `doc-src/api_docs_plugin.rb' could not be loaded:
+cannot load such file -- doc-src/api_docs_plugin.rb

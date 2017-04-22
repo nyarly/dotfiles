@@ -1,0 +1,15 @@
+*
+!/.gitignore.d
+!/.gitignore.d/runit
+!/.config
+!/.config/runit
+!/.config/runit/runsvdir
+!/.config/runit/runsvdir/**
+!/.config/runit/scripts
+!/.config/runit/scripts/**
+!/.config/runit/services
+!/.config/runit/services/**
+/.config/runit/services/*/log-files
+!/.config/runit/skels
+!/.config/runit/skels/**
+!/.config/runit/svdir

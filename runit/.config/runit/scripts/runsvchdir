@@ -1,0 +1,17 @@
+#!/bin/bash
+
+RUNSVDIR=~/.config/runit/runsvdir
+
+if echo $1 | grep -q '^/'; then
+  NEWDIR=$1
+else
+  NEWDIR=$RUNSVDIR/$1
+fi
+
+if test -d $NEWDIR; then
+  cd $RUNSVDIR
+  cp -f current previous
+  ln -sfn $NEWDIR current
+else
+  echo "$NEWDIR is not a directory!"
+fi
