@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+if [[ $# < 2 ]]; then
+  echo "Usage: $0 <remote> <repo>"
+  echo "Both <remote> and <repo> are required."
+  exit 1
+fi
+
+remote=$1
+repo=$2
+remote_branch=master
+
+if git branch --list "$repo" | grep -q "$repo"; then
+  echo "A branch already exists for $repo"
+  exit 2
+fi
+
+if git remote -v | grep -q "$remote"; then
+  echo "The remote $remote is already present in this repo."
+  exit 3
+fi
+
+cd $(dirname $0)
+set -e
+git remote add "$repo" "$remote"
+git fetch "$repo"
+git branch "$repo" "$repo"/"$remote_branch"
+git read-tree --prefix="$repo"/ -u "$repo"

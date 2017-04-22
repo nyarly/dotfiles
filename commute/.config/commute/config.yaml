@@ -1,0 +1,20 @@
+remotes:
+- git@github.com:nyarly/commute.git
+- git@github.com:nyarly/cygnus.git
+- git@github.com:nyarly/engulf.git
+- git@github.com:nyarly/inlinefiles.git
+- git@github.com:nyarly/install_releases.git
+- git@github.com:nyarly/jobmake.git
+- git@github.com:nyarly/legendary.git
+- git@github.com:nyarly/mergetron
+- git@github.com:nyarly/mergetron.git
+- git@github.com:nyarly/palomino.git
+- git@github.com:nyarly/rust-cryptopals.git
+- git@github.com:nyarly/sous.git
+- git@github.com:nyarly/swaggering.git
+- git@github.com:opentable/go-singularity
+- git@github.com:opentable/otpl-sous-converter.git
+- git@github.com:opentable/sous-build-containers.git
+- git@github.com:opentable/sous-demo.git
+- git@git.lrdesign.com:judson/blog.git
+- git@git.lrdesign.com:judson/tmux-pi.git
