@@ -1,4 +1,6 @@
 *
-!/.Xresources
 !/.gitignore.d
 !/.gitignore.d/xrdb
+!/.xprofile
+!/.Xresources
+!/.xsession.terrible-hack
