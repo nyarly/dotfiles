@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/ruby/foreign_projects/mouseHole-1.2/
+exec ./bin/mouseHole &

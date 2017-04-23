@@ -1,0 +1,10 @@
+#!/bin/bash -x
+
+sudo vpnc &
+badvpn=$!
+pstree $badvpn
+sleep 1
+pstree $badvpn
+sudo kill -9 $badvpn
+pstree $badvpn
+sudo vpnc

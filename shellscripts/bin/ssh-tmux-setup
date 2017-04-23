@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat /etc/tmux.conf <(echo "new-session -d -s jdlssh") | ssh $@ -t 'cat > ~/.ssh-tmux'

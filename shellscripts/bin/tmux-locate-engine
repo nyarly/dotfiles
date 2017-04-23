@@ -1,0 +1,24 @@
+#!/bin/bash -x
+
+session_idx=$1
+window_idx=$2
+pane_idx=$3
+awk_script='/^[^[:space:][:digit:]]/ && /^Session/ { print "*X"; in_sessions = 1; next }
+/^[^[:space:][:digit:]]/ && !/^Session/ { print "x"; in_sessions = 0}
+in_sessions == 1 && /^ {0,1}'$session_idx':/ { print "*S"; in_session = 1 }
+in_sessions == 1 && /^[ [:digit:][[:digit:]]/ && !/^ {0,1}'$session_idx':/ { print "s"; in_session = 0 }
+in_session == 1 && /^ {2,3}'$window_idx':/ { print "*W"; in_window = 1 }
+in_window == 1 && /^ {2}[ [:digit:][[:digit:]]/ && !/^ {2,3}'$window_idx':/ { print "w"; in_window = 0 }
+in_window == 1 && /^ {4,5}'$pane_idx':/ { print "*P"; in_pane = 1 }
+in_pane == 1 && /^ {4}[ [:digit:][[:digit:]]/ && !/^ {4,5}'$pane_idx':/ { print "p";  in_pane = 0 }
+in_sessions == 1 && in_session == 1 && in_window == 1 && in_pane == 1 { print $3; nextfile }'
+
+tmux server-info | awk --posix "$awk_script"
+pid=$(tmux server-info | awk --posix "$awk_script" | tail -n 1)
+
+if [ -z $pid ]; then
+  echo "Couldn't find $session_idx:$window_idx:$pane_idx"
+  exit 27
+fi
+
+echo "Found pid: $pid"

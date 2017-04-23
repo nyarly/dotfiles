@@ -1,0 +1,9 @@
+#!/usr/bin/env fish
+
+set -l workspaces (i3-msg -t get_workspaces | jq -r .[].name)
+
+for ws in $workspaces;
+  set -l path /tmp/i3-layout-(date -Iminutes)-$ws.json
+  i3-save-tree --workspace $ws > $path
+  echo "Saved $ws to $path"
+end

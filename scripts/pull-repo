@@ -18,4 +18,4 @@ fi
 
 set -eu
 
-git merge --squash -s subtree --allow-unrelated-histories --no-commit $repo
+git merge --squash -s recursive -Xsubtree=$repo --allow-unrelated-histories --no-commit $repo

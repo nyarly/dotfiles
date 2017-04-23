@@ -1,0 +1,17 @@
+#!/bin/env bash
+
+if [ $# -lt 1 ]; then
+  echo "Usage: $0 <BSSID>"
+  exit 1
+fi
+
+if wicd-cli --wireless -d | egrep '([[:digit:]]+\.){3}'; then
+  echo Already connected
+  exit 2
+fi
+
+until wicd-cli --wireless -S -c -m $1 && wicd-cli --wireless -d | egrep '([[:digit:]]+\.){3}'; do
+  echo Retrying...
+done
+
+sudo cp /etc/resolv.conf-localhost /etc/resolv.conf

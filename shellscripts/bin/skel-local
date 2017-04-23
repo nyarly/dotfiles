@@ -1,0 +1,49 @@
+#!/bin/env ruby
+
+require 'erb'
+require 'tempfile'
+
+server_name = nil
+server_path = nil
+project_name = nil
+
+RubyWorkdir = "/home/judson/ruby/LRD"
+ConfDir = "/etc/apache2/locals.d/"
+SkelErb = File::expand_path("local.conf.erb", ConfDir)
+
+if ARGV.length < 1
+  puts "Usage: #$0 <hostname>|. [<project path>]"
+  puts "  (if hostname doesn't have a '.', .local will be appended)"
+  exit 1
+end
+
+if ARGV[0] == "."
+  project_name = File.basename(Dir.pwd)
+  server_name = project_name + ".local"
+  server_path = Dir::pwd
+else
+  server_name = ARGV[0]
+  unless /\./ =~ server_name
+    server_name += ".local"
+  end
+  if ARGV.length >= 2
+    server_path = File::expand_path(ARGV[1], RubyWorkdir)
+  else
+    server_path = File::expand_path(project_name, RubyWorkdir)
+  end
+end
+
+puts "Creating #{server_name} pointing to #{server_path}"
+
+tmpl = ERB.new(File.read(SkelErb))
+tmpl.filename = SkelErb
+
+dest_path = File.expand_path(server_name + ".conf", ConfDir)
+
+tmp_path = nil
+Tempfile.open(server_name) do |tmp|
+  tmp.write(tmpl.result)
+  tmp_path = tmp.path
+end
+
+system("sudo", "mv", tmp_path, dest_path)

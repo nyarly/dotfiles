@@ -1,0 +1,141 @@
+#!/usr/bin/ruby
+
+require 'fileutils'
+require 'thwait'
+require 'optparse'
+require 'log-stripper'
+require 'stringio'
+require 'dev-utils/debug'
+
+servers = %w( comm1 comm2 web1 web2 web3 web4 web5 web6 )
+
+last_program = nil
+current_host = ""
+stripper = LogStripper.new do |stripper|
+  stripper.load_ignorance("/home/judson/Paramount/log-analysis/ignorance.yaml")
+
+  time_mark = Time.at(0)
+  entry = StringIO.new("", "w")
+
+  stripper.format_line do |log_hash|
+    entry.truncate(0)
+    entry.rewind
+
+    procname = log_hash[:program]
+    if (m=/\[(\d+)\]/.match(procname))!=nil
+      procname = m[1]
+    end
+
+    if(last_program == nil)
+      entry.puts log_hash[:date].strftime("%a %b %d: ") + current_host
+      time_mark = log_hash[:date]
+    elsif(last_program != procname)
+      entry.puts
+      if(log_hash[:date] < time_mark || log_hash[:date] > (time_mark + (60*60)))
+	entry.puts log_hash[:date].strftime("%a %b %d: ") + current_host
+	time_mark = log_hash[:date]
+      end
+    end
+    entry.print log_hash[:date].strftime("%H:%M ")
+    entry.print log_hash[:program] + ": "
+    entry.print log_hash[:message]
+    entry.puts
+
+    last_program = procname
+    entry.string
+  end
+end
+
+get_logs = true
+old_logs = 1
+report_path = "./report"
+log_tempdir = "/tmp/server-logs"
+
+optparser = OptionParser.new do |opts|
+  opts.banner = "Usage: #{File.basename($0)} [options]"
+  opts.separator ""
+  opts.separator "Specific options:"
+
+  opts.on_tail("-h", "--help", "This help message.") do
+    puts opts
+    exit
+  end
+
+  opts.on("-f", "--file REPORT", "Name of the report file") do |report|
+    report_path = report
+  end
+
+  opts.on("-d", "--dont-get", "Don't fetch the logs -",
+	  "  operate on logs already fetched.") do
+    get_logs = false
+	  end
+
+  opts.on("-i", "--ignore-file PATH", "Load yaml ignorance from PATH") do |path|
+    stripper.load_ignorance(path)
+  end
+
+  opts.on("-e", "--elapsed HOURS", Integer, "Ignore lines older than HOURS") do |fresh|
+    stripper.fresh_age = fresh
+  end
+
+  opts.on("-q", "--quiet", "Don't output anything") do
+    STDOUT.close
+    STDERR.close
+    stripper.quiet=true
+  end
+
+  opts.on("-o", "--old-logs COUNT", Integer, "Get COUNT old logs",
+	  "  i.e. messages.1, messages.2 ... messages.COUNT") do |count|
+    old_logs = count
+	  end
+end
+
+optparser.parse(ARGV)
+
+FileUtils::mkdir_p(log_tempdir)
+
+if(get_logs)
+
+  get_threads = []
+
+  servers.each do |server|
+    get_threads << Thread.new do
+      system("scp", "root@#{server}:/var/log/messages",
+      "#{log_tempdir}/#{server}-log")
+    end
+    old_logs.times do |num|
+      get_threads << Thread.new do
+	system("scp", "root@#{server}:/var/log/messages.#{num + 1}",
+	"#{log_tempdir}/#{server}-log.#{num + 1}")
+      end
+    end
+  end
+
+  waiter = ThreadsWait::all_waits(*get_threads)
+  #next, filter out stuff I expect
+
+end
+
+stripper.mark
+
+File::open(report_path,"w") do |report|
+  servers.each do |server|
+    current_host = server
+    last_program = nil
+    old_logs.times do |num|
+      report.puts stripper.process_file("#{log_tempdir}/#{server}-log.#{old_logs - num}")
+    end
+    report.puts stripper.process_file("#{log_tempdir}/#{server}-log")
+  end
+end
+
+puts "First examined message at: #{stripper.oldest_message}"
+puts "Ignorance sampling: #{stripper.match_counts.values.map{|i| i.to_s}.join(" ")}"
+puts "Ignored line count: #{stripper.match_counts.values.inject{|sum, i| sum + i}}"
+#Then report on other stuff
+
+#Eventually becoming interactive and stuff, so that log entries can be dug
+#through.
+
+#In the meantime, outputting a neatly formatted compiled oddities log will
+#do.

@@ -1,0 +1,44 @@
+#!/bin/bash
+
+if [ $# -lt 3 ]; then
+  echo "Usage: $0 <session> <window> <pane>"
+  exit 21
+fi
+
+session_idx=$1
+window_idx=$2
+pane_idx=$3
+
+log_to=/dev/null
+
+if [ $# -ge 4 ]; then
+  echo "Debugging..."
+  log_to=/dev/stderr
+fi
+
+awk_script='
+BEGIN { in_sessions = 0; in_session = 0; in_window = 0; in_pane = 0 };
+/^[^[:space:][:digit:]]/ && /^Session/ { printf "X:%s\n", $0 > "'$log_to'"; in_sessions = 1; next };
+in_sessions == 1 && /^[^[:space:][:digit:]]/ && !/^Session/ { printf "x:%s\n", $0 > "'$log_to'"; in_sessions = 0};
+in_sessions == 1 && /^ {0,1}'$session_idx':/ { printf "S:%s\n", $0 > "'$log_to'"; in_session = 1 };
+in_session == 1 && /^[ [:digit:]][[:digit:]]/ && !/^ {0,1}'$session_idx':/ { printf "s:%s\n", $0 > "'$log_to'"; in_session = 0 };
+in_session == 1 && /^ {2,3}'$window_idx':/ { printf "W:%s\n", $0 > "'$log_to'"; in_window = 1 };
+in_window == 1 && /^ {2}[ [:digit:]][[:digit:]]/ && !/^ {2,3}'$window_idx':/ { printf "w:%s\n",$0 > "'$log_to'"; in_window = 0 };
+in_window == 1 && /^ {4,5}'$pane_idx':/ { printf "P:%s\n",$0 > "'$log_to'"; in_pane = 1 };
+in_pane == 1 && /^ {4}[ [:digit:]][[:digit:]]/ && !/^ {4,5}'$pane_idx':/ { printf "p:%s\n",$0 > "'$log_to'"; in_pane = 0 };
+in_sessions == 1 && in_session == 1 && in_window == 1 && in_pane == 1 { print $3; nextfile }'
+
+if [ $# -ge 4 ]; then
+  echo "Debugging..."
+  echo $awk_script
+fi
+
+pid=$(tmux server-info | awk --posix "$awk_script")
+pid=$(echo $pid | tail -n 1)
+
+if [ -z $pid ]; then
+  echo "Couldn't find $session_idx:$window_idx:$pane_idx"
+  exit 27
+fi
+
+echo -n $pid

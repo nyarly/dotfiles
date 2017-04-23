@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+terms=$1
+shift
+while [ $# -gt 0 ]; do
+  terms=$terms%20$1
+  shift
+  echo "$terms"
+done
+
+open "http://devdocs.io/#q=$terms"

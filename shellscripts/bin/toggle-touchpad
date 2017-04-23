@@ -1,0 +1,5 @@
+#!/bin/env sh
+
+export DISPLAY=":0.0"
+export XAUTHORITY="/home/judson/.Xauthority"
+exec /usr/bin/xinput set-prop 'AlpsPS/2 ALPS GlidePoint' 'Device Enabled' $1

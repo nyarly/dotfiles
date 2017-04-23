@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "SSH..." >&2
+exec ssh "$@"

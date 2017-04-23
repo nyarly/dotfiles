@@ -1,0 +1,181 @@
+#!/usr/bin/ruby
+
+require 'handy/template-form'
+require 'yaml'
+require 'tempfile'
+
+
+def make_salt
+  salt = ""
+  2.times do
+    idx = rand(62)
+    if idx < 26 # F'ing EBSDIC
+      salt += ('a'[0] + idx).chr
+    elsif idx < 52
+      salt += ('A'[0] + idx - 26).chr
+    else
+      salt += ('0'[0] + idx - 52).chr
+    end
+  end
+  salt
+end
+
+if __FILE__ == $0
+  accounts = {}
+  tfp = TemplateForm.new
+
+  template_base = "/home/judson/Paramount/apache-conf/config-templates"
+
+  { "dev-conf" => "dev.tmpl",
+    "main-conf" => "main.tmpl",
+    #"dev-test" => "test-dev.tmpl",
+    #"name-test" => "test-byname.tmpl",
+    #"first_dev_setup" => "single-groundwork.tmpl",
+    #"each_dev_setup" => "eachdev-groundwork.tmpl",
+    #"mon_log_email" => "monitoring_notice.tmpl",
+  }.each_pair do |name, path|
+    tfp.add_from_path(name, File::join(template_base, path))
+  end
+
+  default_hash = {
+    "Production-subdir" => "production",
+    "Dev-subdir" => "dev",
+    "Docs-group" => "mp",
+    "Conf-subdir" => "motion_pictures"
+  }
+
+  server_list = nil
+  File::open(File::join(template_base, "servers.yaml"), "r") do |servers|
+    server_list = YAML::load(servers)
+  end
+
+  #test_base = "/home/judson/ruby/small-projects/pde-web-unit"
+
+  snippet_hash = nil
+  File::open(File::join(template_base, "snippets.yaml"), "r") do |snippets|
+    snippet_hash = YAML::load(snippets)
+  end
+
+  snippet_hash.each_pair do |index, snippet|
+    puts index
+    puts snippet
+    puts
+
+    tfp[index] = snippet
+  end
+
+  base_hash = tfp.blanks
+  base_hash.merge!(default_hash)
+  base_hash["Dev_servers"]=server_list.keys.find_all do |key|
+    server_list[key].has_key?("used_for") and
+    server_list[key]["used_for"].include?("dev")
+  end.sort
+
+  base_hash["Live_servers"]=server_list.keys.find_all do |key|
+    server_list[key].has_key?("used_for") and
+    server_list[key]["used_for"].include?("live")
+  end.sort
+
+  base_hash["All_servers_ignored"]=server_list.keys.sort
+
+  server_list.values.first.keys.each do |server_key|
+    base_hash.delete(server_key)
+  end
+
+  base_hash.delete_if {|k,| %w{ Servername live-crypt-passwd dev-crypt-passwd Accounts Config_source }.include?(k)}
+
+  base_hash.reference_keys("All_servers_ignored")
+  base_hash.optional_keys("Dev_servers", "Live_servers", "DNS_Servers",
+			  "Dev-subdir", "Production-subdir", "Docs-group")
+
+
+  begin
+    File::open(File::join(template_base, "sort_order.yaml")) do |sort|
+      base_hash.sort_order_hash = YAML.load(sort)
+    end
+  rescue Errno::ENOENT
+  end
+
+  base_hash = TemplateForm.edit(base_hash)
+
+#  accounts = { "dev.#{base_hash["Domain"]}" => nil, base_hash["Domain"] => nil }
+#  accounts.each_key do |user|
+#    accounts[user] = %x( passook ).chomp
+#  end
+#
+#  accounts[(base_hash["http_account"])["user"]]=
+#    (base_hash["http_account"])["passwd"]
+#
+#  base_hash["dev-crypt-passwd"] = accounts["dev.#{base_hash["Domain"]}"].crypt(make_salt)
+#  base_hash["live-crypt-passwd"] = accounts[base_hash["Domain"]].crypt(make_salt)
+#
+#  base_hash["Accounts"] = accounts
+#
+#  first_dev = server_list.find{|k,v| v["used_for"].include?("dev")}[1]
+#  raise "No first dev!" if first_dev.nil?
+#
+#  #Create directories
+#
+#  tfp.blanks = base_hash.merge(first_dev)
+#
+#  IO::popen(tfp.out("server_ssh"), "w") do |bash|
+#    bash.write(tfp.out("first_dev_setup"))
+#  end
+
+  server_list.each_pair do |server_name, server_hash|
+    cfg_name = ""
+    config_hash = base_hash.dup
+    server_hash["Servername"] = server_name
+
+    config_hash.merge!(server_hash)
+
+    tfp.blanks=config_hash
+
+    cfg_name = config_hash["Domain"] + ".cfg"
+
+    if(config_hash["Live_servers"].include?(server_name))
+#      name_test_dest = tfp.out("name_test_destination")
+#      FileUtils::mkdir_p(File::dirname(name_test_dest))
+#      File::open(name_test_dest, "w") do |name_test|
+#	name_test.puts tfp.out("name-test")
+#      end
+
+      review_dest = tfp.out("main_cfg_review_path")
+      FileUtils::mkdir_p(File::dirname(review_dest))
+      File::open(review_dest, "w") do |name_test|
+	name_test.puts tfp.out("main-conf")
+      end
+
+      Tempfile::open("main-cfg", "/tmp") do |cfg|
+	cfg.puts tfp.out("main-conf")
+	cfg.flush
+	tfp.blanks["Config_source"]={"main" => cfg.path}
+        puts tfp.out("main_scp_command")
+	system(tfp.out("main_scp_command"))
+      end
+    end
+
+    if(config_hash["Dev_servers"].include?(server_name))
+
+      review_dest = tfp.out("dev_cfg_review_path")
+      FileUtils::mkdir_p(File::dirname(review_dest))
+      File::open(review_dest, "w") do |name_test|
+	name_test.puts tfp.out("dev-conf")
+      end
+
+#      IO::popen(tfp.out("server_ssh"), "w") do |bash|
+#	bash.write(tfp.out("each_dev_setup"))
+#      end
+
+      Tempfile::open("dev-cfg") do |cfg|
+	cfg.puts tfp.out("dev-conf")
+	cfg.flush
+	tfp.blanks["Config_source"]={"dev" => cfg.path}
+        puts tfp.out("dev_scp_command")
+	system(tfp.out("dev_scp_command"))
+      end
+    end
+  end
+
+#  puts YAML.dump(accounts)
+end

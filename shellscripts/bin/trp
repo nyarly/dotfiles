@@ -1,0 +1,4 @@
+#!/bin/env bash
+
+tmux clear-history -t 1
+tmux respawn-pane -t 1

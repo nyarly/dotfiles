@@ -1,0 +1,6 @@
+*.sw?
+Poseidon_For_UML
+Uninstall_Poseidon_For_UML_CE_6.0.2
+man/
+quick-conf
+setup-millennium.sh

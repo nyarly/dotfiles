@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [ $# != 1 ]; then
+    echo "Usage: $0 <message>"
+    exit 1
+fi
+
+message=$1
+
+mtn commit -m "$message"
+
+mybranch=$(mtn automate get_option branch)
+myhead=$(mtn automate select h:$mybranch | head -n 1)
+
+for b in $(mtn ls branches); do
+    if [ $b != $mybranch ]; then
+	otherhead=$(mtn automate select h:${b})
+	if [ -n "$(mtn automate common_ancestors ${myhead} ${otherhead})" ]; then
+
+	   mtn prop $mybranch $b -m "updating gembase: $message"
+	fi
+    fi
+done
