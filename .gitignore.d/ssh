@@ -4,6 +4,8 @@
 !/.ssh
 !/.ssh/control
 !/.ssh/control/.keep
+!/.ssh/host_configs
+!/.ssh/host_configs/.keep
 !/.ssh/1f1r_rsa.pub
 !/.ssh/comm2s.pub
 !/.ssh/eqb_rsa.pub
