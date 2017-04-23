@@ -24,8 +24,17 @@ fi
 
 vcsh $repo remote -v
 vcsh $repo config --get-regexp branch.master
+vcsh $repo config --get-regexp remote.origin
 
-set -e
+set -eu
 
-vcsh $repo remote set-url origin "file://${dotfiles}"
 vcsh $repo config --replace-all branch.master.merge "refs/heads/${repo}"
+vcsh $repo config --replace-all push.default nothing
+vcsh $repo config --replace-all remote.origin.fetch +refs/heads/master:refs/remotes/origin/${repo}
+vcsh $repo config --replace-all remote.origin.push "master:${repo}"
+vcsh $repo remote set-url origin "file://${dotfiles}"
+
+echo "***"
+vcsh $repo remote -v
+vcsh $repo config --get-regexp branch.master
+vcsh $repo config --get-regexp remote.origin

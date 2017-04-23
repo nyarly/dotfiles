@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+for r in $(vcsh list); do
+  ./convert-one "$r"
+done
