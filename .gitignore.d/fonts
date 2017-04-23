@@ -2,6 +2,8 @@
 !/.config
 !/.config/fontconfig
 !/.config/fontconfig/fonts.conf
+!/.gitignore.d
+!/.gitignore.d/fonts
 !/.local
 !/.local/share
 !/.local/share/fonts
