@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+
+git branch | grep -v "master" | sed 's/\s*//'
