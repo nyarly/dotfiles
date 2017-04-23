@@ -2,6 +2,8 @@
 !/.gitignore.d
 !/.gitignore.d/ssh
 !/.ssh
+!/.ssh/control
+!/.ssh/control/.keep
 !/.ssh/1f1r_rsa.pub
 !/.ssh/comm2s.pub
 !/.ssh/eqb_rsa.pub
