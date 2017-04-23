@@ -1,6 +1,6 @@
 *
-!/.gitignore.d
-!/.gitignore.d/ruby
 !/.bundle
 !/.bundle/config
 !/.gemrc
+!/.gitignore.d
+!/.gitignore.d/ruby
