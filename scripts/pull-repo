@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+if [[ $# < 1 ]]; then
+  echo "Usage: $0 <repo>"
+  echo "<repo> is required"
+  exit 1
+fi
+
+repo=$1
+
+cd $(dirname $0)
+
+git branch --list "$repo" | grep -q "^\s*${repo}$"
+if [ $? -ne 0 ]; then
+  echo "No branch exists for $repo"
+  exit 2
+fi
+
+set -eu
+
+git merge --squash -s subtree --allow-unrelated-histories --no-commit $repo
