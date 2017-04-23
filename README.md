@@ -39,6 +39,8 @@ c.f. [the git book](https://git-scm.com/book/en/v1/Git-Tools-Subtree-Merging) ab
 `scripts/all-repos` emits a list of all the vcsh branches available
 `scripts/common-repos` lists the branches here that vcsh supports
 `scripts/vcsh-clone` reads from stdin a list of branches to vcsh clone.
+`scripts/pull-repo <repo>` pulls changes from a repo branch into master
+`scripts/pull-all` pulls changes from all repo branches into master
 
 __(not done yet)__
 `scripts/vcsh-init <repo>` creates a new vcsh config that points to a matching branch.
