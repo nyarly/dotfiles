@@ -1,4 +1,6 @@
 *
+!/.gitignore.d
+!/.gitignore.d/ssh
 !/.ssh
 !/.ssh/1f1r_rsa.pub
 !/.ssh/comm2s.pub
