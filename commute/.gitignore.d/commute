@@ -1,0 +1,6 @@
+*
+!/.config
+!/.config/commute
+!/.config/commute/config.yaml
+!/.gitignore.d
+!/.gitignore.d/commute
