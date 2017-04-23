@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+
+comm -1 -2 <( ./all-repos) <(vcsh list |sort)

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+
+dotfiles=$(git rev-parse --show-toplevel)
+
+set -eu
+
+while read line; do
+  vcsh clone -b "$line" "file://${dotfiles}" "$line"
+  ./convert-one "$line"
+done

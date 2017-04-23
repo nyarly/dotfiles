@@ -2,5 +2,7 @@
 
 cd $(dirname $0)
 for r in $(vcsh list); do
+  echo "Converting: $r"
   ./convert-one "$r"
+  echo
 done
