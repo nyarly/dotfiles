@@ -2,6 +2,6 @@
 
 cd $(dirname $0)
 
-for $r in $(./all-repos); do
+for r in $(./all-repos); do
   ./pull-repo $r
 done
