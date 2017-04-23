@@ -2,6 +2,8 @@
 
 cd $(dirname $0)
 
+echo "Pulling repos:"
 for r in $(./all-repos); do
+  echo "$r:"
   ./pull-repo $r
 done

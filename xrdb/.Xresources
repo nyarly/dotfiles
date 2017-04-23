@@ -47,8 +47,6 @@ URxvt.keysym.C-Down:        perl:font-size:decrease
 URxvt.iso14755: true
 URxvt*buffered: false
 
-
-
 !! drop in Solarized colorscheme for Xresources/Xdefaults
 
 !!SOLARIZED HEX 16/8 TERMCOL XTERM/HEX L*A*B RGB HSB
