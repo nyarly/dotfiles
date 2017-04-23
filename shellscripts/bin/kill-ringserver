@@ -1,3 +1,0 @@
-#!/bin/bash
-
-fuser -k -n udp 7647

@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-git difftool -d savepoint &
-
-$(auto-qa-select)

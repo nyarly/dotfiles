@@ -1,8 +1,0 @@
-#!/bin/bash
-
-if [ $# -ne 2 ]; then
-  echo "Usage: $0 <repo> <origin>"
-  exit 1
-fi
-
-diecut mr generate ~/.config/mr/available.d/ --repo=${1} --origin=${2}
