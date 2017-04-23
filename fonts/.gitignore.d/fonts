@@ -1,0 +1,13 @@
+*
+!/.config
+!/.config/fontconfig
+!/.config/fontconfig/fonts.conf
+!/.gitignore.d
+!/.gitignore.d/fonts
+!/.local
+!/.local/share
+!/.local/share/fonts
+!/.local/share/fonts/monofur
+!/.local/share/fonts/monofur/monof55.ttf
+!/.local/share/fonts/monofur/monof56.ttf
+!/.local/share/fonts/monofur/monof_tt.txt
