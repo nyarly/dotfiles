@@ -1,0 +1,11 @@
+gpg-connect-agent /bye
+GPG_TTY=$(tty)
+export GPG_TTY
+
+unset SSH_AGENT_PID
+export SSH_AUTH_SOCK=/run/user/$(id -u)/gnupg/S.gpg-agent.ssh
+echo "SSH_AUTH_SOCK=/run/user/$(id -u)/gnupg/S.gpg-agent.ssh" > ~/.gpg-agent-info
+
+export SHELL=/run/current-system/sw/bin/fish
+
+echo Loaded .xprofile

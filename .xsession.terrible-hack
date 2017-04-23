@@ -1,0 +1,53 @@
+#! /nix/store/gabjbkwga2dhhp2wzyaxl83r8hjjfc37-bash-4.3-p48/bin/bash
+
+windowManager=xmonad
+desktopManager=none
+
+case $windowManager in
+  (i3)
+
+
+/nix/store/6w11iw7gid0v6cpxah5ky1gqlpv2i2fr-i3-4.12/bin/i3  &
+waitPID=$!
+
+  ;;
+(xmonad)
+  /nix/store/98ln0lsvlz7x5rr7qkd3zi7v0bf7mw8b-xmonad-with-packages/bin/xmonad &
+waitPID=$!
+
+  ;;
+(none)
+
+  ;;
+
+  (*) echo "$0: Window manager '$windowManager' not found.";;
+esac
+
+# Start the desktop manager.
+case $desktopManager in
+  (xterm)
+  /nix/store/ava0fvfh7g6n17d02473ciphc5c6b0ph-xterm-325/bin/xterm -ls &
+waitPID=$!
+if test -e $HOME/.background-image; then
+  /nix/store/zjfwxpafzq55p33i7d79pfl88mcv3d2v-feh-2.17.1/bin/feh --bg-scale $HOME/.background-image
+fi
+
+  ;;
+(none)
+  if test -e $HOME/.background-image; then
+  /nix/store/zjfwxpafzq55p33i7d79pfl88mcv3d2v-feh-2.17.1/bin/feh --bg-scale $HOME/.background-image
+fi
+
+  ;;
+
+  (*) echo "$0: Desktop manager '$desktopManager' not found.";;
+esac
+
+systemctl --user import-environment DISPLAY XAUTHORITY DBUS_SESSION_BUS_ADDRESS
+systemctl --user start graphical-session.target
+
+test -n "$waitPID" && wait "$waitPID"
+
+systemctl --user stop graphical-session.target
+systemctl --user stop xmonad
+exit 0
