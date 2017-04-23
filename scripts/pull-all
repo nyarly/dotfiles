@@ -6,4 +6,5 @@ echo "Pulling repos:"
 for r in $(./all-repos); do
   echo "$r:"
   ./pull-repo $r
+  git commit -am "Updating $r"
 done
