@@ -1,0 +1,8 @@
+*
+!/.config
+!/.config/taffybar
+!/.config/taffybar/taffybar.hs
+!/.gitignore.d
+!/.gitignore.d/xmonad
+!/.xmonad
+!/.xmonad/xmonad.hs
