@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+if [[ $# < 1 ]]; then
+  echo "Usage: $0 <repo>"
+  echo "<repo> is required"
+  exit 1
+fi
+
+repo=$1
+
+cd $(dirname $0)
+dotfiles=$(git rev-parse --show-toplevel)
+
+if git branch --list "$repo" | grep -qv "^\s*${repo}$"; then
+  echo "No branch exists for $repo"
+  exit 2
+fi
+
+vcsh list | grep -q "^${repo}$"
+if [ $? -ne 0 ]; then
+  echo "VCSH doesn't maintain a repo for $repo"
+  exit 3
+fi
+
+vcsh $repo remote -v
+vcsh $repo config --get-regexp branch.master
+
+set -e
+
+vcsh $repo remote set-url origin "file://${dotfiles}"
+vcsh $repo config --replace-all branch.master.merge "refs/heads/${repo}"

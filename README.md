@@ -33,12 +33,13 @@ c.f. [the git book](https://git-scm.com/book/en/v1/Git-Tools-Subtree-Merging) ab
 
 ## Helper Scripts
 
+`scripts/add-subtree <remote> <repo>` adds an existing git repo as a subtree.
+
 __(not done yet)__
 `scripts/convert-vcsh` runs over `vcsh list` and updates those repo to point here.
 `scripts/all-repos` emits a list of all the vcsh branches available
 `scripts/vcsh-clone` reads from stdin a list of branches to vcsh clone.
 `scripts/vcsh-init <repo>` creates a new vcsh config that points to a matching branch.
-`scripts/add-subtree <remote> <repo>` adds an existing git repo as a subtree.
 
 ## Related Tools
 
