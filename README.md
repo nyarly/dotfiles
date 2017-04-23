@@ -47,7 +47,7 @@ __(not done yet)__
 
 ## Related Tools
 
-"Well, [VCSH](https://github.com/RichiH/vcsh) obviously.
+Well, [VCSH](https://github.com/RichiH/vcsh) obviously.
 
 [commute](https://github.com/nyarly/commute) is a nice complement to this repo,
 since it dotfiles can get added to your commute list
