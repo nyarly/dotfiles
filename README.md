@@ -48,6 +48,7 @@ __(not done yet)__
 ## Related Tools
 
 "Well, [VCSH](https://github.com/RichiH/vcsh) obviously.
+
 [commute](https://github.com/nyarly/commute) is a nice complement to this repo,
 since it dotfiles can get added to your commute list
 so that you remember to do the `git push`.
@@ -66,4 +67,14 @@ you'll want to `fisher install` after adding 'fish',
 and if git fails, it'll fail and clean out the fishfile.
 
 Likewise, you'll want to launch `nvim` and `:PlugInstall`
-after pulling in the 'neovim` repo.
+after pulling in the 'neovim' repo.
+
+## Initial setup
+```sh
+git clone git@github.com/nyarly/dotfiles
+cd dotfiles
+scripts/all-repos > local-repos
+vim local-repos # delete ones inappropriate to current machine
+# install apps here - nvim, fish, direnv, etc
+scripts/vcsh-clone < local-repos
+```
