@@ -7,6 +7,10 @@ dotfiles=$(git rev-parse --show-toplevel)
 set -eu
 
 while read line; do
-  vcsh clone -b "$line" "file://${dotfiles}" "$line"
-  ./convert-one "$line"
+  if vcsh list | grep -q "^$line$"; then
+    echo "Repo $line already managed by vcsh."
+  else
+    vcsh clone -b "$line" "file://${dotfiles}" "$line"
+    ./convert-one "$line"
+  fi
 done

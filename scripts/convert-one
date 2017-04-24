@@ -34,7 +34,7 @@ vcsh $repo config --replace-all push.default nothing
 vcsh $repo config --replace-all remote.origin.fetch +refs/heads/${repo}:refs/remotes/origin/${repo}
 vcsh $repo config --replace-all remote.origin.push "${repo}:${repo}"
 vcsh $repo remote set-url origin "file://${dotfiles}"
-vcsh $repo checkout -b $repo
+vcsh $repo checkout -b $repo || true
 
 echo "***"
 vcsh $repo remote -v

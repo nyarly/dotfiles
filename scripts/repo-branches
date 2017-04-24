@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+
+set -eu
+
+git config --replace-all push.default matching
+for b in $(git branch -r | grep -v HEAD | sed 's#\s*origin/##'); do
+  git branch -t $b origin/$b || true
+done
