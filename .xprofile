@@ -9,3 +9,6 @@ echo "SSH_AUTH_SOCK=/run/user/$(id -u)/gnupg/S.gpg-agent.ssh" > ~/.gpg-agent-inf
 export SHELL=/run/current-system/sw/bin/fish
 
 echo Loaded .xprofile
+
+systemctl --user import-environment DISPLAY XAUTHORITY DBUS_SESSION_BUS_ADDRESS
+systemctl --user start graphical-session.target
