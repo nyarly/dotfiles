@@ -11,8 +11,6 @@ import XMonad.Layout.NoBorders
 import XMonad.Layout.ToggleLayouts
 import System.Taffybar.Hooks.PagerHints (pagerHints)
 
-startupHook = startup
-
 startup :: X ()
 startup = do
   spawn "systemctl --user restart xmonad.target"
@@ -38,6 +36,7 @@ main = xmonad $
        docks $
        def { modMask = mod4Mask  -- super instead of alt (usually Windows key)
            , terminal = "urxvt"
+           , startupHook = startup
            , layoutHook = myLayout
            , logHook = dynamicLogString defaultPP >>= xmonadPropLog
            -- , manageHook = manageDocks
