@@ -3,6 +3,8 @@ nyarly/fish-bang-bang
 nyarly/fish-cache-file
 oh-my-fish/plugin-fasd
 fisherman/fzf
+fisherman/get
+fisherman/getopts
 fisherman/last_job_id
 nyarly/lookup
 nyarly/fish-rake-complete
