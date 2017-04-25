@@ -41,6 +41,7 @@ c.f. [the git book](https://git-scm.com/book/en/v1/Git-Tools-Subtree-Merging) ab
 * `scripts/vcsh-clone` reads from stdin a list of branches to vcsh clone.
 * `scripts/pull-repo <repo>` pulls changes from a repo branch into master
 * `scripts/pull-all` pulls changes from all repo branches into master
+* `scripts/refresh-branches` run after `git pull` to make sure all local branches are updated
 
 __(not done yet)__
 * `scripts/vcsh-init <repo>` creates a new vcsh config that points to a matching branch.
@@ -68,6 +69,8 @@ and if git fails, it'll fail and clean out the fishfile.
 
 Likewise, you'll want to launch `nvim` and `:PlugInstall`
 after pulling in the 'neovim' repo.
+
+`xmonad` wants a `xmonad --recompile`
 
 ## Initial setup
 ```sh
