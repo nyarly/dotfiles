@@ -39,7 +39,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'grensjo/tmuxline.vim'
 Plug 'edkolev/promptline.vim'
-Plug 'vim-airline/vim-airline-themes'
 "tagbar is maybe slow?
 Plug 'majutsushi/tagbar'
 Plug 'scrooloose/syntastic'
