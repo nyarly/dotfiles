@@ -15,7 +15,7 @@ startup :: X ()
 startup = do
   spawn "systemctl --user restart xmonad.target"
 
-myLayout = avoidStruts $ ifWider 1200 (toggle tall ||| full) (Mirror $ toggle tall ||| full)
+myLayout = avoidStruts $ ifWider 1900 (toggle tall ||| full) (Mirror $ toggle tall ||| full)
   where
     basic = smartBorders $ fullscreenFocus $ Tall 1 (3 /100) (3/4)
     tall = named "Tall" $ basic
