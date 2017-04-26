@@ -1,6 +1,7 @@
 *
+!/.config
+!/.config/nixpkgs
+!/.config/nixpkgs/config.nix
 !/.gitignore.d
 !/.gitignore.d/nix
 !/.nix-channels
-!/.nixpkgs
-!/.nixpkgs/config.nix

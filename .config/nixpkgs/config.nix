@@ -4,6 +4,12 @@
     networkmanager_openconnect = pkgs.networkmanager_openconnect.override {
       openconnect = pkgs.openconnect_gnutls;
     };
+
+    wine = pkgs.wine.override {
+      xmlSupport = true;
+    };
+
+
     # copied from nixos stable
     /*
     linuxPackages.kernel = pkgs.stdenv.lib.overrideDerivation pkgs.linuxPackages.kernel (oldAttrs: {
