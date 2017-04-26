@@ -3,7 +3,8 @@ ulimit -n 4096
 source ~/.config/fish/functions/capture_status.fish
 source ~/.config/fish/functions/notify_after_long.fish
 
-set -eg EDITOR
+set -eg EDITOR # Use set -xU EDITOR and VISUAL
+
 set -g __fish_git_prompt_show_informative_status yes
 set -x BROWSER chromium-browser
 set -x CHROME_BIN /usr/bin/chromium
