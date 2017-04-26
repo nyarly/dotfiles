@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd ~/bin/dmenu-entries
+ls | stest -x | dmenu | sed 's+^+./+' | ${SHELL:-"/bin/sh"} &
