@@ -1,0 +1,8 @@
+*
+!/.gitignore.d
+!/.gitignore.d/gpg
+!/.gnupg
+!/.gnupg/gpa.conf
+!/.gnupg/gpg.conf
+!/.gnupg/ownertrust.backup
+!/.gnupg/pubring.kbx
