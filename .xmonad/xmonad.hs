@@ -24,7 +24,9 @@ myLayout = avoidStruts $ ifWider 1900 (toggle tall ||| full) (Mirror $ toggle ta
     toggle = toggleLayouts full
 
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList [
-       ((modm, xK_s), sendMessage ToggleStruts)
+       ((modm, xK_z), spawn "i3lock &"),
+       ((modm, xK_a), spawn "dmenu-screenlayout &"),
+       ((modm, xK_grave), spawn "dmenu-scripts &")
      ]
 
 newKeys x = myKeys x `M.union` keys def x
