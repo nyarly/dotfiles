@@ -3,9 +3,10 @@
 
 set -ex
 cd $(dirname $0)
+cd $(git rev-parse --show-toplevel)
 current_branch=$(git rev-parse --abbrev-ref HEAD)
 git fetch
-for b in $(./all-repos); do
+for b in $(scripts/all-repos); do
   echo "Refreshing: $b"
   git checkout $b
   pwd
