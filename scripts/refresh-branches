@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 
+
+set -ex
 cd $(dirname $0)
 current_branch=$(git rev-parse --abbrev-ref HEAD)
 git fetch
 for b in $(./all-repos); do
   echo "Refreshing: $b"
   git checkout $b
+  pwd
   git pull
   echo
 done
