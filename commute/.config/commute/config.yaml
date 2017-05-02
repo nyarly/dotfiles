@@ -21,3 +21,4 @@ remotes:
 - git@github.com:nyarly/nixos.git
 - git@github.com:NixOS/nixpkgs
 - git@github.com:nyarly/dotfiles.git
+- git@github.com:opentable/ot-sous-server.git
