@@ -11,7 +11,6 @@ remotes:
 - git@github.com:nyarly/palomino.git
 - git@github.com:nyarly/rust-cryptopals.git
 - git@github.com:nyarly/sous.git
-- git@github.com:nyarly/swaggering.git
 - git@github.com:opentable/go-singularity
 - git@github.com:opentable/otpl-sous-converter.git
 - git@github.com:opentable/sous-build-containers.git
@@ -22,3 +21,4 @@ remotes:
 - git@github.com:NixOS/nixpkgs
 - git@github.com:nyarly/dotfiles.git
 - git@github.com:opentable/ot-sous-server.git
+- git@github.com:opentable/swaggering
