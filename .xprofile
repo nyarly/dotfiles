@@ -12,3 +12,5 @@ echo Loaded .xprofile
 
 systemctl --user import-environment DISPLAY XAUTHORITY DBUS_SESSION_BUS_ADDRESS
 systemctl --user start graphical-session.target
+
+rm -f ~/.xmonad/xmonad.state  # workaround for multiple monitors bug in Xmonad 0.13
