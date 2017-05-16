@@ -14,6 +14,7 @@ import System.Taffybar.Hooks.PagerHints (pagerHints)
 startup :: X ()
 startup = do
   spawn "systemctl --user restart xmonad.target"
+  spawn "xss-lock -- i3lock -i ~/Data/Wallpaper/rotsnakes-tile.png -t"
 
 myLayout = avoidStruts $ ifWider 1900 (toggle tall ||| full) (Mirror $ toggle tall ||| full)
   where
@@ -24,7 +25,7 @@ myLayout = avoidStruts $ ifWider 1900 (toggle tall ||| full) (Mirror $ toggle ta
     toggle = toggleLayouts full
 
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList [
-       ((modm, xK_z), spawn "i3lock &"),
+       ((modm, xK_z), spawn "i3lock -i ~/Data/Wallpaper/rotsnakes-tile.png -t &"),
        ((modm, xK_a), spawn "dmenu-screenlayout &"),
        ((modm, xK_grave), spawn "dmenu-scripts &")
      ]
