@@ -22,3 +22,4 @@ remotes:
 - git@github.com:nyarly/dotfiles.git
 - git@github.com:opentable/ot-sous-server.git
 - git@github.com:opentable/swaggering
+- git@github.com:opentable/homebrew-public.git
