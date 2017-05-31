@@ -1,0 +1,1 @@
+/home/judson/.config/fisherman/getopts/getopts.fish
