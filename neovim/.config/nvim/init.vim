@@ -24,7 +24,7 @@ set pastetoggle=[23~
 set gdefault
 set shortmess+=I
 set number
-set relativenumber
+"set relativenumber "more confusing than useful
 set cursorline
 set noshowmode
 set foldlevelstart=2
