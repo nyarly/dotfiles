@@ -16,7 +16,7 @@ runtime! compiler/go.vim
 
 let current_compiler = "go-test"
 
-let wrapped=['#!/usr/bin/env bash',
+let b:wrapped=['#!/usr/bin/env bash',
       \"package='./...'",
       \"if [ $# -gt 0 ]; then",
       \'  package="$1"',
@@ -38,14 +38,20 @@ if filereadable(".cadre/test")
 elseif filereadable("makefile") || filereadable("Makefile")
   CompilerSet makeprg=make\ test
 else
-  call writefile(wrapped, "/tmp/go-test.sh")
-  call system("chmod +x /tmp/go-test.sh")
+  call write_wrapped("/tmp/go-test.sh")
   if g:gotest_currentpackage
     CompilerSet makeprg=/tmp/go-test.sh\ %:h
   else
     CompilerSet makeprg=/tmp/go-test.sh
   endif
 endif
+
+function! s:write_wrapped(target)
+  call writefile(b:wrapped, a:target)
+  call system("chmod +x " . a:target)
+endfunction
+
+command! -buffer CadreWriteTest call <SID>write_wrapped(".cadre/test")
 
 let s:goerrs=&errorformat
 
