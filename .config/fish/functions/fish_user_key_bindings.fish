@@ -1,3 +1,5 @@
+
+fzf_key_bindings
 function fish_user_key_bindings
     bind \eh prevd 'commandline -f repaint'
     bind \el nextd 'commandline -f repaint'
@@ -45,5 +47,3 @@ function fish_user_key_bindings
     end
     ### fzf ###
 end
-
-fzf_key_bindings
