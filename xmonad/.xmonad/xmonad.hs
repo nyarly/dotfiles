@@ -29,9 +29,12 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList [
        ((modm, xK_a), spawn "dmenu-screenlayout &"),
        ((modm, xK_grave), spawn "dmenu-scripts &")
      ]
-
 newKeys x = myKeys x `M.union` keys def x
 
+myManageHook = composeAll [
+    className =? "pinentry" --> doFloat
+  , className =? "Pinentry" --> doFloat
+  ]
 
 main = xmonad $
        ewmh $
@@ -42,6 +45,6 @@ main = xmonad $
            , startupHook = startup
            , layoutHook = myLayout
            , logHook = dynamicLogString defaultPP >>= xmonadPropLog
-           -- , manageHook = manageDocks
+           , manageHook = myManageHook <+> manageHook def
            , keys = newKeys
            }
