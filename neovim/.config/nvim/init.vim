@@ -62,6 +62,8 @@ if exists("$EXTRA_VIM")
   endfor
 endif
 
+set inccommand=split
+
 " These are all included in vim-sensible
 "filetype plugin indent on
 "syntax on
