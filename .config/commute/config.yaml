@@ -23,3 +23,5 @@ remotes:
 - git@github.com:opentable/ot-sous-server.git
 - git@github.com:opentable/swaggering
 - git@github.com:opentable/homebrew-public.git
+- git@github.com:opentable/sous-teamcity-integration.git
+- git@github.com:opentable/teamcity-cli
