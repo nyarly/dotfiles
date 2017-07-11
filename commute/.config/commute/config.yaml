@@ -21,6 +21,8 @@ remotes:
 - git@github.com:opentable/ot-sous-server.git
 - git@github.com:opentable/swaggering
 - git@github.com:opentable/homebrew-public.git
+- git@github.com:opentable/sous-teamcity-integration.git
+- git@github.com:opentable/teamcity-cli
 - git@github.com:nyarly/ergo.git
 - git@github.com:nyarly/roadforest.git
 - git@github.com:nyarly/hawser.git
@@ -33,3 +35,4 @@ remotes:
 - git@github.com:nyarly/calibrate.git
 - git@github.com:nyarly/janice.git
 - git@github.com:nyarly/helm.git
+- git@github.com:nyarly/blog.git
