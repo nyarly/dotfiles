@@ -35,3 +35,4 @@ remotes:
 - git@github.com:nyarly/calibrate.git
 - git@github.com:nyarly/janice.git
 - git@github.com:nyarly/helm.git
+- git@github.com:nyarly/blog.git
