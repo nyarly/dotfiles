@@ -36,3 +36,5 @@ remotes:
 - git@github.com:nyarly/janice.git
 - git@github.com:nyarly/helm.git
 - git@github.com:nyarly/blog.git
+- git@github.com:go-kit/kit
+- git@github.com:nyarly/quickfixable.git
