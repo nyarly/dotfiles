@@ -67,6 +67,8 @@ CompilerSet errorformat+=%\\s%#%f:%l\ +0x%\\d%#                             " Al
 "
 CompilerSet errorformat+=%-DBEGIN\ \ \ %f
 CompilerSet errorformat+=%-XFAIL\ \ \ \ %f
+CompilerSet errorformat+=%\\s%#---%\\s%\\+FAIL:%\\s%\\+%m
+CompilerSet errorformat+=%Z%\\s%\\+---%\\s%\\+FAIL:%\\s%\\+%m
 CompilerSet errorformat+=%E%\\s%#Error\ Trace:%\\s%#%f:%l " Error report
 CompilerSet errorformat+=%C%\\s%#Error%\\s%#%m            " Error report
 
