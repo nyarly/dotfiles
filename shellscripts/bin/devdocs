@@ -7,4 +7,8 @@ while [ $# -gt 0 ]; do
   echo "$terms"
 done
 
-open "http://devdocs.io/#q=$terms"
+if which xdg-open > /dev/null; then
+  xdg-open "http://devdocs.io/#q=$terms"
+else
+  open "http://devdocs.io/#q=$terms"
+fi
