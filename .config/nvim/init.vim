@@ -22,7 +22,15 @@ set ts=2
 set scrolloff=4
 set pastetoggle=[23~
 set gdefault
-set shortmess+=I
+
+"O	message for reading a file overwrites any previous message.
+"Also for quickfix message (e.g., ":cn").
+"t	truncate file message at the start if it is too long to fit
+"T	truncate other messages in the middle if they are too long to
+"I	don't give the intro message when starting Vim |:intro|.
+"c	don't give |ins-completion-menu| messages.  For example,
+"   c really useful for echodoc
+set shortmess+=IcOtT
 set number
 "set relativenumber "more confusing than useful
 set cursorline
