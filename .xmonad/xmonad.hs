@@ -41,7 +41,7 @@ main = xmonad $
        pagerHints $
        docks $
        def { modMask = mod4Mask  -- super instead of alt (usually Windows key)
-           , terminal = "urxvt"
+           , terminal = "urxvt-maybe-c"
            , startupHook = startup
            , layoutHook = myLayout
            , logHook = dynamicLogString defaultPP >>= xmonadPropLog
