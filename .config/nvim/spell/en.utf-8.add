@@ -42,3 +42,6 @@ github
 regex
 staticcheck
 #redicatable
+iptables
+APIs
+CSR
