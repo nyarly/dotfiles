@@ -61,4 +61,8 @@ Plug 'nyarly/jobmake'
 Plug 'tomtom/quickfixsigns_vim'
 Plug 'vito-c/jq.vim'
 
+Plug 'tek/vim-fieldtrip'
+Plug 'AndrewRadev/sideways.vim'
+Plug 'kana/vim-submode'
+
 call plug#end()
