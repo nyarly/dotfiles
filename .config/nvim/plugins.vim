@@ -1,3 +1,4 @@
+
 function! UpdateRemote(info)
   if a:info.status == 'installed' || a:info.status == 'updated' || a:info.force
     UpdateRemotePlugins
@@ -60,9 +61,5 @@ Plug 'rust-lang/rust.vim', { 'for': ['rust'], 'do': 'cargo install rustfmt \|\| 
 Plug 'nyarly/jobmake'
 Plug 'tomtom/quickfixsigns_vim'
 Plug 'vito-c/jq.vim'
-
-Plug 'tek/vim-fieldtrip'
-Plug 'AndrewRadev/sideways.vim'
-Plug 'kana/vim-submode'
 
 call plug#end()
