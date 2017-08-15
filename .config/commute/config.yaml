@@ -39,4 +39,4 @@ remotes:
 - git@github.com:go-kit/kit
 - git@github.com:nyarly/quickfixable.git
 - git@github.com:opentable/ot-go-lib
-- git@github.com:nyarly/spies.git
+- git@github.com:nyarly/spies
