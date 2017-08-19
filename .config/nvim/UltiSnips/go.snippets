@@ -1,3 +1,4 @@
+
 snippet errlf "Error log.Fatal" !b
 if err != nil {
 	log.Fatal(err)
@@ -25,4 +26,10 @@ endsnippet
 
 snippet	xv "Extracted variable"
 `!v getreg('.')` := `!v getreg('"')`
+endsnippet
+
+snippet mux "Lock/Unlock a mutex"
+${1}.Lock()
+defer $1.Unlock()
+
 endsnippet
