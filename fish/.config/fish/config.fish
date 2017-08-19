@@ -27,6 +27,9 @@ source ~/.config/fish/nix.fish
 source ~/.config/fish/go.fish
 source ~/.config/fish/rust.fish
 
+# Alt-; converts filname:1234 -> filename +1234 for easy backtrace jumping
+bind \e\; 'commandline -r -t (commandline -t | sed "s/:\(\d*\)/ +\1/")'
+
 set -x fish_color_search_match  'normal' '--background=878787'
 
 function fish_greeting
