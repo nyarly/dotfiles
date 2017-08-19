@@ -61,5 +61,6 @@ Plug 'rust-lang/rust.vim', { 'for': ['rust'], 'do': 'cargo install rustfmt \|\| 
 Plug 'nyarly/jobmake'
 Plug 'tomtom/quickfixsigns_vim'
 Plug 'vito-c/jq.vim'
+Plug 'ekalinin/Dockerfile.vim'
 
 call plug#end()
