@@ -62,5 +62,6 @@ Plug 'nyarly/jobmake'
 Plug 'tomtom/quickfixsigns_vim'
 Plug 'vito-c/jq.vim'
 Plug 'ekalinin/Dockerfile.vim'
+Plug 'critiqjo/lldb.nvim'
 
 call plug#end()
