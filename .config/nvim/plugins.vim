@@ -63,5 +63,6 @@ Plug 'tomtom/quickfixsigns_vim'
 Plug 'vito-c/jq.vim'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'critiqjo/lldb.nvim'
+Plug 'AndrewRadev/sideways.vim'
 
 call plug#end()
