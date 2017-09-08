@@ -40,3 +40,4 @@ remotes:
 - git@github.com:nyarly/quickfixable.git
 - git@github.com:opentable/ot-go-lib
 - git@github.com:nyarly/spies
+- git@github.com:nyarly/versiontool.git
