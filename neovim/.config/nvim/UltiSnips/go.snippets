@@ -33,3 +33,20 @@ ${1}.Lock()
 defer $1.Unlock()
 
 endsnippet
+
+snippet spy "Define a spy pair"
+type (
+	${1/.+/\l$0/}Spy struct {
+		spy *spies.Spy
+	}
+
+	${1/.+/\l$0/}Controller struct {
+		*spies.Spy
+	}
+)
+
+func New${1}Spy() (${1}, ${1/.+/\l$0/}Controller){
+	spy := spies.NewSpy()
+	return ${1/.+/\l$0/}Spy{spy: spy}, ${1/.+/\l$0/}Controller{Spy: spy}
+}
+endsnippet
