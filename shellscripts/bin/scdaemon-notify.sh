@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-nc -l -U /tmp/scdaemon.sock | egrep 'PK(SIGN|AUTH)'
-#| xargs --delimiter '\n' echo
+nc -lU /tmp/scdaemon.sock | while read line; do
+  if echo $line | egrep -q 'PK(SIGN|AUTH)'; then
+    echo "line $line"
+  fi
+done
