@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+which taffybar
+readlink $(which taffybar)
+exa --tree $(readlink $(which taffybar) | sed 's#\(/nix/store/[^/]*\)/.*#\1#')
