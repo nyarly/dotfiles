@@ -6,3 +6,5 @@
 !/.gitignore.d/xmonad
 !/.xmonad
 !/.xmonad/xmonad.hs
+!/.config/dunst
+!/.config/dunst/dunstrc
