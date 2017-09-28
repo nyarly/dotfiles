@@ -10,3 +10,8 @@
 !/.gnupg/pubring.gpg
 !/.gnupg/pubring.kbx
 !/.gnupg/scdaemon.conf
+!/.gnupg/scdaemon-notify.sh
+!/.config
+!/.config/systemd
+!/.config/systemd/user
+!/.config/systemd/user/scdaemon-notify.service

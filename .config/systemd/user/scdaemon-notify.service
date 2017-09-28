@@ -1,0 +1,9 @@
+[Unit]
+Description=SmartCard Daemon Notifier
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/home/judson/.gnupg/scdaemon-notify.sh
+
+[Install]
+WantedBy=graphical-session.target
