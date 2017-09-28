@@ -81,3 +81,4 @@ vim local-repos # delete ones inappropriate to current machine
 # install apps here - nvim, fish, direnv, etc
 scripts/vcsh-clone < local-repos
 ```
+Adding branch new branches needs work
