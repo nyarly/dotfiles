@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+if [ $# -lt 1 ]; then
+  echo "Usage $0 <app>"
+  exit 1
+fi
+
+proc=$1
+
+which "$proc"
+readlink $(which "$proc")
+exa --tree $(readlink $(which "$proc") | sed 's#\(/nix/store/[^/]*\)/.*#\1#')
