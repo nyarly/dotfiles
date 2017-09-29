@@ -15,3 +15,5 @@
 !/.config/systemd
 !/.config/systemd/user
 !/.config/systemd/user/scdaemon-notify.service
+!/.config/systemd/user/graphical-session.target.wants
+!/.config/systemd/user/graphical-session.target.wants/scdaemon-notify.service
