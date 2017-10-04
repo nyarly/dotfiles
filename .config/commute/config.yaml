@@ -41,3 +41,4 @@ remotes:
 - git@github.com:opentable/ot-go-lib
 - git@github.com:nyarly/spies
 - git@github.com:nyarly/versiontool.git
+- git@github.com:opentable/go-discovery-client-rig.git
