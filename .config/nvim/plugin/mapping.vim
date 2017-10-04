@@ -23,15 +23,6 @@ function! s:SetMappings()
   endif
 endfunction
 
-function! ToggleDark()
-  if &background == "light"
-    set background=dark
-  else
-    set background=light
-  endif
-  colorscheme solarized
-endfunction
-
 function! DoMake()
   make
   cwin
@@ -69,6 +60,5 @@ nnoremap MM :Jmake<CR>
 nnoremap / /\v
 vnoremap / /\v
 cmap w!! %!sudo tee > /dev/null %
-map <F7> :call ToggleDark()<CR>
 
 autocmd BufReadPost,BufNewFile * call s:SetMappings()
