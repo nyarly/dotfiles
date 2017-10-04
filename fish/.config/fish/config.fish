@@ -27,6 +27,8 @@ source ~/.config/fish/nix.fish
 source ~/.config/fish/go.fish
 source ~/.config/fish/rust.fish
 
+dynamic-colors init
+
 # Alt-; converts filname:1234 -> filename +1234 for easy backtrace jumping
 bind \e\; 'commandline -r -t (commandline -t | sed "s/:\(\d*\)/ +\1/")'
 

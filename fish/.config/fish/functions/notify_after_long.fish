@@ -3,6 +3,10 @@ function notify_after_long --on-event fish_postexec --argument last_command
   if test -z $CMD_DURATION
     return 0
   end
+  switch $last_command
+  case 'nvim*' 'man*' 'less*'
+    return
+  end
   #set CMD_SECONDS (echo $CMD_DURATION | awk 'BEGIN { FS="." } ; { print $1 }')
   set -gx CMD_SECONDS (math $CMD_DURATION/1000)
   if [ $CMD_SECONDS -gt 15 ]
