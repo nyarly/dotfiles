@@ -9,6 +9,8 @@ import XMonad.Layout.PerScreen
 import XMonad.Layout.Named
 import XMonad.Layout.NoBorders
 import XMonad.Layout.ToggleLayouts
+import XMonad.Actions.WindowBringer
+
 import System.Taffybar.Hooks.PagerHints (pagerHints)
 
 startup :: X ()
@@ -27,7 +29,9 @@ myLayout = avoidStruts $ ifWider 1900 (toggle tall ||| full) (Mirror $ toggle ta
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList [
        ((modm, xK_z), spawn "i3lock -i ~/Data/Wallpaper/rotsnakes-tile.png -t &"),
        ((modm, xK_a), spawn "dmenu-screenlayout &"),
-       ((modm, xK_grave), spawn "dmenu-scripts &")
+       ((modm, xK_grave), spawn "dmenu-scripts &"),
+       ((modm, xK_g), gotoMenu),
+       ((modm, xK_b), bringMenu)
      ]
 newKeys x = myKeys x `M.union` keys def x
 
