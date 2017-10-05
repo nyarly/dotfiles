@@ -26,12 +26,17 @@ myLayout = avoidStruts $ ifWider 1900 (toggle tall ||| full) (Mirror $ toggle ta
     full = named "Full" $ noBorders Full
     toggle = toggleLayouts full
 
+myGotoMenu = gotoMenuArgs ["-i", "-l 10"]
+myBringMenu = bringMenuArgs ["-i", "-l 10"]
+
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList [
        ((modm, xK_z), spawn "i3lock -i ~/Data/Wallpaper/rotsnakes-tile.png -t &"),
        ((modm, xK_a), spawn "dmenu-screenlayout &"),
        ((modm, xK_grave), spawn "dmenu-scripts &"),
        ((modm, xK_g), gotoMenu),
-       ((modm, xK_b), bringMenu)
+       ((modm,  xK_b), bringMenu),
+       ((modm .|. shiftMask, xK_g), myGotoMenu),
+       ((modm .|. shiftMask,  xK_b), myBringMenu)
      ]
 newKeys x = myKeys x `M.union` keys def x
 
