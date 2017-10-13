@@ -45,7 +45,7 @@ type (
 	}
 )
 
-func New${1}Spy() (${1}, ${1/.+/\l$0/}Controller){
+func New$1Spy() (${1}, ${1/.+/\l$0/}Controller){
 	spy := spies.NewSpy()
 	return ${1/.+/\l$0/}Spy{spy: spy}, ${1/.+/\l$0/}Controller{Spy: spy}
 }
