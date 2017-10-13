@@ -3,7 +3,7 @@ Description=SmartCard Daemon Notifier
 PartOf=graphical-session.target
 
 [Service]
-ExecStart=/home/judson/.gnupg/scdaemon-notify.sh
+ExecStart=/home/judson/.cargo/bin/socket-notify
 
 [Install]
 WantedBy=graphical-session.target
