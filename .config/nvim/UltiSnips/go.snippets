@@ -50,3 +50,33 @@ func New$1Spy() (${1}, ${1/.+/\l$0/}Controller){
 	return ${1/.+/\l$0/}Spy{spy: spy}, ${1/.+/\l$0/}Controller{Spy: spy}
 }
 endsnippet
+
+snippet logmsg "Implement Sous's LogMessage interface"
+
+type ${1}Message struct {
+	${2}
+}
+
+func report${1/.+/\u$0/}(logsink logging.LogSink, ${3}) *$1Message {
+	msg := &$1Message{
+		callerInfo: logging.GetCallerInfo("${4}"),
+		$2
+		${0}
+	}
+	logging.Deliver(msg, logsink)
+}
+
+func (msg *$1Message) DefaultLevel() logging.Level {
+	return logging.InformationLevel
+}
+
+func (msg *$1Message) Message() string {
+	return ""
+}
+
+func (msg *$1Message) EachField(f FieldReportFn) {
+	f("@loglov3-otl", "sous-generic-v1")
+	msg.callerInfo.EachField(f)
+}
+
+endsnippet
