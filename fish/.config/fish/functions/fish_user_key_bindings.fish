@@ -1,10 +1,10 @@
-
-fzf_key_bindings
 function fish_user_key_bindings
-    bind \eh prevd 'commandline -f repaint'
+	bind \eh prevd 'commandline -f repaint'
     bind \el nextd 'commandline -f repaint'
     bind \ek cd 'commandline -f repaint'
     bind \ej 'cd -' 'commandline -f repaint'
+
+    bind \eq jq_paginate
 
     bind \e\[1~ beginning-of-line
     bind \e\[3~ delete-char

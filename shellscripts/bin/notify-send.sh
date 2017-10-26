@@ -22,7 +22,7 @@
 VERSION=0.2
 NOTIFY_ARGS=(--session
              --dest org.freedesktop.Notifications
-             --object-path /org/freedesktop/Notifications)
+             /org/freedesktop/Notifications)
 EXPIRE_TIME=-1
 APP_NAME="${0##*/}"
 REPLACE_ID=0
@@ -89,13 +89,15 @@ handle_output() {
 }
 
 notify () {
-    gdbus call "${NOTIFY_ARGS[@]}"  --method org.freedesktop.Notifications.Notify \
+  set -x
+    dbus-send "${NOTIFY_ARGS[@]}"  --method org.freedesktop.Notifications.Notify \
           "$APP_NAME" "$REPLACE_ID" "$ICON" "$SUMMARY" "$BODY" \
           [] "$(concat_hints "${HINTS[@]}")" "int32 $EXPIRE_TIME" | handle_output
 }
 
 notify_close () {
-    gdbus call "${NOTIFY_ARGS[@]}"  --method org.freedesktop.Notifications.CloseNotification "$1" >/dev/null
+  set -x
+    dbus-send "${NOTIFY_ARGS[@]}"  --method org.freedesktop.Notifications.CloseNotification "$1" >/dev/null
 }
 
 process_urgency() {
