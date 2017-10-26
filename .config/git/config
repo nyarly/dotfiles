@@ -4,7 +4,7 @@
 [user]
   email = nyarly@gmail.com
   name = Judson
-  signingkey = 54BF0B7D
+  signingkey = 9A3F82AA
 [branch]
   autosetupmerge = true
 [color]
@@ -36,6 +36,9 @@
 
 [commit]
   gpgSign = true
+
+[tag]
+  forceSignAnnotated = true
 
 [push]
   default = current
