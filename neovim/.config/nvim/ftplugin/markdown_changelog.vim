@@ -7,7 +7,7 @@ function! s:insert_unreleased()
   let l:version = substitute(l:version, "\n", "", "")
   let l:repopattern = '^## \[[^]]*\](\/\/\(github.com\/.*\)\/compare.*'
   let l:repo = substitute(getline(search(l:repopattern, "nW")), l:repopattern, '\1', "")
-  call append(line("."), "## [Unreleased](//".l:repo. "/compare/". l:version ."..HEAD)")
+  call append(line("."), "## [Unreleased](//".l:repo. "/compare/". l:version ."...master)")
 endfunction
 
 command! -buffer Unreleased call <SID>insert_unreleased()
