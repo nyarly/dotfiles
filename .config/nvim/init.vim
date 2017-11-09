@@ -22,6 +22,7 @@ set ts=2
 set scrolloff=4
 set pastetoggle=[23~
 set gdefault
+set mouse=a
 
 "O	message for reading a file overwrites any previous message.
 "Also for quickfix message (e.g., ":cn").
