@@ -5,3 +5,4 @@
 /.config/nvim/plugged
 !/.gitignore.d
 !/.gitignore.d/neovim
+/.config/nvim/.init.vim-rplugin~
