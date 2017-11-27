@@ -64,5 +64,6 @@ Plug 'vito-c/jq.vim'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'critiqjo/lldb.nvim'
 Plug 'AndrewRadev/sideways.vim'
+Plug 'sebastianmarkow/deoplete-rust'
 
 call plug#end()
