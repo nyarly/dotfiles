@@ -43,3 +43,4 @@ remotes:
 - git@github.com:nyarly/versiontool.git
 - git@github.com:opentable/go-discovery-client-rig.git
 - git@github.com:nyarly/socket-notify.git
+- git@github.com:nyarly/d2tools.git
