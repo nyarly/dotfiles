@@ -12,6 +12,7 @@ function fish_user_key_bindings
     bind \e` clobber_history
     bind \es 'prepend_command sudo'
     bind \eg grepify
+    bind \ez cd_fasd_fzf
     ### bang-bang ###
     bind ! bind_bang
     bind '$' bind_dollar
