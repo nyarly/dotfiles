@@ -7,6 +7,4 @@
 failed_specs
 rspec_status
 *Session.vim
-gemset.nix
-shell.nix
 errors.err
