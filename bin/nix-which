@@ -7,6 +7,10 @@ fi
 
 proc=$1
 
-which "$proc"
-readlink $(which "$proc")
-exa --tree $(readlink $(which "$proc") | sed 's#\(/nix/store/[^/]*\)/.*#\1#')
+path=$(which "$proc")
+echo $path
+realpath=$(realpath $path)
+echo $realpath
+derav=$(echo $realpath | sed 's#\(/nix/store/[^/]*\)/.*#\1#')
+echo $derav
+exa --tree $derav
