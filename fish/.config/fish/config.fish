@@ -9,7 +9,7 @@ set -g __fish_git_prompt_show_informative_status yes
 set -x BROWSER chromium-browser
 set -x CHROME_BIN /usr/bin/chromium
 
-set -gx MANPATH "" $MANPATH
+set -gx MANPATH "" $MANPATH /run/current-system/sw/share/man
 
 if test -f ~/.config/fish/private.fish
   source ~/.config/fish/private.fish
