@@ -37,6 +37,7 @@ set number
 set cursorline
 set noshowmode
 set foldlevelstart=2
+set guicursor=n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20
 
 set title
 
