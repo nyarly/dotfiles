@@ -65,5 +65,6 @@ Plug 'ekalinin/Dockerfile.vim'
 Plug 'critiqjo/lldb.nvim'
 Plug 'AndrewRadev/sideways.vim'
 Plug 'sebastianmarkow/deoplete-rust'
+Plug 'floobits/floobits-neovim'
 
 call plug#end()
