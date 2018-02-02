@@ -44,3 +44,4 @@ remotes:
 - git@github.com:opentable/go-discovery-client-rig.git
 - git@github.com:nyarly/socket-notify.git
 - git@github.com:nyarly/d2tools.git
+- git@github.com:LRDesign/TimePulse-homepage.git
