@@ -46,3 +46,4 @@ remotes:
 - git@github.com:nyarly/d2tools.git
 - git@github.com:LRDesign/TimePulse-homepage.git
 - git@github.com:nyarly/personal-servers.git
+- git@github.com:opentable/sous-database-migration.git
