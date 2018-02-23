@@ -66,5 +66,7 @@ Plug 'critiqjo/lldb.nvim'
 Plug 'AndrewRadev/sideways.vim'
 Plug 'sebastianmarkow/deoplete-rust'
 Plug 'floobits/floobits-neovim'
+Plug 'junegunn/fzf'
+Plug 'rafaqz/ranger.vim'
 
 call plug#end()
