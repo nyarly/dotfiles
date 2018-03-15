@@ -1,4 +1,3 @@
-
 function! UpdateRemote(info)
   if a:info.status == 'installed' || a:info.status == 'updated' || a:info.force
     UpdateRemotePlugins
@@ -42,7 +41,7 @@ Plug 'grensjo/tmuxline.vim'
 Plug 'edkolev/promptline.vim'
 "tagbar is maybe slow?
 Plug 'majutsushi/tagbar'
-Plug 'scrooloose/syntastic'
+"Plug 'scrooloose/syntastic' " conflicts with ALE
 Plug 'godlygeek/tabular'
 Plug 'killphi/vim-legend'
 Plug 'jeroenbourgois/vim-actionscript'
@@ -68,5 +67,7 @@ Plug 'sebastianmarkow/deoplete-rust'
 Plug 'floobits/floobits-neovim'
 Plug 'junegunn/fzf'
 Plug 'rafaqz/ranger.vim'
+Plug 'w0rp/ale'
+Plug 'sebdah/vim-delve'
 
 call plug#end()
