@@ -76,7 +76,7 @@
 	insteadOf = https://github.com/
 
 [jira]
-	user = jlester
+	user = jlester@opentable.com
 	server = https://opentable.atlassian.net
   # password should be in ./secret
 [include]
