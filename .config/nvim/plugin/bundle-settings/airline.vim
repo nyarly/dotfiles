@@ -30,7 +30,7 @@ let g:airline_section_b = "%{airline#util#wrap(strpart(airline#extensions#branch
 " This is to add an obsession marker
 let g:airline_section_z = airline#section#create(['%{ObsessionStatus(''◉'', '''')}', 'windowswap', '%3p%% ', 'linenr', ':%3v '])
 "let g:airline_extensions = ['branch', 'tabline', 'syntastic', 'tagbar', 'ctrlp', 'tmuxline']
-let g:airline_extensions = ['branch', 'tabline', 'ale', 'tagbar', 'ctrlp', 'tmuxline']
+let g:airline_extensions = ['branch', 'tabline', 'ale', 'tagbar', 'tmuxline']
 let g:airline#extensions#branch#displayed_head_limit = 18
 let g:airline#extensions#branch#format = 2
 let g:airline#extensions#branch#format = 2
