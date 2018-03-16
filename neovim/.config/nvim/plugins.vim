@@ -11,7 +11,7 @@ endfunction
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'sjl/gundo.vim'
-Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'ctrlpvim/ctrlp.vim'
 Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-obsession'
@@ -66,6 +66,7 @@ Plug 'AndrewRadev/sideways.vim'
 Plug 'sebastianmarkow/deoplete-rust'
 Plug 'floobits/floobits-neovim'
 Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 Plug 'rafaqz/ranger.vim'
 Plug 'w0rp/ale'
 Plug 'sebdah/vim-delve'

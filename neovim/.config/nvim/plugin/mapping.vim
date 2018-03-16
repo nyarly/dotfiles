@@ -1,10 +1,13 @@
 function! s:NonSpecialMappings()
   nnoremap <buffer> <F3> :<C-U>GundoToggle<CR>
-  noremap <buffer> <F4> :<C-U>CtrlPBuffer<CR>
-  inoremap <buffer> <F4> <Esc>:<C-U>CtrlPBuffer<CR>
+  noremap <buffer> <C-P> :<C-U>Files<CR>
+  inoremap <buffer> <C-P> <Esc>:<C-U>Files<CR>
+  noremap <buffer> <F4> :<C-U>Buffer<CR>
+  inoremap <buffer> <F4> <Esc>:<C-U>Buffer<CR>
   nnoremap <buffer> <silent> <CR> i<CR><Esc>
   nnoremap <buffer> <silent>  <F6> :TagbarToggle<CR>
   nnoremap <buffer> <silent>  <F5> :TagbarOpenAutoClose<CR>
+
 "imap <buffer> <C-L> <Plug>delimitMateJumpMany
   "like . but for commands
 
@@ -52,8 +55,10 @@ imap <C-J> <C-O>j
 imap <C-K> <C-O>k
 noremap <silent><Leader>] <Esc>:nohls<CR>
 noremap <silent><Leader>q <Esc>:nohls<CR>
-inoremap <Leader>a <Esc>:Ag <C-R><C-W><CR>
-nnoremap <Leader>a :Ag <C-R><C-W><CR>
+inoremap <Leader>q <Esc>:Lines <C-R><C-W><CR>
+nnoremap <Leader>q :Lines <C-R><C-W><CR>
+inoremap <Leader>a <Esc>:Rg <C-R><C-W><CR>
+nnoremap <Leader>a :Rg <C-R><C-W><CR>
 inoremap jk <Esc>
 inoremap jK <Esc>
 nnoremap MM :Jmake<CR>
