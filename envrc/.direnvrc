@@ -45,13 +45,6 @@ save_function() {
   eval "$NEWNAME_FUNC"
 }
 
-save_function use_nix old_use_nix
-use_nix(){
-  old_use_nix
-  watch_file shell.nix
-  watch_file default.nix
-}
-
 layout_erlang() {
   export DIRENV_LAYOUT=erlang
   export PROJECT_KIND=erlang
