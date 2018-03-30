@@ -48,3 +48,4 @@ remotes:
 - git@github.com:nyarly/personal-servers.git
 - git@github.com:opentable/sous-database-migration.git
 - git@github.com:opentable/github-teamcity-repeater.git
+- git@github.com:nyarly/cycle-sjw.git
