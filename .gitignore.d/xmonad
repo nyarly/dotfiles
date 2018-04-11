@@ -1,10 +1,6 @@
 *
-!/.config
-!/.config/taffybar
-!/.config/taffybar/taffybar.hs
-!/.gitignore.d
-!/.gitignore.d/xmonad
-!/.xmonad
-!/.xmonad/xmonad.hs
-!/.config/dunst
 !/.config/dunst/dunstrc
+!/.config/taffybar/taffybar.css
+!/.config/taffybar/taffybar.hs
+!/.gitignore.d/xmonad
+!/.xmonad/xmonad.hs
