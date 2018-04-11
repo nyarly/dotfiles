@@ -3,6 +3,7 @@ Description=Taffybar Status bar
 PartOf=xmonad.target
 
 [Service]
+#ExecStart=/run/current-system/sw/bin/taffybar
 ExecStart=/home/judson/.nix-profile/bin/taffybar
 
 [Install]
