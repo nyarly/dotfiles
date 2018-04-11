@@ -1,4 +1,6 @@
-# Defined in /run/user/1000/fish.rsbfmt/cd_fasd_fzf.fish @ line 1
+# Defined in /tmp/fish.dOJ1rH/cd_fasd_fzf.fish @ line 2
 function cd_fasd_fzf
-	cd (fasd -l | fzf)
+	cd (fasd -ld | fzf)
+  commandline -f repaint
+  emit fish_prompt
 end
