@@ -34,6 +34,11 @@ endfunction
 "use gQ for Ex mode anyway
 map Q gq
 
+function! s:RgThisFile()
+  let name=expand('%:t')
+  exec "Rg " . name
+endfunction
+
 tnoremap <A-n> <C-\><C-n><C-w>c
 tnoremap <A-x> <C-\><C-n><C-w>c
 tnoremap <A-h> <C-\><C-n><C-w>h
@@ -59,6 +64,10 @@ inoremap <Leader>q <Esc>:Lines <C-R><C-W><CR>
 nnoremap <Leader>q :Lines <C-R><C-W><CR>
 inoremap <Leader>a <Esc>:Rg <C-R><C-W><CR>
 nnoremap <Leader>a :Rg <C-R><C-W><CR>
+"inoremap <Leader>f <Esc>:Files <C-R><C-W><CR> (Files' arg is starting dir)
+"nnoremap <Leader>f :Files <C-R><C-W><CR>
+inoremap <Leader>s <Esc>:call <sid>RgThisFile()<C-R><C-W><CR>
+nnoremap <Leader>s :call <sid>RgThisFile()<C-R><C-W><CR>
 inoremap jk <Esc>
 inoremap jK <Esc>
 nnoremap MM :Jmake<CR>
