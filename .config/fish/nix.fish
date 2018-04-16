@@ -26,4 +26,6 @@ if test -d "$HOME/.nix-profile"
   end
 
   set SSL_CERT_FILE /etc/ssl/certs/ca-certificates.crt
+
+  #  set NIX_BUILD_SHELL (which fish)
 end
