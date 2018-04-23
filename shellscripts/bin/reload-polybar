@@ -1,0 +1,4 @@
+#!/usr/bin/env fish
+for m in (polybar -m | sed 's/:.*//')
+    systemctl --user restart polybar@$m
+end
