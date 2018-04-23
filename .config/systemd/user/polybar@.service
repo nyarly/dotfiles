@@ -1,0 +1,6 @@
+[Unit]
+Description=Polybar status bar on %I
+
+[Service]
+Environment=MONITOR=%i
+ExecStart=/run/current-system/sw/bin/polybar base
