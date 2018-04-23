@@ -20,6 +20,7 @@ import System.Taffybar.Hooks.PagerHints (pagerHints)
 startup :: X ()
 startup = do
   spawn "systemctl --user restart xmonad.target"
+  spawn "reload-polybar"
   spawn "xss-lock -- i3lock -i ~/Data/Wallpaper/rotsnakes-tile.png -t"
 
 myWorkspaces = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
@@ -65,4 +66,6 @@ main = xmonad $
            , manageHook = myManageHook <+> manageHook def
            , workspaces = myWorkspaces
            , keys = newKeys
+           , normalBorderColor  = "#aaaaaa"
+           , focusedBorderColor = "#666699"
            }
