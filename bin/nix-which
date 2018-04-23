@@ -13,4 +13,4 @@ realpath=$(realpath $path)
 echo $realpath
 derav=$(echo $realpath | sed 's#\(/nix/store/[^/]*\)/.*#\1#')
 echo $derav
-exa --tree $derav
+exa --tree $derav | head -n 20
