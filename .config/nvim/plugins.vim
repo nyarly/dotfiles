@@ -39,7 +39,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'grensjo/tmuxline.vim'
 Plug 'edkolev/promptline.vim'
-"tagbar is maybe slow?
 Plug 'majutsushi/tagbar'
 "Plug 'scrooloose/syntastic' " conflicts with ALE
 Plug 'godlygeek/tabular'
@@ -58,7 +57,8 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'Shougo/echodoc.vim'
 Plug 'rust-lang/rust.vim', { 'for': ['rust'], 'do': 'cargo install rustfmt \|\| true'}
 Plug 'nyarly/jobmake'
-Plug 'tomtom/quickfixsigns_vim'
+"Plug 'tomtom/quickfixsigns_vim' "also does marks, but doesn't update well
+Plug 'mh21/errormarker.vim'
 Plug 'vito-c/jq.vim'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'critiqjo/lldb.nvim'
