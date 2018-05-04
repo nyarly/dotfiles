@@ -51,3 +51,4 @@ remotes:
 - git@github.com:nyarly/cycle-sjw.git
 - git@github.com:opentable/ot-eda-golang.git
 - git@github.com:iovisor/bcc.git
+- git@github.com:nyarly/quickfixable-rs.git
