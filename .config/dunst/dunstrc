@@ -64,7 +64,7 @@
     # the top and down respectevly.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "300x5-4-4"
+    geometry = "300x5-4+4"
 
     # Shrink window if it's smaller than the width.  Will be ignored if
     # width is 0.
@@ -139,10 +139,10 @@
     startup_notification = false
 
     # dmenu path.
-    dmenu = /usr/bin/dmenu -p dunst:
+    dmenu = /run/current-system/sw/bin/dmenu -p dunst:
 
     # Browser for opening urls in context menu.
-    browser = ~/.nix-profile/bin/chromium
+    browser = /run/current-system/sw/bin/chromium
 
     # Align icons left/right/off
     icon_position = right
@@ -194,7 +194,7 @@
 # override settings for certain messages.
 # Messages can be matched by "appname", "summary", "body", "icon", "category",
 # "msg_urgency" and you can override the "timeout", "urgency", "foreground",
-# "background", "new_icon" and "format".
+#/run/current-system/sw/bin/chromium "background", "new_icon" and "format".
 # Shell-like globbing will get expanded.
 #
 # SCRIPTING
