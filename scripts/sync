@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+./refresh-branches
+vcsh pull
+vcsh push
+./pull-all
