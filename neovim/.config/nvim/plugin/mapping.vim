@@ -62,8 +62,9 @@ noremap <silent><Leader>] <Esc>:nohls<CR>
 noremap <silent><Leader>q <Esc>:nohls<CR>
 inoremap <Leader>q <Esc>:Lines <C-R><C-W><CR>
 nnoremap <Leader>q :Lines <C-R><C-W><CR>
-inoremap <Leader>a <Esc>:Rg <C-R><C-W><CR>
-nnoremap <Leader>a :Rg <C-R><C-W><CR>
+nnoremap <Leader>w :Rg<CR>
+inoremap <Leader>a <Esc>:Rg \b<C-R><C-W>\b<CR>
+nnoremap <Leader>a :Rg \b<C-R><C-W>\b<CR>
 "inoremap <Leader>f <Esc>:Files <C-R><C-W><CR> (Files' arg is starting dir)
 "nnoremap <Leader>f :Files <C-R><C-W><CR>
 inoremap <Leader>s <Esc>:call <sid>RgThisFile()<C-R><C-W><CR>
