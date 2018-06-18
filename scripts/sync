@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 cd $(dirname $0)
+(cd .. && git pull)
 (./refresh-branches)
 (vcsh pull)
 (vcsh push)
 (./pull-all)
+(cd .. && git push)
