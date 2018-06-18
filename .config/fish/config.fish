@@ -6,8 +6,10 @@ source ~/.config/fish/functions/notify_after_long.fish
 set -eg EDITOR # Use set -xU EDITOR and VISUAL
 
 set -g __fish_git_prompt_show_informative_status yes
-set -x BROWSER chromium-browser
-set -x CHROME_BIN /usr/bin/chromium
+
+# Preferring xdg-open ...
+#set -x BROWSER chromium-browser
+#set -x CHROME_BIN /usr/bin/chromium
 
 set -gx MANPATH "" $MANPATH /run/current-system/sw/share/man
 
