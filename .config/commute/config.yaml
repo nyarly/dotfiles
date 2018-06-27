@@ -53,3 +53,4 @@ remotes:
 - git@github.com:iovisor/bcc.git
 - git@github.com:nyarly/quickfixable-rs.git
 - git@github.com:gotham-rs/gotham.git
+- git@github.com:opentable/mezzo.git
