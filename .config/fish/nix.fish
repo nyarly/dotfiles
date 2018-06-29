@@ -1,4 +1,5 @@
 if test -d "$HOME/.nix-profile"
+  set -x NIX_REMOTE daemon
   set NIX_LINK "$HOME/.nix-profile"
 
   # Set the default profile.
