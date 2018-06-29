@@ -7,6 +7,8 @@ set -eg EDITOR # Use set -xU EDITOR and VISUAL
 
 set -g __fish_git_prompt_show_informative_status yes
 
+set -gx PAGER "less -RF"
+
 # Preferring xdg-open ...
 #set -x BROWSER chromium-browser
 #set -x CHROME_BIN /usr/bin/chromium
