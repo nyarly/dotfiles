@@ -1,0 +1,24 @@
+
+#!/usr/bin/env bash
+
+set -ex
+
+branch=${1:?Usage: git stashconfig <branch>}
+
+if [ $(git config branch.$branch.configstash) != true ]; then
+  echo "Branch $branch is not listed as a configstash branch!"
+  echo "  (try: git config --bool branch.$branch.configstash true)"
+  exit 2
+fi
+
+paths=$(git config --get-all "branch.$branch.stashedfile")
+
+if [[ -z $paths ]]; then
+  echo "Empty branch.$branch.stashedfile!"
+  echo "  (try: git config --add --path branch.$branch.stashedfile <path>)"
+  exit 3
+fi
+
+for p in $paths; do
+  git show "${branch}:${p}" > "$p"
+done
