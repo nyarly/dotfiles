@@ -4,7 +4,8 @@ set -e
 
 branch=${1:?Usage: git stashdiff <branch>}
 
-if [ $(git config branch.$branch.configstash) != true ]; then
+if [ "$(git config branch.$branch.configstash)" != true ]; then
+  # TODO Distinguish a missing branch
   echo "Branch $branch is not listed as a configstash branch!"
   echo "  (try: git config --bool branch.$branch.configstash true)"
   exit 2
