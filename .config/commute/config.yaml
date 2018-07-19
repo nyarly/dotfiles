@@ -54,3 +54,4 @@ remotes:
 - git@github.com:nyarly/quickfixable-rs.git
 - git@github.com:gotham-rs/gotham.git
 - git@github.com:opentable/mezzo.git
+- git@github.com:nyarly/git-along
