@@ -78,3 +78,8 @@ set inccommand=split
 "set hlsearch
 "set wildmenu
 "set encoding=utf-8
+
+
+" Debugging my 'number' getting disabled:
+" c.f. https://github.com/neovim/neovim/issues/8739
+au OptionSet number echom execute('verbose set number?')
