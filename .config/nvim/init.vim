@@ -82,4 +82,4 @@ set inccommand=split
 
 " Debugging my 'number' getting disabled:
 " c.f. https://github.com/neovim/neovim/issues/8739
-au OptionSet number echom execute('verbose set number?')
+" au OptionSet number echom execute('verbose set number?')
