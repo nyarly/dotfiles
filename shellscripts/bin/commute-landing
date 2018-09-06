@@ -1,0 +1,23 @@
+#! /usr/bin/env fish
+
+if test 1 -gt (count $argv)
+  echo "Usage: $_ <target directory>"
+  exit 1
+end
+
+set -l into $argv[1]
+
+if test ! -d $into
+  echo "$into is not a directory!"
+  exit 2
+end
+
+cd $into
+for r in (commute list ^&1 >/dev/null | sed "s/ -> .*//" | fzf)
+  set -l d (echo $r | sed 's#/\?\.git$##' | sed 's#^.*:##')
+  git clone $r $d # should be the same "humanish" directory git clone would pick on its own
+  begin
+    cd $d
+    commute add
+  end
+end
