@@ -1,0 +1,5 @@
+#! /usr/bin/env fish
+
+for r in (commute list ^&1 | sed "s/ -> .*//" | fzf)
+  commute rm $r
+end
