@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+pactl unload-module module-bluetooth-policy
+pactl unload-module module-bluetooth-discover
+pactl load-module module-bluetooth-policy
+pactl load-module module-bluetooth-discover
