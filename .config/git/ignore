@@ -8,3 +8,4 @@ failed_specs
 rspec_status
 *Session.vim
 errors.err
+.nix-gc/
