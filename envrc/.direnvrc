@@ -112,6 +112,17 @@ layout_ruby() {
   fi
 }
 
+save_function use_nix old_use_nix
+use_nix() {
+  old_use_nix
+  pwd
+  GC_DIR=$(pwd)/.nix-gc
+  echo GC root dir in $GC_DIR
+  rm -rf $GC_DIR
+  mkdir -p $GC_DIR
+  nix-instantiate shell.nix  --indirect --add-root ${GC_DIR}/shell.drv
+}
+
 add_extra_vimrc() {
   local extravim="$(find_up .vimrc)"
   if [ -n "$extravim" ]; then
