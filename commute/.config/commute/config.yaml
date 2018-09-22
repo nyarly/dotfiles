@@ -56,3 +56,4 @@ remotes:
 - git@github.com:nyarly/git-along
 - git@github.com:opentable/go-discovery
 - git@github.com:nyarly/wagthepig.git
+- git@github.com:opentable/opengrok-ot.git
