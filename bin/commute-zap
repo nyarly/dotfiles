@@ -1,5 +1,5 @@
 #! /usr/bin/env fish
 
-for r in (commute list ^&1 | sed "s/ -> .*//" | fzf -m)
+for r in (commute list ^&1 | sed "s/ -> .*//" | fzf -m --bind 'alt-a:select-all')
   commute rm $r
 end
