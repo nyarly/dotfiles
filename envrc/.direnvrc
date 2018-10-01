@@ -114,13 +114,18 @@ layout_ruby() {
 
 save_function use_nix old_use_nix
 use_nix() {
-  old_use_nix
-  pwd
+  old_use_nix "$@"
   GC_DIR=$(pwd)/.nix-gc
   echo GC root dir in $GC_DIR
   rm -rf $GC_DIR
   mkdir -p $GC_DIR
-  nix-instantiate shell.nix  --indirect --add-root ${GC_DIR}/shell.drv
+  nixfile=shell.nix
+  if [ ! -e $nixfile ]; then
+    nixfile=default.nix
+  fi
+  if [ -e $nixfile ]; then
+    nix-instantiate $nixfile --indirect --add-root ${GC_DIR}/shell.drv
+  fi
 }
 
 add_extra_vimrc() {
