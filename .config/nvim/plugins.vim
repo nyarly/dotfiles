@@ -69,5 +69,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'rafaqz/ranger.vim'
 Plug 'w0rp/ale'
 Plug 'sebdah/vim-delve'
+Plug 'rodjek/vim-puppet'
 
 call plug#end()
