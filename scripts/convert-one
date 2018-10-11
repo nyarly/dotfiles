@@ -11,16 +11,20 @@ repo=$1
 cd $(dirname $0)
 dotfiles=$(git rev-parse --show-toplevel)
 
-git branch --list "$repo" | grep -q "^\s*${repo}$"
-if [ $? -ne 0 ]; then
-  echo "No branch exists for $repo"
-  exit 2
-fi
-
 vcsh list | grep -q "^${repo}$"
 if [ $? -ne 0 ]; then
   echo "VCSH doesn't maintain a repo for $repo"
   exit 3
+fi
+
+BRANCH_EXISTS=yes
+git branch --list "$repo" | grep -q "^\s*${repo}$"
+if [ $? -ne 0 ]; then
+  echo "No branch exists for $repo"
+  BRANCH_EXISTS=no
+  git branch "$repo"
+
+  git read-tree --prefix="$repo"/ -u "$repo"
 fi
 
 vcsh $repo remote -v
