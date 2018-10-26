@@ -58,3 +58,7 @@ remotes:
 - git@github.com:nyarly/wagthepig.git
 - git@github.com:opentable/opengrok-ot.git
 - git@github.com:nyarly/teddiff.git
+- git@github.com:opentable/greenroom.git
+- git@github.com:opentable/discovery-proxy.git
+- git@github.com:nyarly/dockerfiledeps.git
+- git@github.com:nyarly/nix-oldruby.git
