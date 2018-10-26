@@ -34,15 +34,27 @@ myLayout = avoidStruts $ ifWider 1900 (toggle tall ||| full) (Mirror $ toggle ta
     full = named "Full" $ noBorders Full
     toggle = toggleLayouts full
 
-myGotoMenu = gotoMenuArgs ["-i", "-l", "45"]
 myBringMenu = bringMenuArgs ["-i", "-l", "45"]
+myActivateMenu = actionMenu def { menuArgs = ["-i", "-l", "45"] } activateWindow
+
+-- decorateName ws w = do
+--   name <- show <$> getName w
+--   return $ name ++ " [" ++ W.tag ws ++ "]"
+
+activateWindow w ws = W.shiftMaster (W.focusWindow w ws)
+
+mainUp = windows (W.focusMaster . W.swapUp)
+
+mainDown = windows (W.focusMaster . W.swapDown)
 
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList ([
        ((modm, xK_z), spawn "i3lock -i ~/Data/Wallpaper/rotsnakes-tile.png -t &"),
        ((modm, xK_a), spawn "dmenu-screenlayout &"),
        ((modm, xK_grave), spawn "dmenu-scripts &"),
-       ((modm, xK_g), myGotoMenu),
-       ((modm, xK_b), myBringMenu)
+       ((modm, xK_g), myActivateMenu),
+       ((modm, xK_b), myBringMenu),
+       ((modm .|. shiftMask, xK_j ), mainDown ),
+       ((modm .|. shiftMask, xK_k ), mainUp )
      ] ++ [ ((modm, key), C.toggleOrView tag) |
        (tag, key)  <- zip myWorkspaces [xK_1,xK_2,xK_3,xK_4,xK_5,xK_6,xK_7,xK_8,xK_9,xK_0]
      ] ++ [ ((modm .|. shiftMask, key), (windows . W.shift) tag) |
