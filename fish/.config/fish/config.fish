@@ -9,8 +9,6 @@ set -gx PAGER "less -RF"
 set -gx MANPATH "" $MANPATH /run/current-system/sw/share/man
 set -gx RIPGREP_CONFIG_PATH ~/.config/ripgreprc
 
-set -gx RIPGREP_CONFIG_PATH ~/.config/ripgreprc
-
 if test -f ~/.config/fish/private.fish
   source ~/.config/fish/private.fish
 end
