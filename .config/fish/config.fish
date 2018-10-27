@@ -1,7 +1,10 @@
 ulimit -n 4096
 
-set -eg EDITOR # Use set -xU EDITOR and VISUAL
+source ~/.config/fish/functions/capture_status.fish
+
 set -g __fish_git_prompt_show_informative_status yes
+
+set -eg EDITOR # Use set -xU EDITOR and VISUAL
 set -gx PAGER "less -RF"
 set -gx MANPATH "" $MANPATH /run/current-system/sw/share/man
 set -gx RIPGREP_CONFIG_PATH ~/.config/ripgreprc
@@ -20,19 +23,15 @@ source ~/.config/fish/go.fish
 source ~/.config/fish/rust.fish
 
 if status is-interactive
-  dynamic-colors init
+  source ~/.config/fish/functions/notify_after_long.fish
+  eval (direnv hook fish)
   source ~/.config/fish/functions/autotmux.fish
   source ~/.config/fish/functions/_run_fasd.fish
-  source ~/.config/fish/functions/capture_status.fish
-  source ~/.config/fish/functions/notify_after_long.fish
-
-  eval (direnv hook fish)
+  dynamic-colors init
+  # Alt-; converts filname:1234 -> filename +1234 for easy backtrace jumping
+  bind \e\; 'commandline -r -t (commandline -t | sed "s/:\(\d*\)/ +\1/")'
+  set -x fish_color_search_match  'normal' '--background=878787'
 end
-
-# Alt-; converts filename:1234 -> filename +1234 for easy backtrace jumping
-bind \e\; 'commandline -r -t (commandline -t | sed "s/:\(\d*\)/ +\1/")'
-
-set -x fish_color_search_match  'normal' '--background=878787'
 
 function fish_greeting
 end
