@@ -1,5 +1,6 @@
+# Defined in /tmp/fish.rOIDpO/fish_prompt.fish @ line 2
 function fish_prompt
-	set -l prompt_bg black
+	set -l prompt_bg white
 
   # colors here are used to match the solarized dynamic-colors scheme
 

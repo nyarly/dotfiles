@@ -27,7 +27,7 @@ if status is-interactive
   eval (direnv hook fish)
   source ~/.config/fish/functions/autotmux.fish
   source ~/.config/fish/functions/_run_fasd.fish
-  dynamic-colors init
+  #  dynamic-colors init
   # Alt-; converts filname:1234 -> filename +1234 for easy backtrace jumping
   bind \e\; 'commandline -r -t (commandline -t | sed "s/:\(\d*\)/ +\1/")'
   set -x fish_color_search_match  'normal' '--background=878787'
