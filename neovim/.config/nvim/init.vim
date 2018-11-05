@@ -51,7 +51,8 @@ set clipboard+=unnamedplus
 
 set t_ut= "Needed to get non-text background colors to work correctly in urxvt + tmux
 
-set background=dark
+let g:solarized_termcolors=16
+set background=light
 colorscheme solarized
 nnoremap <F12> "*p
 
@@ -68,6 +69,8 @@ if exists("$EXTRA_VIM")
 endif
 
 set inccommand=split
+
+
 
 " These are all included in vim-sensible
 "filetype plugin indent on
