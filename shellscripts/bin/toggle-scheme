@@ -1,0 +1,11 @@
+#!/usr/bin/env fish
+
+set config ~/.config/alacritty/alacritty.yml
+
+set scheme solarized-light
+
+if grep -q "^colors: [*]solarized-light" $config
+  set scheme solarized-dark
+end
+
+sed -i.bak "s/^colors: *.*/colors: *$scheme/" $config

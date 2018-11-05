@@ -1,0 +1,22 @@
+#!/usr/bin/env fish
+
+set config ~/.config/alacritty/alacritty.yml
+
+if [ (count $argv) != 1 ];
+  echo "Usage $0 <scheme-name>"
+  exit 1
+end
+
+set scheme $argv[1]
+
+if not grep -q "$scheme: &$scheme" $config;
+  echo "Couldn't find definition of \""{$scheme}"\" in "{$config}
+  exit 2
+end
+
+if not grep -q "^colors: [*].*" $config
+  echo "color: doesn't seem to be a reference"
+  exit 3
+end
+
+sed -i.bak "s/^colors: *.*/colors: *$scheme/" $config
