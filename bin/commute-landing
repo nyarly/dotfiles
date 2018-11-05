@@ -14,11 +14,9 @@ end
 
 cd $into
 for r in (commute list ^&1 >/dev/null | sed "s/ -> .*//" | fzf -m --bind 'ctrl-a:select-all')
+  cd $into
   set -l d (echo $r | sed 's#/\?\.git$##' | sed 's#^.*/##')
   git clone $r $d # should be the same "humanish" directory git clone would pick on its own
-  begin
-    cd $into
-    cd $d
-    commute add
-  end
+  cd $d
+  commute add
 end
