@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+nix-lookup () {
+	local EXPR
+	EXPR="\"\${(import <nixpkgs> {}).pkgs.$1}\""
+	nix-instantiate --eval -E "${EXPR}" | sed 's:"::g'
+}
+
+XKB_BINDIR="$(nix-lookup xorg.xkbcomp)/bin"
+XKB_DIR="$(nix-lookup xorg.xkeyboardconfig)/etc/X11/xkb"
+
+FMM="$(nix-lookup xorg.fontmiscmisc)/lib/X11/fonts/misc"
+FCM="$(nix-lookup xorg.fontcursormisc)/lib/X11/fonts/misc"
+
+export XKB_BINDIR
+
+Xnest \
+    -xkbdir "$XKB_DIR"     \
+    -fp "${FMM},${FCM}"    \
+    -auth "/tmp/hsdm.auth" \
+    ":1"
