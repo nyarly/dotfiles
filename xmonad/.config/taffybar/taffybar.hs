@@ -1,21 +1,21 @@
 import System.Taffybar
 
-import System.Taffybar.Systray
-import System.Taffybar.Pager
-import System.Taffybar.TaffyPager
-import System.Taffybar.WorkspaceHUD
-import System.Taffybar.SimpleClock
-import System.Taffybar.FreedesktopNotifications
-import System.Taffybar.Weather
-import System.Taffybar.MPRIS
-import System.Taffybar.Battery
+import System.Taffybar.Widget.SNITray
+import System.Taffybar.Widget.Workspaces
+import System.Taffybar.Widget.Layout
+import System.Taffybar.Widget.Windows
+import System.Taffybar.Widget.SimpleClock
+import System.Taffybar.Widget.FreedesktopNotifications
+import System.Taffybar.Widget.Weather
+import System.Taffybar.Widget.MPRIS2
+import System.Taffybar.Widget.Battery
 
-import System.Taffybar.Widgets.PollingBar
-import System.Taffybar.Widgets.PollingGraph
+-- import System.Taffybar.Widgets.PollingBar
+-- import System.Taffybar.Widgets.PollingGraph
 
-import System.Information.Memory
-import System.Information.CPU
-import System.Information.Battery
+import System.Taffybar.Information.Memory
+import System.Taffybar.Information.CPU
+import System.Taffybar.Information.Battery
 
 import Data.Time.LocalTime(utc)
 -- import Data.Text
