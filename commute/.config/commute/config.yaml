@@ -62,3 +62,4 @@ remotes:
 - git@github.com:opentable/discovery-proxy.git
 - git@github.com:nyarly/dockerfiledeps.git
 - git@github.com:nyarly/nix-oldruby.git
+- git@github.com:nyarly/shex-map.git
