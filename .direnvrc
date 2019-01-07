@@ -114,7 +114,6 @@ layout_ruby() {
 
 save_function use_nix old_use_nix
 use_nix() {
-  old_use_nix "$@"
   GC_DIR=$(pwd)/.nix-gc
   echo GC root dir in $GC_DIR
   rm -rf $GC_DIR
@@ -125,6 +124,14 @@ use_nix() {
   fi
   if [ -e $nixfile ]; then
     nix-instantiate $nixfile --indirect --add-root ${GC_DIR}/shell.drv
+    nix-store --indirect --add-root ${GC_DIR}/shell.dep --realise $(nix-store --query --references ${GC_DIR}/shell.drv)
+    direnv_load nix-shell --show-trace "$@" --run "$(join_args "$direnv" dump)"
+    if [[ $# = 0 ]]; then
+      watch_file default.nix
+      watch_file shell.nix
+    fi
+  else
+    old_use_nix "$@"
   fi
 }
 
