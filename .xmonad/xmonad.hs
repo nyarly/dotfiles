@@ -20,7 +20,6 @@ import System.Taffybar.Support.PagerHints (pagerHints)
 startup :: X ()
 startup = do
   spawn "systemctl --user restart xmonad.target"
-  spawn "reload-polybar"
   spawn "xss-lock -- i3lock -i ~/Data/Wallpaper/rotsnakes-tile.png -t"
   spawn "tmux start-server"
 
