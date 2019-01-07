@@ -1,4 +1,5 @@
+
 #!/usr/bin/env bash
 
 cd ~/.screenlayout
-ls | stest -x | dmenu | sed 's+^+./+' | sed 's+$+; reload-polybar+' | ${SHELL:-"/bin/sh"} &
+ls | stest -x | dmenu | sed 's+^+./+' | ${SHELL:-"/bin/sh"} &
