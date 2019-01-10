@@ -1,5 +1,4 @@
-
 #!/usr/bin/env bash
 
 cd ~/.screenlayout
-ls | stest -x | dmenu | sed 's+^+./+' | ${SHELL:-"/bin/sh"} &
+ls | stest -x | dmenu | sed 's+^+./+' | sed 's+$+; nitrogen --restore+' | ${SHELL:-"/bin/sh"} &
