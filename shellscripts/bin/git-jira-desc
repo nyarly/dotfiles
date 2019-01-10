@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+
+username=${JIRA_USERNAME:-$(git config --get jira.user)}
+if [ $? -ne 0 ]; then
+  echo "Neither JIRA_USERNAME nor the jira.user git config are set"
+  # shellcheck disable=SC2016
+  echo '  (Try `git config --global jira.user <your username>`)'
+  exit 1
+fi
+password=${JIRA_PASSWORD:-$(git config --get jira.password)}
+if [ $? -ne 0 ]; then
+  echo "Neither JIRA_PASSWORD nor the jira.password git config are set"
+  # shellcheck disable=SC2016
+  echo '  (Try `git config --global jira.password <your password>`)'
+  echo "  (but beware committing that config (~/.gitconfig) itself into git)"
+  exit 1
+fi
+jarfile=${JIRA_JARFILE:-$(git config --get jira.jarfile)}
+if [ $? -ne 0 ]; then
+  echo "Neither JIRA_JARFILE nor the jira.jarfile git config are set"
+  # shellcheck disable=SC2016
+  echo '  (Try `git config --global jira.jarfile <somewhere>/lib/jira-cli-5.3.0.jar`)'
+  echo "  (You'll need to download the JAR from https://bobswift.atlassian.net/wiki/display/ACLI/Downloads)"
+  exit 1
+fi
+server=${JIRA_SERVER:-$(git config --get jira.server)}
+if [ $? -ne 0 ]; then
+  echo "Neither JIRA_SERVER nor the jira.server git config are set"
+  # shellcheck disable=SC2016
+  echo '  (Try `git config --global jira.server ...`)'
+  exit 1
+fi
+jql=${JIRA_JQL:-$(git config --get jira.jql)}
+if [ $? -ne 0 ]; then
+  echo "Neither JIRA_JQL nor the jira.jql git config are set"
+  # shellcheck disable=SC2016
+  echo '  (Try `git config jira.jql ...`)'
+  exit 1
+fi
+
+path=$(git symbolic-ref HEAD) || (echo "Not on a branch"; exit 1)
+branch=${path#refs/heads/}
+
+config="branch.${branch}.jira-ticket"
+
+tickets=$(git config --get-all "$config")
+for t in ${tickets}; do
+  java -jar "$jarfile" --server "$server" --user "$username" --password "$password" --action getIssue --issue $t
+done
