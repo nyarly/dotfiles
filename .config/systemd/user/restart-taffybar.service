@@ -1,0 +1,11 @@
+[Unit]
+Description=Restart Taffybar
+PartOf=xmonad.target
+After=taffybar
+
+[Service]
+Type=oneshot
+ExecStart=/run/current-system/sw/bin/systemctl --user try-restart taffybar
+
+[Install]
+WantedBy=xmonad.target
