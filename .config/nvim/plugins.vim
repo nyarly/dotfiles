@@ -70,5 +70,6 @@ Plug 'rafaqz/ranger.vim'
 Plug 'w0rp/ale'
 Plug 'sebdah/vim-delve'
 Plug 'rodjek/vim-puppet'
+Plug 'luochen1990/rainbow'
 
 call plug#end()
