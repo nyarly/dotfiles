@@ -4,6 +4,11 @@ let g:rainbow_conf = {
       \ 'separately': { 'ruby': {
       \   'ctermfgs': [0,1,3,4,5,6,8,9],
       \   'parentheses': [
+      \   'start=/(/ end=/)/',
+      \   'start=/[[]/ end=/[]]/',
+      \   'start=/\<{\>/ end=/\<}\>/',
+      \   'start=/"/ end=/"/',
+      \   "start=/'/ end=/'/",
       \   'start=/\<def\>/ end=/\<end\>/',
       \   'start=/\<class\>/ end=/\<end\>/',
       \   'start=/\<do\>/ end=/\<end\>/',
