@@ -8,9 +8,10 @@
 !/.config/systemd/user/nm-applet.service
 !/.config/systemd/user/onepassword.service
 !/.config/systemd/user/polybar@.service
+!/.config/systemd/user/restart-taffybar.service
+!/.config/systemd/user/restart-taffybar.timer
 !/.config/systemd/user/taffybar.service
 !/.config/systemd/user/urxvt.service
 !/.config/systemd/user/xmobar.service
 !/.config/systemd/user/xmonad.target
-!/.config/systemd/user/xmonad.target.wants/taffybar.service
 !/.gitignore.d/systemd
