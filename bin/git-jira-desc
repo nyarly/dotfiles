@@ -46,4 +46,5 @@ config="branch.${branch}.jira-ticket"
 tickets=$(git config --get-all "$config")
 for t in ${tickets}; do
   java -jar "$jarfile" --server "$server" --user "$username" --password "$password" --action getIssue --issue $t
+  java -jar "$jarfile" --server "$server" --user "$username" --password "$password" --action getComments --issue $t
 done
