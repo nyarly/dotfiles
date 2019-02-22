@@ -18,9 +18,9 @@ as well as maintaining tricky
 multi-component configurations
 in one module.
 
-~~~
+---
 _historical interest starts here_
-~~~
+---
 
 # Dotfiles
 
