@@ -1,3 +1,27 @@
+# DEPRECATED!
+
+I no longer use this repo.
+I've converted everything here to
+https://github.com/nyarly/nix-config.
+
+In the end,
+it was a big hassle to maintain separate repos,
+there was a step in the sync process that was difficult to surface
+which made it easy to have committed all my local changes
+and then forget to push them up here.
+
+With home-manager,
+I get a lot more than simple maintenance
+of text files.
+I can specify programs that need to be installed,
+as well as maintaining tricky
+multi-component configurations
+in one module.
+
+~~~
+_historical interest starts here_
+~~~
+
 # Dotfiles
 
 There are many repos like this, but this one is mine.
